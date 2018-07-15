@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="TODO">
+      <UniqueIdentifier>{597e662c-e6a5-4311-88cf-361b8196c917}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="Tiny.h" />
+    <ClInclude Include="DXTKModule.h" />
+    <ClInclude Include="BasicLogger.h" />
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>TODO</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>TODO</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>TODO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimpleSample.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleSample.cpp" />
+    <ClCompile Include="Tiny.cpp" />
+    <ClCompile Include="DXTKModule.cpp" />
+    <ClCompile Include="BasicLogger.cpp" />
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>TODO</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
