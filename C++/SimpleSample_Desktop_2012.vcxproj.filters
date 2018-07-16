@@ -25,6 +25,7 @@
     <ClInclude Include="Game.h">
       <Filter>TODO</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SimpleSample.rc">
@@ -43,6 +44,9 @@
       <Filter>TODO</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>TODO</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
       <Filter>TODO</Filter>
     </ClCompile>
   </ItemGroup>

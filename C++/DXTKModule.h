@@ -30,13 +30,17 @@ public:
 	ID3D11DeviceContext* GetDeviceContext(void) const;
 
 	// Return a ptr to the Common States
-	const DirectX::CommonStates* GetCommonStates(void) const;
+	DirectX::CommonStates* GetCommonStates(void) const;
 
 	// Return a ptr to the FX Factory
-	const DirectX::IEffectFactory* GetFXFactory(void) const;
+	DirectX::IEffectFactory* GetFXFactory(void) const;
 
 	// Return a ptr to the Basic Effect
-	const DirectX::BasicEffect* GetBasicEffect(void) const;
+	DirectX::BasicEffect* GetBasicEffect(void) const;
+
+	void ClearScreen(float r, float g, float b, float a) const;
+
+	void Present(void) const;
 
 private:
 

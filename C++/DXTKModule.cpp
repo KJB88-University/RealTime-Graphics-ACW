@@ -20,7 +20,10 @@ DXTKModule::~DXTKModule(void)
 void DXTKModule::Initialize(HWND hwnd)
 {
 	InitializeD3DResources(hwnd);
+	BasicLogger::WriteToConsole("D3D: Resources loaded.\n");
+
 	InitializeDXTKResources();
+	BasicLogger::WriteToConsole("DXTK: Resources loaded.\n");
 }
 
 void DXTKModule::Destroy(void)
@@ -76,17 +79,17 @@ ID3D11DeviceContext* DXTKModule::GetDeviceContext(void) const
 	return m_deviceContext;
 }
 
-const DirectX::CommonStates* DXTKModule::GetCommonStates(void) const
+DirectX::CommonStates* DXTKModule::GetCommonStates(void) const
 {
 	return m_commonStates.get();
 }
 
-const DirectX::IEffectFactory* DXTKModule::GetFXFactory(void) const
+DirectX::IEffectFactory* DXTKModule::GetFXFactory(void) const
 {
 	return m_fxFactory.get();
 }
 
-const DirectX::BasicEffect* DXTKModule::GetBasicEffect(void) const
+DirectX::BasicEffect* DXTKModule::GetBasicEffect(void) const
 {
 	return m_batchEffect.get();
 }
@@ -100,10 +103,14 @@ void DXTKModule::InitializeD3DResources(HWND hwnd)
 	UINT width = rc.right - rc.left;
 	UINT height = rc.bottom - rc.top;
 
+	/*
 	UINT createDeviceFlags = 0;
 #ifdef _DEBUG
 	createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
 #endif
+*/
+
+	D3D_FEATURE_LEVEL featureLevel = D3D_FEATURE_LEVEL_11_0;
 
 	DXGI_SWAP_CHAIN_DESC sd;
 	ZeroMemory(&sd, sizeof(sd));
@@ -119,8 +126,8 @@ void DXTKModule::InitializeD3DResources(HWND hwnd)
 	sd.SampleDesc.Quality = 0;
 	sd.Windowed = TRUE;
 
-	hr = D3D11CreateDeviceAndSwapChain(nullptr, m_driverType, nullptr, createDeviceFlags, &m_featureLevel, 1,
-		D3D11_SDK_VERSION, &sd, &m_swapChain, &m_device, &m_featureLevel, &m_deviceContext);
+	hr = D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, &featureLevel, 1,
+		D3D11_SDK_VERSION, &sd, &m_swapChain, &m_device, nullptr, &m_deviceContext);
 
 	if (FAILED(hr))
 	{
@@ -213,4 +220,24 @@ void DXTKModule::InitializeDXTKResources(void)
 			BasicLogger::WriteToConsole("DXTK: Failed to load shaders.\n");
 		}
 	}
+}
+
+void DXTKModule::ClearScreen(float r, float g, float b, float a) const
+{
+	float colors[4];
+	colors[0] = r;
+	colors[1] = g;
+	colors[2] = b;
+	colors[3] = a;
+
+	// Clear the back buffer
+	m_deviceContext->ClearRenderTargetView(m_renderTargetView, colors);
+
+	// Clear the depth buffer to 1.0 (max depth)
+	m_deviceContext->ClearDepthStencilView(m_depthStencilView, D3D11_CLEAR_DEPTH, 1.0f, 0);
+}
+
+void DXTKModule::Present(void) const
+{
+	m_swapChain->Present(0, 0);
 }

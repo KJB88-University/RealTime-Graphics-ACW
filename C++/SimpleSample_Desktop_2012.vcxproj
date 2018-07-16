@@ -354,6 +354,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BasicLogger.h" />
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="DXTKModule.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GraphicsManager.h" />
@@ -366,6 +367,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicLogger.cpp" />
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="DXTKModule.cpp" />
     <ClCompile Include="GraphicsManager.cpp" />
     <ClCompile Include="main.cpp" />

@@ -15,6 +15,8 @@
 
 #include "DXTKModule.h"
 #include "Tiny.h"
+#include "Camera.h"
+
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 #include <windows.h>
@@ -50,6 +52,8 @@ using namespace DirectX;
 //--------------------------------------------------------------------------------------
 
 DXTKModule* m_gfx;
+Camera* m_camera;
+
 HINSTANCE                           g_hInst = nullptr;
 HWND                                g_hWnd = nullptr;
 D3D_DRIVER_TYPE                     g_driverType = D3D_DRIVER_TYPE_NULL;
@@ -107,6 +111,10 @@ void Render();
 //--------------------------------------------------------------------------------------
 int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPWSTR lpCmdLine, _In_ int nCmdShow)
 {
+	AllocConsole();
+	freopen("CONOUT$", "w", stdout);
+	printf("CONSOLE: Attached.\n");
+
 	UNREFERENCED_PARAMETER(hPrevInstance);
 	UNREFERENCED_PARAMETER(lpCmdLine);
 
@@ -116,11 +124,14 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	if (FAILED(InitWindow(hInstance, nCmdShow)))
 		return 0;
 
-	//if( FAILED( InitDevice() ) )
-	//{
-	//    CleanupDevice();
-	//    return 0;
-	//}
+	m_gfx = new DXTKModule();
+	m_gfx->Initialize(g_hWnd);
+
+	if( FAILED( InitDevice() ) )
+	{
+	    CleanupDevice();
+	    return 0;
+	}
 
 	// Main message loop
 	MSG msg = { 0 };
@@ -193,9 +204,6 @@ HRESULT InitDevice()
 	GetClientRect(g_hWnd, &rc);
 	UINT width = rc.right - rc.left;
 	UINT height = rc.bottom - rc.top;
-
-	m_gfx = new DXTKModule();
-	m_gfx->Initialize(g_hWnd);
 
 	/*
 	UINT createDeviceFlags = 0;
@@ -336,9 +344,9 @@ HRESULT InitDevice()
 
 		*/
 
-	//Tiny* tiny = new Tiny();
-	//tiny->Initialize(m_device, "tiny.sdkmesh", g_fxFactory);
-	// Initialize the world matrices
+		//Tiny* tiny = new Tiny();
+		//tiny->Initialize(m_device, "tiny.sdkmesh", g_fxFactory);
+		// Initialize the world matrices
 	g_World = XMMatrixIdentity();
 
 	// Initialize the view matrix
@@ -347,12 +355,14 @@ HRESULT InitDevice()
 	XMVECTOR Up = XMVectorSet(0.0f, 1.0f, 0.0f, 0.0f);
 	g_View = XMMatrixLookAtLH(Eye, At, Up);
 
-	g_BatchEffect->SetView(g_View);
+	DirectX::SimpleMath::Matrix new_view = g_View;
+
+	m_gfx->GetBasicEffect()->SetView(g_View);
 
 	// Initialize the projection matrix
 	g_Projection = XMMatrixPerspectiveFovLH(XM_PIDIV4, width / (FLOAT)height, 0.01f, 100.0f);
 
-	g_BatchEffect->SetProjection(g_Projection);
+	m_gfx->GetBasicEffect()->SetProjection(g_Projection);
 
 #ifdef DXTK_AUDIO
 
@@ -385,6 +395,7 @@ HRESULT InitDevice()
 //--------------------------------------------------------------------------------------
 void CleanupDevice()
 {
+	/*
 	if (g_pImmediateContext) g_pImmediateContext->ClearState();
 
 	if (g_pBatchInputLayout) g_pBatchInputLayout->Release();
@@ -402,6 +413,7 @@ void CleanupDevice()
 #ifdef DXTK_AUDIO
 	g_audEngine.reset();
 #endif
+*/
 }
 
 
@@ -423,7 +435,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	case WM_DESTROY:
 		PostQuitMessage(0);
 		break;
-
+		/*
 #ifdef DXTK_AUDIO
 
 	case WM_CREATE:
@@ -523,7 +535,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		break;
 
 #endif // DXTK_AUDIO
-
+*/
 	default:
 		return DefWindowProc(hWnd, message, wParam, lParam);
 	}
@@ -539,7 +551,7 @@ void DrawGrid(PrimitiveBatch<VertexPositionColor>& batch, FXMVECTOR xAxis, FXMVE
 {
 	g_BatchEffect->Apply(g_pImmediateContext);
 
-	g_pImmediateContext->IASetInputLayout(g_pBatchInputLayout);
+	m_gfx->GetDeviceContext()->IASetInputLayout(g_pBatchInputLayout);
 
 	g_Batch->Begin();
 
@@ -600,7 +612,7 @@ void Render()
 
 	// Rotate cube around the origin
 	g_World = XMMatrixRotationY(t);
-
+/*
 #ifdef DXTK_AUDIO
 
 	g_audioTimerAcc -= dt;
@@ -620,17 +632,11 @@ void Render()
 	}
 
 #endif // DXTK_AUDIO
-
-	//
+*/
 	// Clear the back buffer
-	//
-	g_pImmediateContext->ClearRenderTargetView(g_pRenderTargetView, Colors::MidnightBlue);
+	m_gfx->ClearScreen(0.5f, 0.5f, 0.5f, 1.0f);
 
-	//
-	// Clear the depth buffer to 1.0 (max depth)
-	//
-	g_pImmediateContext->ClearDepthStencilView(g_pDepthStencilView, D3D11_CLEAR_DEPTH, 1.0f, 0);
-
+	/*
 	// Draw procedurally generated dynamic grid
 	const XMVECTORF32 xaxis = { 20.f, 0.f, 0.f };
 	const XMVECTORF32 yaxis = { 0.f, 0.f, 20.f };
@@ -646,11 +652,12 @@ void Render()
 	// Draw 3D object
 	XMMATRIX local = XMMatrixMultiply(g_World, XMMatrixTranslation(-2.f, -2.f, 4.f));
 	g_Shape->Draw(local, g_View, g_Projection, Colors::White, g_pTextureRV1);
-
+	*/
 	Tiny* tiny = new Tiny();
 
-	tiny->Initialize(g_pd3dDevice, L"tiny.sdkmesh", *g_FXFactory);
-	tiny->Render(m_gfx->GetDeviceContext(), *m_gfx->GetCommonStates());
+	tiny->Initialize(m_gfx->GetDevice(), L"tiny.sdkmesh", *m_gfx->GetFXFactory());
+	tiny->Render(m_gfx->GetDeviceContext(), m_gfx->GetCommonStates());
+
 	/*
 	XMVECTOR qid = XMQuaternionIdentity();
 	const XMVECTORF32 scale = { 0.01f, 0.01f, 0.01f};
@@ -662,5 +669,5 @@ void Render()
 	//
 	// Present our back buffer to our front buffer
 	//
-	g_pSwapChain->Present(0, 0);
+	m_gfx->Present();
 }

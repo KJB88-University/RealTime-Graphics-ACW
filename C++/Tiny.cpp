@@ -4,9 +4,9 @@ using namespace DirectX;
 using namespace DirectX::SimpleMath;
 
 Tiny::Tiny(void)
-	: m_position(0.0f, 0.0f, 0.0f), m_rotation(0.0f, 0.0f, 0.0f), m_scale(1.0f, 1.0f, 1.0f)
+	: m_position(0.0f, 0.0f, -10.0f), m_rotation(0.0f, 0.0f, 0.0f), m_scale(0.01f, 0.01f, 0.01f)
 {
-
+	//m_scale(0.01f, 0.01f, 0.01f)
 }
 
 Tiny::~Tiny(void)
@@ -32,7 +32,6 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states)
 	Vector3 lookat = { 0.0f, 0.0f, -1.0f };
 	Matrix g_View = Matrix::CreateLookAt(eye, lookat, Vector3::UnitY);
 
-	
 	float nearClip = 0.01f;
 	float farClip = 1000.0f;
 	float aspectRatio = 800 / 600.0f;
@@ -41,13 +40,27 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states)
 
 	Matrix g_World = Matrix::Identity;
 	Vector4 qid = XMQuaternionIdentity();
-	const Vector3 scale = { 0.01f, 0.01f, 0.01f };
-	const Vector3 translate = { 0.0f, 0.0f, -10.0f };
+	//const Vector3 scale = { 0.01f, 0.01f, 0.01f };
+	//const Vector3 translate = { 0.0f, 0.0f, -10.0f };
 	Vector4 rotate = DirectX::XMQuaternionRotationRollPitchYaw(-1.7f, 0.0f, 0.0f);
-	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(g_XMZero, qid, scale, g_XMZero, rotate, translate));
+
+	/*
+	static uint64_t dwTimeStart = 0;
+	static uint64_t dwTimeLast = 0;
+	uint64_t dwTimeCur = GetTickCount64();
+	if (dwTimeStart == 0)
+		dwTimeStart = dwTimeCur;
+	float t = (dwTimeCur - dwTimeStart) / 1000.0f;
+	float dt = (dwTimeCur - dwTimeLast) / 1000.0f;
+	dwTimeLast = dwTimeCur;
+
+	g_World = Matrix::CreateRotationZ(t);
+	*/
+
+	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(g_XMZero, qid, m_scale, g_XMZero, rotate, m_position));
 
 	// END DEBUG
 
 	// Draw the model
-	m_tiny->Draw(context, g_States, local, g_View, g_Projection);
+	m_tiny->Draw(context, *m_states, local, g_View, g_Projection);
 }

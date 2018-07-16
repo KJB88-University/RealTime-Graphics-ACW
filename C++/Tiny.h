@@ -15,7 +15,7 @@ public:
 	void Initialize(ID3D11Device* device, const wchar_t* fileName, DirectX::IEffectFactory& fxFactory);
 	void Destroy(void);
 	void Update(void);
-	void Render(ID3D11DeviceContext* context, DirectX::CommonStates& g_States);
+	void Render(ID3D11DeviceContext* context, DirectX::CommonStates* g_States);
 
 private:
 
