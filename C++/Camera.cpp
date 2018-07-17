@@ -3,7 +3,7 @@
 using namespace DirectX::SimpleMath;
 
 Camera::Camera(void)
-	: m_position(0.0f, 0.0f, 0.0f), m_rotation(0.0f, 0.0f, 0.0f)
+	: m_position(0.0f, 0.0f, 0.0f), m_rotation(0.0f, 0.0f, -1.0f)
 {
 
 }
@@ -21,7 +21,7 @@ Camera::~Camera(void)
 void Camera::Initialize(float width, float height, float nearClip, float farClip)
 {
 	// Initialize the view matrix
-	m_view = XMMatrixLookAtLH(m_position, m_rotation, Vector4::UnitY);
+	m_view = Matrix::CreateLookAt(m_position, m_rotation, Vector3::Up);
 
 	// Initialize the projection matrix
 	m_proj = Matrix::CreatePerspectiveFieldOfView(DirectX::XM_PIDIV4, width / (FLOAT)height, nearClip, farClip);
@@ -42,12 +42,13 @@ void Camera::Render(void)
 
 }
 
-void Camera::GetViewMatrix(Matrix& view)
+
+Matrix& Camera::GetViewMatrix()
 {
-	view = m_view;
+	return m_view;
 }
 
-void Camera::GetProjMatrix(Matrix& proj)
+Matrix& Camera::GetProjMatrix()
 {
-	proj = m_proj;
+	return m_proj;
 }

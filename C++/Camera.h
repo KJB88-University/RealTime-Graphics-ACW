@@ -10,7 +10,7 @@ class Camera
 
 public:
 	Camera(void);
-	Camera(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation)
+	Camera(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation);
 	~Camera(void);
 
 	void Initialize(float width, float height, float nearClip, float farClip);
@@ -18,8 +18,8 @@ public:
 	void Update(void);
 	void Render(void);
 
-	void GetViewMatrix(DirectX::SimpleMath::Matrix& view);
-	void GetProjMatrix(DirectX::SimpleMath::Matrix& proj);
+	DirectX::SimpleMath::Matrix& GetViewMatrix();
+	DirectX::SimpleMath::Matrix& GetProjMatrix();
 
 private:
 

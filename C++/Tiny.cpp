@@ -25,7 +25,7 @@ void Tiny::Update(void)
 
 }
 
-void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states)
+void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states, Matrix projection, Matrix view)
 {
 	// DEBUG
 	Vector3 eye = { 0.0f, 0.0f, 0.0f };

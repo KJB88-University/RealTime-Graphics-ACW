@@ -8,24 +8,65 @@
     <Filter Include="TODO">
       <UniqueIdentifier>{597e662c-e6a5-4311-88cf-361b8196c917}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{91c48643-49ad-4fea-b691-a6cf1cb6f0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cef5b4b3-8979-4380-9148-3ac2f5f9db3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{67ccbc86-e8c6-4df1-8cc1-7871282b8594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{d9d6c928-c4cb-43a7-bec7-42b8142568db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{5fbd6525-bd8b-4cb0-a637-33608f58ce1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{a2dce75d-83e8-469b-83e5-bdf387d05482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{fd2d2f2b-a18c-4d45-adba-138a365d72e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DEBUG">
+      <UniqueIdentifier>{7462448b-2054-475b-bd07-ad569467a910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DEBUG">
+      <UniqueIdentifier>{d5176a48-96bf-4375-a8ad-5d01bfb7b1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{dcb4fbff-2f74-4572-a6cc-896401bebee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{409eb93f-c11e-4547-9610-e8aa033256a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
       <Filter>Resource Files</Filter>
     </CLInclude>
-    <ClInclude Include="Tiny.h" />
-    <ClInclude Include="DXTKModule.h" />
-    <ClInclude Include="BasicLogger.h" />
-    <ClInclude Include="GraphicsManager.h">
-      <Filter>TODO</Filter>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Window.h">
-      <Filter>TODO</Filter>
+    <ClInclude Include="DXTKModule.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLogger.h">
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
-      <Filter>TODO</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Tiny.h">
+      <Filter>Header Files\DEBUG</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SimpleSample.rc">
@@ -34,20 +75,27 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleSample.cpp" />
-    <ClCompile Include="Tiny.cpp" />
-    <ClCompile Include="DXTKModule.cpp" />
-    <ClCompile Include="BasicLogger.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTKModule.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicLogger.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiny.cpp">
+      <Filter>Source Files\DEBUG</Filter>
+    </ClCompile>
     <ClCompile Include="GraphicsManager.cpp">
-      <Filter>TODO</Filter>
+      <Filter>Header Files\Managers</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
-      <Filter>TODO</Filter>
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>TODO</Filter>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>TODO</Filter>
-    </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
 </Project>

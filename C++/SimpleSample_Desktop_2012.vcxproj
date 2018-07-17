@@ -139,6 +139,8 @@
       <TargetMachine>MachineX86</TargetMachine>
       <UACExecutionLevel>AsInvoker</UACExecutionLevel>
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
     </Link>
     <Manifest>
       <EnableDPIAwareness>true</EnableDPIAwareness>
@@ -369,6 +371,7 @@
     <ClCompile Include="BasicLogger.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="DXTKModule.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GraphicsManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SimpleSample.cpp" />
