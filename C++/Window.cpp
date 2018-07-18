@@ -3,7 +3,6 @@
 #include "GraphicsManager.h"
 
 Window::Window(void)
-	: m_gfx(nullptr)
 {
 
 }
@@ -24,20 +23,12 @@ void Window::Init(void)
 	InitWindows(vpWidth, vpHeight);
 	BasicLogger::WriteToConsole("WINDOW: Initialized. \n");
 
-	m_gfx = new GraphicsManager();
-	m_gfx->Initialize(vpWidth, vpHeight, m_hwnd);
-	BasicLogger::WriteToConsole("WINDOW: Graphics Manager initialized.\n");
-
 	m_game = new Game();
-	m_game->Initialize(m_gfx);
-	BasicLogger::WriteToConsole("WINDOW: Managers initialized.\n");
+	m_game->Initialize(vpWidth, vpHeight, m_hwnd);
 }
 
 void Window::OnDestroy()
 {
-	delete m_gfx;
-	m_gfx = nullptr;
-
 	delete m_game;
 	m_game = nullptr;
 
@@ -80,8 +71,8 @@ bool Window::Update(void)
 		//return false;
 	//}
 
-	//m_game->Update();
-	m_game->Render(m_gfx);
+	m_game->Update();
+	m_game->Render();
 	
 
 	// Keep looping

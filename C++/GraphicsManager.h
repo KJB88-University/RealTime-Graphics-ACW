@@ -13,8 +13,8 @@ public:
 	GraphicsManager(void);
 	~GraphicsManager(void);
 
-	void Initialize(int, int, HWND);
-	void OnDestroy(void);
+	void Initialize(int vpWidth, int vpHeight, HWND hwnd);
+	void Destroy(void);
 
 	void ClearScreen(float r, float g, float b, float a);
 	void Present(void);

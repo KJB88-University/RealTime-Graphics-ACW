@@ -4,7 +4,7 @@ using namespace DirectX;
 using namespace DirectX::SimpleMath;
 
 Tiny::Tiny(void)
-	: m_position(0.0f, 0.0f, -10.0f), m_rotation(0.0f, 0.0f, 0.0f), m_scale(0.01f, 0.01f, 0.01f)
+	: m_position(0.0f, 0.0f, -10.0f), m_rotation(-1.7f, 0.0f, 0.0f), m_scale(0.01f, 0.01f, 0.01f)
 {
 	//m_scale(0.01f, 0.01f, 0.01f)
 }
@@ -20,6 +20,12 @@ void Tiny::Initialize(ID3D11Device* device, const wchar_t* fileName, IEffectFact
 	m_tiny.reset(DirectX::Model::CreateFromSDKMESH(device, fileName, fxFactory).release());
 }
 
+void Tiny::Destroy(void)
+{
+	m_tiny.release();
+	m_tiny = nullptr;
+}
+
 void Tiny::Update(void)
 {
 
@@ -28,6 +34,7 @@ void Tiny::Update(void)
 void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states, Matrix projection, Matrix view)
 {
 	// DEBUG
+	/*
 	Vector3 eye = { 0.0f, 0.0f, 0.0f };
 	Vector3 lookat = { 0.0f, 0.0f, -1.0f };
 	Matrix g_View = Matrix::CreateLookAt(eye, lookat, Vector3::UnitY);
@@ -37,14 +44,16 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states,
 	float aspectRatio = 800 / 600.0f;
 	float FoV = XM_PIDIV4;
 	Matrix g_Projection = Matrix::CreatePerspectiveFieldOfView(FoV, aspectRatio, nearClip, farClip);
+	*/
 
-	Matrix g_World = Matrix::Identity;
 	Vector4 qid = XMQuaternionIdentity();
 	//const Vector3 scale = { 0.01f, 0.01f, 0.01f };
 	//const Vector3 translate = { 0.0f, 0.0f, -10.0f };
-	Vector4 rotate = DirectX::XMQuaternionRotationRollPitchYaw(-1.7f, 0.0f, 0.0f);
+	Vector4 rotate = DirectX::XMQuaternionRotationRollPitchYaw(m_rotation.x, m_rotation.y, m_rotation.z);
 
-	/*
+	
+	Matrix g_World;
+
 	static uint64_t dwTimeStart = 0;
 	static uint64_t dwTimeLast = 0;
 	uint64_t dwTimeCur = GetTickCount64();
@@ -55,12 +64,12 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states,
 	dwTimeLast = dwTimeCur;
 
 	g_World = Matrix::CreateRotationZ(t);
-	*/
+	
 
-	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(g_XMZero, qid, m_scale, g_XMZero, rotate, m_position));
+	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_scale, Vector4::Zero, rotate, m_position));
 
 	// END DEBUG
 
 	// Draw the model
-	m_tiny->Draw(context, *m_states, local, g_View, g_Projection);
+	m_tiny->Draw(context, *m_states, local, view, projection);
 }

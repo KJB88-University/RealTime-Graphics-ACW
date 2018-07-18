@@ -28,7 +28,6 @@ private:
 	HINSTANCE m_hinstance;
 	HWND m_hwnd;
 
-	GraphicsManager* m_gfx;
 	Game* m_game;
 };
 

@@ -361,6 +361,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GraphicsManager.h" />
     <CLInclude Include="resource.h" />
+    <ClInclude Include="TimeManager.h" />
     <ClInclude Include="Tiny.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
@@ -375,6 +376,7 @@
     <ClCompile Include="GraphicsManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SimpleSample.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
     <ClCompile Include="Tiny.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>

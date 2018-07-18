@@ -20,7 +20,7 @@ void GraphicsManager::Initialize(int vpWidth, int vpHeight, HWND hwnd)
 
 }
 
-void GraphicsManager::OnDestroy(void)
+void GraphicsManager::Destroy(void)
 {
 	m_gfx->Destroy();
 	delete m_gfx;
