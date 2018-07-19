@@ -5,9 +5,6 @@
       <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
-    <Filter Include="TODO">
-      <UniqueIdentifier>{597e662c-e6a5-4311-88cf-361b8196c917}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{91c48643-49ad-4fea-b691-a6cf1cb6f0ad}</UniqueIdentifier>
     </Filter>
@@ -41,6 +38,12 @@
     <Filter Include="Header Files\Managers">
       <UniqueIdentifier>{409eb93f-c11e-4547-9610-e8aa033256a8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{429fca22-44e6-474a-b81a-8f5cb0b8b877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{720d91fe-db32-4185-afdb-0c15dc121d40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -70,6 +73,12 @@
     <ClInclude Include="TimeManager.h">
       <Filter>Header Files\Managers</Filter>
     </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SimpleSample.rc">
@@ -77,7 +86,6 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SimpleSample.cpp" />
     <ClCompile Include="Camera.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
@@ -102,6 +110,12 @@
     </ClCompile>
     <ClCompile Include="TimeManager.cpp">
       <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSample.cpp">
+      <Filter>Source Files\DEBUG</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

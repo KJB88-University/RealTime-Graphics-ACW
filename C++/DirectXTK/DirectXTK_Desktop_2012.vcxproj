@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Keyboard.h" />
+    <ClInclude Include="..\Mouse.h" />
+    <ClInclude Include="..\PlatformHelpers.h" />
     <ClInclude Include="Inc\CommonStates.h" />
     <ClInclude Include="Inc\DDSTextureLoader.h" />
     <ClInclude Include="Inc\DirectXHelpers.h" />
@@ -46,6 +49,8 @@
     <ClInclude Include="Src\DDS.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Keyboard.cpp" />
+    <ClCompile Include="..\Mouse.cpp" />
     <ClCompile Include="Src\AlphaTestEffect.cpp" />
     <ClCompile Include="Src\BasicEffect.cpp" />
     <ClCompile Include="Src\CommonStates.cpp" />

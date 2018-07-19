@@ -49,7 +49,7 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states,
 	Vector4 qid = XMQuaternionIdentity();
 	//const Vector3 scale = { 0.01f, 0.01f, 0.01f };
 	//const Vector3 translate = { 0.0f, 0.0f, -10.0f };
-	Vector4 rotate = DirectX::XMQuaternionRotationRollPitchYaw(m_rotation.x, m_rotation.y, m_rotation.z);
+	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(m_rotation.x, m_rotation.y, m_rotation.z);
 
 	
 	Matrix g_World;
@@ -66,7 +66,7 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states,
 	g_World = Matrix::CreateRotationZ(t);
 	
 
-	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_scale, Vector4::Zero, rotate, m_position));
+	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_scale, Vector4::Zero, rotationMatrix, m_position));
 
 	// END DEBUG
 

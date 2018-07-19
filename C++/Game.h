@@ -3,6 +3,7 @@
 
 // ACW Includes
 #include "Tiny.h" // DEBUG
+#include "Platform.h"
 #include "GraphicsManager.h"
 #include "Camera.h"
 #include "TimeManager.h"
@@ -23,6 +24,8 @@ private:
 
 	// Objects
 	Tiny* m_tiny;
+	Platform* m_platform;
+
 	Camera* m_mainCamera;
 
 	// Managers
