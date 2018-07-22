@@ -44,6 +44,12 @@
     <Filter Include="Header Files\GameObjects">
       <UniqueIdentifier>{720d91fe-db32-4185-afdb-0c15dc121d40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Unused">
+      <UniqueIdentifier>{63c1f602-c750-491a-a1c2-78db30663ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unused">
+      <UniqueIdentifier>{5b0829b6-d65a-4ea6-aa1d-3a17cad8b7bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -75,6 +81,9 @@
     </ClInclude>
     <ClInclude Include="Platform.h">
       <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="InputManager.h">
       <Filter>Header Files\Managers</Filter>
@@ -116,6 +125,12 @@
     </ClCompile>
     <ClCompile Include="SimpleSample.cpp">
       <Filter>Source Files\DEBUG</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

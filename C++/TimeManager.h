@@ -1,4 +1,5 @@
 #pragma once
+#include "StepTimer.h"
 
 class TimeManager
 {

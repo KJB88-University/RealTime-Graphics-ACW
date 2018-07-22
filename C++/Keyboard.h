@@ -9,7 +9,7 @@
 //--------------------------------------------------------------------------------------
 
 #pragma once
-
+#include <Windows.h>
 #include <memory>
 #include <stdint.h>
 

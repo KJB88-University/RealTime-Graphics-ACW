@@ -9,6 +9,7 @@
 #include "BasicLogger.h"
 
 TimeManager::TimeManager(void)
+	:m_deltaTime(0.0f), m_elapsedTime(0.0f), m_startTime(0.0f)
 {
 
 }

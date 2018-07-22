@@ -2,6 +2,8 @@
 #include "BasicLogger.h"
 #include "GraphicsManager.h"
 
+#include "Keyboard.h"
+
 Window::Window(void)
 {
 
@@ -63,7 +65,7 @@ void Window::Run(void)
 
 bool Window::Update(void)
 {
-	
+
 	// Respond to input
 	//if (m_input->CheckKey(VK_ESCAPE))
 	//{
@@ -73,7 +75,7 @@ bool Window::Update(void)
 
 	m_game->Update();
 	m_game->Render();
-	
+
 
 	// Keep looping
 	return true;
@@ -211,6 +213,14 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT umsg, WPARAM wparam, LPARAM lparam)
 	case WM_PAINT:
 		hDC = BeginPaint(hwnd, &paintStruct);
 		EndPaint(hwnd, &paintStruct);
+		break;
+
+		// Fall-through detection of key events
+	case WM_KEYDOWN:
+	case WM_SYSKEYDOWN:
+	case WM_KEYUP:
+	case WM_SYSKEYUP:
+		DirectX::Keyboard::ProcessMessage(umsg, wparam, lparam);
 		break;
 
 	case WM_DESTROY:

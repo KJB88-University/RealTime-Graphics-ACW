@@ -126,7 +126,9 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;DEBUG;PROFILE;_WINDOWS;_WIN32_WINNT=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <AdditionalIncludeDirectories>DirectXTK\inc</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>DirectXTK\Inc</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile />
     </ClCompile>
     <Link>
       <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
@@ -361,6 +363,7 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GraphicsManager.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="stdafx.h" />
     <ClInclude Include="Platform.h" />
     <CLInclude Include="resource.h" />
     <ClInclude Include="TimeManager.h" />
@@ -372,14 +375,26 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicLogger.cpp" />
-    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="DXTKModule.cpp" />
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="GraphicsManager.cpp" />
+    <ClCompile Include="InputManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Platform.cpp" />
     <ClCompile Include="SimpleSample.cpp" />
-    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Tiny.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>

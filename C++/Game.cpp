@@ -37,8 +37,12 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd)
 	m_time->Initialize();
 	BasicLogger::WriteToConsole("GAME: Time Manager initialized.\n");
 
-	// GAME OBJECTS
+	// Input
+	m_input = new InputManager();
+	m_input->Initialize();
+	BasicLogger::WriteToConsole("GAME: Input Manager initialized.\n");
 
+	// GAME OBJECTS
 	// Debug Tiny
 	m_tiny = new Tiny();
 	m_tiny->Initialize(m_gfx->GetDevice(), L"tiny.sdkmesh", *m_gfx->GetFXFactory());
@@ -64,6 +68,10 @@ void Game::Destroy(void)
 	delete m_time;
 	m_time = nullptr;
 
+	m_input->Destroy();
+	delete m_input;
+	m_input = nullptr;
+
 	m_gfx->Destroy();
 	delete m_gfx;
 	m_gfx = nullptr;
@@ -71,7 +79,14 @@ void Game::Destroy(void)
 
 void Game::Update(void)
 {
+	// Get new input state
+	m_kbState = m_input->GetKeyboardState();
+
+	// Update frame time
 	m_time->Update();
+
+	// Update Objects
+	m_mainCamera->Update(m_input, m_time);
 }
 
 void Game::Render(void)

@@ -6,7 +6,9 @@
 #include "Platform.h"
 #include "GraphicsManager.h"
 #include "Camera.h"
+#include "InputManager.h"
 #include "TimeManager.h"
+#include "Keyboard.h"
 
 class Game
 {
@@ -31,4 +33,8 @@ private:
 	// Managers
 	TimeManager* m_time;
 	GraphicsManager* m_gfx;
+	InputManager* m_input;
+
+	// Input States
+	DirectX::Keyboard::State m_kbState;
 };

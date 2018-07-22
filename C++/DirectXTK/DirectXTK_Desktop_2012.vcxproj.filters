@@ -96,6 +96,9 @@
     <ClInclude Include="..\PlatformHelpers.h">
       <Filter>Src</Filter>
     </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\CommonStates.cpp">
