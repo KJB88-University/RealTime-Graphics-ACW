@@ -53,7 +53,7 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states,
 
 	
 	Matrix g_World;
-
+	/*
 	static uint64_t dwTimeStart = 0;
 	static uint64_t dwTimeLast = 0;
 	uint64_t dwTimeCur = GetTickCount64();
@@ -64,7 +64,7 @@ void Tiny::Render(ID3D11DeviceContext* context, DirectX::CommonStates* m_states,
 	dwTimeLast = dwTimeCur;
 
 	g_World = Matrix::CreateRotationZ(t);
-	
+	*/
 
 	Matrix local = DirectX::XMMatrixMultiply(g_World, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_scale, Vector4::Zero, rotationMatrix, m_position));
 

@@ -94,8 +94,10 @@ void Game::Render(void)
 	// Clear Screen
 	m_gfx->ClearScreen(0.5f, 0.5f, 0.5f, 1.0f);
 
+	m_mainCamera->Render(m_gfx);
 	// DO DRAWING
 	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
+
 	//m_tiny->Render(m_gfx->GetDeviceContext(), m_gfx->GetCommonStates(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
 	// Present buffer
 	m_gfx->Present();

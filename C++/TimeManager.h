@@ -13,18 +13,22 @@ public:
 	void Destroy(void);
 	void Update(void);
 
+	// Returns the time since the last frame update
 	float GetDeltaTime(void);
+
+	// Returns the total running time in seconds
 	float GetTotalElapsedTime(void);
 
+	// Returns the frames per second
+	float GetFramesPerSecond(void);
 private:
 
-	// Time since last frame
-	float m_deltaTime;
+	DirectX::StepTimer m_timer;
 
-	// Time program was started
-	float m_startTime;
+	// Time since last frame
+	//float m_deltaTime;
 
 	// Total time Game has been running
-	float m_elapsedTime;
+	//float m_elapsedTime;
 
 };

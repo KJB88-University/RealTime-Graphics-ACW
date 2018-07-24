@@ -19,7 +19,8 @@ void Platform::Initialize(GraphicsManager* gm)
 {
 	HRESULT hr;
 
-	m_platform = DirectX::GeometricPrimitive::CreateCylinder(gm->GetDeviceContext(), 0.1f, 1.0f, 16, false);
+	//m_platform = DirectX::GeometricPrimitive::CreateHemisphere(gm->GetDeviceContext(), 1.0f, 16, true);
+	m_platform = DirectX::GeometricPrimitive::CreateCylinder(gm->GetDeviceContext(), 0.1f, 1.0f, 16, true);
 
 	hr = DirectX::CreateDDSTextureFromFile(gm->GetDevice(), L"seafloor.dds", nullptr, &m_texture);
 	if (FAILED(hr))
@@ -42,5 +43,6 @@ void Platform::Render(GraphicsManager* gm, Matrix projection, Matrix view)
 {
 	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(m_rotation.x, m_rotation.y, m_rotation.z);
 	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_scale, Vector4::Zero, rotationMatrix, m_position));
+
 	m_platform->Draw(local, view, projection, Vector4(1.0f, 1.0f, 1.0f, 1.0f), m_texture);
 }

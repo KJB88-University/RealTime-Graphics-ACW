@@ -61,6 +61,9 @@ namespace DirectX
         static std::unique_ptr<GeometricPrimitive> __cdecl CreateIcosahedron  (_In_ ID3D11DeviceContext* deviceContext, float size = 1, bool rhcoords = true);
         static std::unique_ptr<GeometricPrimitive> __cdecl CreateTeapot       (_In_ ID3D11DeviceContext* deviceContext, float size = 1, size_t tessellation = 8, bool rhcoords = true);
 
+		// CUSTOM ADDITION
+		static std::unique_ptr<GeometricPrimitive> __cdecl CreateHemisphere(_In_ ID3D11DeviceContext* deviceContext, float diameter = 1, size_t tessellation = 16, bool rhcoords = true);
+
         // Draw the primitive.
         void XM_CALLCONV Draw(FXMMATRIX world, CXMMATRIX view, CXMMATRIX projection, FXMVECTOR color = Colors::White, _In_opt_ ID3D11ShaderResourceView* texture = nullptr, bool wireframe = false,
                               _In_opt_ std::function<void DIRECTX_STD_CALLCONV()> setCustomState = nullptr );

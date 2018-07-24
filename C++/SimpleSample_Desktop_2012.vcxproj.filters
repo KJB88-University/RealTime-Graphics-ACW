@@ -50,6 +50,12 @@
     <Filter Include="Header Files\Unused">
       <UniqueIdentifier>{5b0829b6-d65a-4ea6-aa1d-3a17cad8b7bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{bffe7516-d40d-4b68-8743-54500aa163e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{87a9aa3d-93e9-4b89-9081-e15816337964}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -88,6 +94,15 @@
     <ClInclude Include="InputManager.h">
       <Filter>Header Files\Managers</Filter>
     </ClInclude>
+    <ClInclude Include="Dome.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SimpleSample.rc">
@@ -123,14 +138,20 @@
     <ClCompile Include="Platform.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleSample.cpp">
-      <Filter>Source Files\DEBUG</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="InputManager.cpp">
       <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSample.cpp">
+      <Filter>Source Files\Unused</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

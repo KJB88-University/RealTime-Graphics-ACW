@@ -8,6 +8,7 @@
 // ACW Includes
 #include "InputManager.h"
 #include "TimeManager.h"
+#include "GraphicsManager.h"
 
 class Camera
 {
@@ -20,7 +21,7 @@ public:
 	void Initialize(float width, float height, float nearClip, float farClip);
 	void Destroy(void);
 	void Update(InputManager* input, TimeManager* time);
-	void Render(void);
+	void Render(GraphicsManager* gm);
 
 	DirectX::SimpleMath::Matrix& GetViewMatrix();
 	DirectX::SimpleMath::Matrix& GetProjMatrix();
@@ -33,7 +34,7 @@ private:
 
 	// Delta values
 	DirectX::SimpleMath::Vector3 m_vel;
-	DirectX::SimpleMath::Vector3 m_angVel;
+	DirectX::SimpleMath::Vector3 m_angle;
 
 	// Input State
 	DirectX::Keyboard::State m_kbState;

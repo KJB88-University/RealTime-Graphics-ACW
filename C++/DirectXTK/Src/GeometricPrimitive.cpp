@@ -1535,3 +1535,82 @@ std::unique_ptr<GeometricPrimitive> GeometricPrimitive::CreateTeapot(_In_ ID3D11
 
     return primitive;
 }
+
+//--------------------------------------------------------------------------------------
+// Hemisphere (CUSTOM ADDITION)
+//--------------------------------------------------------------------------------------
+
+// Creates an hemisphere primitive.
+std::unique_ptr<GeometricPrimitive> GeometricPrimitive::CreateHemisphere(_In_ ID3D11DeviceContext* deviceContext, float diameter, size_t tessellation, bool rhcoords)
+{
+	VertexCollection vertices;
+	IndexCollection indices;
+
+	if (tessellation < 3)
+		throw std::out_of_range("tesselation parameter out of range");
+
+	size_t verticalSegments = tessellation;
+	size_t horizontalSegments = tessellation * 2;
+
+	float radius = diameter / 2;
+
+	// Create rings of vertices at progressively higher latitudes.
+	for (size_t i = 0; i <= verticalSegments; i++)
+	{
+		float v = 1 - (float)i / verticalSegments;
+
+		float latitude = (i * XM_PI / verticalSegments) - XM_PIDIV2;
+		float dy, dxz;
+
+		XMScalarSinCos(&dy, &dxz, latitude);
+
+		// Create a single ring of vertices at this latitude.
+		for (size_t j = 0; j <= horizontalSegments; j++)
+		{
+			float u = (float)j / horizontalSegments;
+
+			float longitude = j * XM_2PI / horizontalSegments;
+			float dx, dz;
+
+			XMScalarSinCos(&dx, &dz, longitude);
+
+			dx *= dxz;
+			dz *= dxz;
+
+			XMVECTOR normal = XMVectorSet(dx, dy, dz, 0);
+			XMVECTOR textureCoordinate = XMVectorSet(u, v, 0, 0);
+
+			if ((dy * radius) > 0)
+			{
+				vertices.push_back(VertexPositionNormalTexture(normal * radius, normal, textureCoordinate));
+			}
+		}
+	}
+
+	// Fill the index buffer with triangles joining each pair of latitude rings.
+	size_t stride = horizontalSegments + 1;
+
+	for (size_t i = 0; i < verticalSegments; i++)
+	{
+		for (size_t j = 0; j <= horizontalSegments; j++)
+		{
+			size_t nextI = i + 1;
+			size_t nextJ = (j + 1) % stride;
+
+			indices.push_back(i * stride + j);
+			indices.push_back(nextI * stride + j);
+			indices.push_back(i * stride + nextJ);
+
+			indices.push_back(i * stride + nextJ);
+			indices.push_back(nextI * stride + j);
+			indices.push_back(nextI * stride + nextJ);
+		}
+	}
+
+	// Create the primitive object.
+	std::unique_ptr<GeometricPrimitive> primitive(new GeometricPrimitive());
+
+	primitive->pImpl->Initialize(deviceContext, vertices, indices, rhcoords);
+
+	return primitive;
+}
