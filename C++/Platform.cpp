@@ -2,10 +2,17 @@
 
 #include "DDSTextureLoader.h"
 #include "BasicLogger.h"
+
 using namespace DirectX::SimpleMath;
 
 Platform::Platform(void)
-	: m_position(0.0f, 0.0f, -10.0f), m_rotation(0.0f, 0.0f, 0.0f), m_scale(1.0f, 1.0f, 1.0f)
+	: GameObject()
+{
+
+}
+
+Platform::Platform(Vector3 position, Vector3 rotation, Vector3 scale)
+	: GameObject(position, rotation, scale)
 {
 
 }
@@ -34,15 +41,17 @@ void Platform::Destroy(void)
 
 }
 
-void Platform::Update(void)
+void Platform::Update(TimeManager* time)
 {
 
 }
 
 void Platform::Render(GraphicsManager* gm, Matrix projection, Matrix view)
 {
-	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(m_rotation.x, m_rotation.y, m_rotation.z);
-	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_scale, Vector4::Zero, rotationMatrix, m_position));
+	Vector3 transfRotation = m_transform->GetRotation();
+
+	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
+	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_transform->GetScale(), Vector4::Zero, rotationMatrix, m_transform->GetPosition()));
 
 	m_platform->Draw(local, view, projection, Vector4(1.0f, 1.0f, 1.0f, 1.0f), m_texture);
 }

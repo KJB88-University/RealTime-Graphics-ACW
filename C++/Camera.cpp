@@ -4,27 +4,28 @@ using namespace DirectX::SimpleMath;
 
 
 Camera::Camera(void)
-	: m_position(0.0f, 0.0f, 0.0f), m_rotation(0.0f, 0.0f, -1.0f), m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
+	: m_transform(), m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
 {
 
 }
 
 Camera::Camera(Vector3 position, Vector3 rotation)
-	: m_position(position), m_rotation(rotation), m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
+	: m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
 {
-
+	m_transform = Transform(position, rotation, Vector3(1.0f, 1.0f, 1.0));
 }
+
 Camera::~Camera(void)
 {
 
 }
 
-void Camera::Initialize(float width, float height, float nearClip, float farClip)
+void Camera::Initialize(Vector3 lookAt, float width, float height, float nearClip, float farClip)
 {
 	Vector3 startView = Vector3(0.0f, 0.0f, -10.0f);
 
 	// Initialize the view matrix
-	m_view = Matrix::CreateLookAt(m_position, startView, Vector3::Up);
+	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), startView, Vector3::Up);
 	
 	// Initialize the projection matrix
 	m_proj = Matrix::CreatePerspectiveFieldOfView(DirectX::XM_PIDIV4, width / (FLOAT)height, nearClip, farClip);
@@ -33,7 +34,13 @@ void Camera::Initialize(float width, float height, float nearClip, float farClip
 
 void Camera::Destroy(void)
 {
+	// STUB
+}
 
+void Camera::ResetPosition(void)
+{
+	m_transform.SetPosition(m_defaultPos);
+	m_transform.SetRotation(m_defaultRot);
 }
 
 void Camera::Update(InputManager* input, TimeManager* time)
@@ -88,13 +95,13 @@ void Camera::Update(InputManager* input, TimeManager* time)
 		// Rotate Down
 		if (m_kbState.W)
 		{
-			m_angle.x += m_rotateSpeed * time->GetDeltaTime();
+			m_angle.x += -m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Up
 		else if (m_kbState.S)
 		{
-			m_angle.x += -m_rotateSpeed * time->GetDeltaTime();
+			m_angle.x += m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Left
@@ -111,14 +118,13 @@ void Camera::Update(InputManager* input, TimeManager* time)
 	}
 
 	// Update transform with delta values
-	m_position += m_vel;
-	m_rotation += m_angle;
+	m_transform.SetPosition(m_transform.GetPosition() + m_vel);
+	m_transform.SetRotation(m_transform.GetRotation() + m_angle);
 } 
 
 void Camera::Render(GraphicsManager* gm)
 {
-
-	m_view = Matrix::CreateTranslation(m_position) * Matrix::CreateFromYawPitchRoll(m_rotation.y, m_rotation.x, 0.0f);
+	m_view = Matrix::CreateFromYawPitchRoll(m_transform.GetRotation().y, m_transform.GetRotation().x, 0.0f) * Matrix::CreateTranslation(m_transform.GetPosition());
 	gm->GetBasicEffect()->SetView(m_view);
 
 }

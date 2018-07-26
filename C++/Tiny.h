@@ -1,10 +1,16 @@
 #pragma once
+// D3D Includes
 #include <d3d11.h>
-#include <SimpleMath.h>
-#include <memory>
-#include <Model.h>
 
-class Tiny
+// DXTK Includes
+#include <Model.h>
+#include <SimpleMath.h>
+
+// ACW Includes
+#include "GameObject.h"
+#include "GraphicsManager.h"
+
+class Tiny : GameObject
 {
 
 public:
@@ -12,15 +18,12 @@ public:
 	Tiny(void);
 	~Tiny(void);
 
-	void Initialize(ID3D11Device* device, const wchar_t* fileName, DirectX::IEffectFactory& fxFactory);
-	void Destroy(void);
-	void Update(void);
-	void Render(ID3D11DeviceContext* context, DirectX::CommonStates* g_States, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view);
+	void Initialize(GraphicsManager* gfx, const wchar_t* fileName);
+	virtual void Destroy(void) override;
+	virtual void Update(TimeManager* time) override;
+	virtual void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view) override;
 
 private:
 
 	std::unique_ptr<DirectX::Model> m_tiny;
-	DirectX::SimpleMath::Vector3 m_position;
-	DirectX::SimpleMath::Vector3 m_rotation;
-	DirectX::SimpleMath::Vector3 m_scale;
 };

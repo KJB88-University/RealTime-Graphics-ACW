@@ -364,8 +364,8 @@ HRESULT InitDevice()
 
 	m_gfx->GetBasicEffect()->SetProjection(g_Projection);
 
-	m_camera = new Camera(DirectX::SimpleMath::Vector3(0.0f, 0.0f, 0.0f), DirectX::SimpleMath::Vector3(0.0f, 0.0f, -1.0f));
-	m_camera->Initialize(width, height, 0.01f, 100.0f);
+	//m_camera = new Camera(DirectX::SimpleMath::Vector3(0.0f, 0.0f, 0.0f), DirectX::SimpleMath::Vector3(0.0f, 0.0f, -1.0f));
+	//m_camera->Initialize(width, height, 0.01f, 100.0f);
 
 	/*
 #ifdef DXTK_AUDIO
@@ -658,10 +658,10 @@ void Render()
 	XMMATRIX local = XMMatrixMultiply(g_World, XMMatrixTranslation(-2.f, -2.f, 4.f));
 	g_Shape->Draw(local, g_View, g_Projection, Colors::White, g_pTextureRV1);
 	*/
-	Tiny* tiny = new Tiny();
+	//Tiny* tiny = new Tiny();
 
-	tiny->Initialize(m_gfx->GetDevice(), L"tiny.sdkmesh", *m_gfx->GetFXFactory());
-	tiny->Render(m_gfx->GetDeviceContext(), m_gfx->GetCommonStates(), m_camera->GetProjMatrix(), m_camera->GetViewMatrix());
+	//tiny->Initialize(m_gfx, L"tiny.sdkmesh");
+	//tiny->Render(m_gfx, m_camera->GetProjMatrix(), m_camera->GetViewMatrix());
 
 	/*
 	XMVECTOR qid = XMQuaternionIdentity();

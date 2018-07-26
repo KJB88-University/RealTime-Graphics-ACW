@@ -359,6 +359,7 @@
   <ItemGroup>
     <ClInclude Include="BasicLogger.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraManager.h" />
     <ClInclude Include="Dome.h" />
     <ClInclude Include="DXTKModule.h" />
     <ClInclude Include="Game.h" />
@@ -381,6 +382,7 @@
     <ClCompile Include="Camera.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="CameraManager.cpp" />
     <ClCompile Include="DXTKModule.cpp" />
     <ClCompile Include="Game.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>

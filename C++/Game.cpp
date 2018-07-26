@@ -29,7 +29,7 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd)
 
 	// Camera
 	m_mainCamera = new Camera(Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, -1.0f));
-	m_mainCamera->Initialize(vpWidth, vpHeight, 0.01f, 1000.0f);
+	m_mainCamera->Initialize(Vector3(0.0f, 0.0f, -10.0f), vpWidth, vpHeight, 0.01f, 1000.0f);
 	BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
 
 	// Time
@@ -45,11 +45,11 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd)
 	// GAME OBJECTS
 	// Debug Tiny
 	m_tiny = new Tiny();
-	m_tiny->Initialize(m_gfx->GetDevice(), L"tiny.sdkmesh", *m_gfx->GetFXFactory());
+	m_tiny->Initialize(m_gfx, L"tiny.sdkmesh");
 	BasicLogger::WriteToConsole("GAME: Tiny initialized.\n");
 
 	// Platform (Ground)
-	m_platform = new Platform();
+	m_platform = new Platform(Vector3(0.0f, 0.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
 	m_platform->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Platform initialized.\n");
 }
@@ -95,10 +95,12 @@ void Game::Render(void)
 	m_gfx->ClearScreen(0.5f, 0.5f, 0.5f, 1.0f);
 
 	m_mainCamera->Render(m_gfx);
+
 	// DO DRAWING
 	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
 
-	//m_tiny->Render(m_gfx->GetDeviceContext(), m_gfx->GetCommonStates(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
+	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
+
 	// Present buffer
 	m_gfx->Present();
 }

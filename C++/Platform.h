@@ -8,27 +8,23 @@
 #include <GeometricPrimitive.h>
 
 // ACW Includes
-#include "GraphicsManager.h"
+#include "GameObject.h"
 
-class Platform
+class Platform : GameObject
 {
 
 public:
 
 	Platform(void);
+	Platform(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 scale);
 	~Platform(void);
 
-	void Initialize(GraphicsManager* gm);
-	void Destroy(void);
-	void Update(void);
-	void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view);
+	virtual void Initialize(GraphicsManager* gm) override;
+	virtual void Destroy(void) override;
+	virtual void Update(TimeManager* time) override;
+	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view) override;
 
 private:
-
-	// Transform
-	DirectX::SimpleMath::Vector3 m_position;
-	DirectX::SimpleMath::Vector3 m_rotation;
-	DirectX::SimpleMath::Vector3 m_scale;
 
 	std::unique_ptr<DirectX::GeometricPrimitive> m_platform;
 	ID3D11ShaderResourceView* m_texture;
