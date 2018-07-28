@@ -4,9 +4,9 @@ using namespace DirectX::SimpleMath;
 
 
 Camera::Camera(void)
-	: m_transform(), m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
+	: m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
 {
-
+	m_transform = Transform();
 }
 
 Camera::Camera(Vector3 position, Vector3 rotation)
@@ -22,10 +22,8 @@ Camera::~Camera(void)
 
 void Camera::Initialize(Vector3 lookAt, float width, float height, float nearClip, float farClip)
 {
-	Vector3 startView = Vector3(0.0f, 0.0f, -10.0f);
-
 	// Initialize the view matrix
-	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), startView, Vector3::Up);
+	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), lookAt, Vector3::Up);
 	
 	// Initialize the projection matrix
 	m_proj = Matrix::CreatePerspectiveFieldOfView(DirectX::XM_PIDIV4, width / (FLOAT)height, nearClip, farClip);

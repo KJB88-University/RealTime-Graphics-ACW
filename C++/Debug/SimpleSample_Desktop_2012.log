@@ -1,4 +1,9 @@
-﻿  Game.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\game.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+﻿  CameraManager.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(57): warning C4389: '==': signed/unsigned mismatch
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(79): warning C4018: '<': signed/unsigned mismatch
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.exe
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.pdb (Full PDB)

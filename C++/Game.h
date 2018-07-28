@@ -1,14 +1,20 @@
 #pragma once
 #include "Windows.h"
 
+// DXTK Includes
+#include "Keyboard.h"
+
 // ACW Includes
-#include "Tiny.h" // DEBUG
-#include "Platform.h"
+// Managers
 #include "GraphicsManager.h"
-#include "Camera.h"
+#include "CameraManager.h"
 #include "InputManager.h"
 #include "TimeManager.h"
-#include "Keyboard.h"
+
+// Objects
+#include "Tiny.h" // DEBUG
+#include "Platform.h"
+
 
 class Game
 {
@@ -34,6 +40,7 @@ private:
 	TimeManager* m_time;
 	GraphicsManager* m_gfx;
 	InputManager* m_input;
+	CameraManager* m_camMgr;
 
 	// Input States
 	DirectX::Keyboard::State m_kbState;
