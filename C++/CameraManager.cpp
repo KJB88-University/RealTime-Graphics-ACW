@@ -94,7 +94,5 @@ Camera* CameraManager::GetMainCamera(void)
 
 void CameraManager::Update(InputManager* input)
 {
-	DirectX::Keyboard::State kbState;
-	kbState = input->GetKeyboardState();
 
 }

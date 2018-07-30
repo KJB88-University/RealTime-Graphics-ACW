@@ -22,7 +22,7 @@ public:
 	virtual void Initialize(GraphicsManager* gm) override;
 	virtual void Destroy(void) override;
 	virtual void Update(TimeManager* time) override;
-	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view) override;
+	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame) override;
 
 private:
 

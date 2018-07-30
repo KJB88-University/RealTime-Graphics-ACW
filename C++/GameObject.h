@@ -19,7 +19,7 @@ public:
 	virtual void Initialize(GraphicsManager* gm);
 	virtual void Destroy(void) = 0;
 	virtual void Update(TimeManager* time);
-	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view);
+	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);
 
 	virtual Transform* GetTransform(void);
 

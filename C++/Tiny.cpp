@@ -31,7 +31,7 @@ void Tiny::Update(TimeManager* time)
 	// STUB
 }
 
-void Tiny::Render(GraphicsManager* gfx, Matrix projection, Matrix view)
+void Tiny::Render(GraphicsManager* gfx, Matrix projection, Matrix view, bool wireFrame)
 {
 	// DEBUG
 	/*
@@ -71,5 +71,12 @@ void Tiny::Render(GraphicsManager* gfx, Matrix projection, Matrix view)
 	// END DEBUG
 
 	// Draw the model
-	m_tiny->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, projection);
+	if (!wireFrame)
+	{
+		m_tiny->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, projection);
+	}
+	else
+	{
+		m_tiny->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, projection, true, nullptr);
+	}
 }

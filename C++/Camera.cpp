@@ -2,7 +2,6 @@
 
 using namespace DirectX::SimpleMath;
 
-
 Camera::Camera(void)
 	: m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
 {
@@ -46,41 +45,40 @@ void Camera::Update(InputManager* input, TimeManager* time)
 	m_vel = Vector3::Zero;
 	m_angle = Vector3::Zero;
 
-	m_kbState = input->GetKeyboardState();
-
+	
 	// Panning
-	if (m_kbState.LeftControl)
+	if (input->IsKeyHeld(DirectX::Keyboard::Keys::LeftControl))
 	{
 		// Pan Forward
-		if (m_kbState.W)
+		if (input->IsKeyHeld(DirectX::Keyboard::Keys::W))
 		{
 			m_vel.z += +m_moveSpeed * time->GetDeltaTime();
 		}
 		 
 		// Pan Backwards
-		else if (m_kbState.S)
+		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::S))
 		{
 			m_vel.z += -m_moveSpeed * time->GetDeltaTime();
 		}
 
 		// Pan Left
-		if (m_kbState.A)
+		if (input->IsKeyHeld(DirectX::Keyboard::Keys::A))
 		{
 			m_vel.x += m_moveSpeed * time->GetDeltaTime();
 		}
 
 		// Pan Right
-		else if (m_kbState.D)
+		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::D))
 		{
 			m_vel.x += -m_moveSpeed * time->GetDeltaTime();
 		}
 
-		if (m_kbState.PageUp)
+		if (input->IsKeyHeld(DirectX::Keyboard::Keys::PageUp))
 		{
 			m_vel.y += -m_moveSpeed * time->GetDeltaTime();
 		}
 
-		else if (m_kbState.PageDown)
+		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::PageDown))
 		{
 			m_vel.y += +m_moveSpeed * time->GetDeltaTime();
 		}
@@ -91,25 +89,25 @@ void Camera::Update(InputManager* input, TimeManager* time)
 	else
 	{
 		// Rotate Down
-		if (m_kbState.W)
+		if (input->IsKeyHeld(DirectX::Keyboard::Keys::W))
 		{
 			m_angle.x += -m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Up
-		else if (m_kbState.S)
+		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::S))
 		{
 			m_angle.x += m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Left
-		if (m_kbState.A)
+		if (input->IsKeyHeld(DirectX::Keyboard::Keys::A))
 		{
 			m_angle.y += -m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Right
-		else if (m_kbState.D)
+		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::D))
 		{
 			m_angle.y += m_rotateSpeed * time->GetDeltaTime();
 		}

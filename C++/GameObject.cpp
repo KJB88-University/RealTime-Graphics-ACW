@@ -32,7 +32,7 @@ void GameObject::Update(TimeManager* time)
 	// STUB
 }
 
-void GameObject::Render(GraphicsManager* gfx, Matrix proj, Matrix view)
+void GameObject::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wireFrame)
 {
 	// STUB
 }

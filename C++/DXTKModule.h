@@ -63,6 +63,6 @@ private:
 	// DXTK Resources
 	std::unique_ptr<DirectX::CommonStates> m_commonStates;
 	std::unique_ptr<DirectX::IEffectFactory> m_fxFactory;
-	std::unique_ptr<DirectX::BasicEffect> m_batchEffect;
+	std::unique_ptr<DirectX::BasicEffect> m_basicEffect;
 	ID3D11InputLayout* m_batchLayout;
 };

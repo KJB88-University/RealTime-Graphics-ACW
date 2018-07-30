@@ -91,7 +91,7 @@ DirectX::IEffectFactory* DXTKModule::GetFXFactory(void) const
 
 DirectX::BasicEffect* DXTKModule::GetBasicEffect(void) const
 {
-	return m_batchEffect.get();
+	return m_basicEffect.get();
 }
 
 void DXTKModule::InitializeD3DResources(HWND hwnd)
@@ -200,16 +200,17 @@ void DXTKModule::InitializeDXTKResources(void)
 	HRESULT hr;
 
 	m_commonStates.reset(new DirectX::CommonStates(m_device));
+
 	m_fxFactory.reset(new DirectX::EffectFactory(m_device));
 
-	m_batchEffect.reset(new DirectX::BasicEffect(m_device));
-	m_batchEffect->SetVertexColorEnabled(true);
+	m_basicEffect.reset(new DirectX::BasicEffect(m_device));
+	m_basicEffect->SetVertexColorEnabled(true);
 
 	{
 		void const* shaderByteCode;
 		size_t byteCodeLength;
 
-		m_batchEffect->GetVertexShaderBytecode(&shaderByteCode, &byteCodeLength);
+		m_basicEffect->GetVertexShaderBytecode(&shaderByteCode, &byteCodeLength);
 
 		hr = m_device->CreateInputLayout(DirectX::VertexPositionColor::InputElements,
 			DirectX::VertexPositionColor::InputElementCount,

@@ -11,7 +11,7 @@ using namespace DirectX::SimpleMath;
 
 Game::Game(void)
 {
-
+	m_wireFrameMode = false;
 }
 
 Game::~Game(void)
@@ -59,7 +59,7 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd)
 	BasicLogger::WriteToConsole("GAME: Tiny initialized.\n");
 
 	// Platform (Ground)
-	m_platform = new Platform(Vector3(0.0f, 0.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
+	m_platform = new Platform(Vector3(0.0f, 0.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(10.0f, 2.0f, 10.0f));
 	m_platform->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Platform initialized.\n");
 }
@@ -89,33 +89,41 @@ void Game::Destroy(void)
 
 void Game::Update(void)
 
-{	// Update frame time
-	m_time->Update();
-
-	// Get new input state
-	m_kbState = m_input->GetKeyboardState();
-
-	if (m_kbState.F1)
+{	
+	
+	// CAMERA SWAPPING
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F1))
 	{
 		m_camMgr->JumpToCamera(0);
 		m_mainCamera = m_camMgr->GetMainCamera();
 	}
-	else if (m_kbState.F2)
+	else if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F2))
 	{
+		// DEBUG CAM
 		m_camMgr->JumpToCamera(1);
 		m_mainCamera = m_camMgr->GetMainCamera();
 	}
-	else if (m_kbState.F3)
+	else if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F3))
 	{
 		// Third cam
 	}
-	else if (m_kbState.F4)
+	else if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F4))
 	{
 		// Fourth cam
 	}
-
+	
+	// WIREFRAME MODE ENABLE
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F5))
+	{
+		m_wireFrameMode = !m_wireFrameMode;
+	}
+	
 	// Update Objects
 	m_mainCamera->Update(m_input, m_time);
+
+	// Update frame time
+	m_time->Update();
+	m_input->UpdateStates();
 }
 
 void Game::Render(void)
@@ -123,13 +131,17 @@ void Game::Render(void)
 	// Clear Screen
 	m_gfx->ClearScreen(0.5f, 0.5f, 0.5f, 1.0f);
 
+	// Render the view via the camera
 	m_mainCamera->Render(m_gfx);
 
-	// DO DRAWING
-	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
+	// Draw objects
+	// START
+	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
-	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix());
+	//END
 
 	// Present buffer
 	m_gfx->Present();
+
 }

@@ -30,10 +30,14 @@ public:
 
 private:
 
+	// Modifiers
+	bool m_wireFrameMode;
+
 	// Objects
 	Tiny* m_tiny;
 	Platform* m_platform;
 
+	// Main Camera
 	Camera* m_mainCamera;
 
 	// Managers

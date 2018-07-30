@@ -21,7 +21,7 @@ public:
 	void Initialize(GraphicsManager* gfx, const wchar_t* fileName);
 	virtual void Destroy(void) override;
 	virtual void Update(TimeManager* time) override;
-	virtual void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view) override;
+	virtual void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame) override;
 
 private:
 

@@ -3,7 +3,7 @@
 using namespace DirectX;
 
 InputManager::InputManager(void)
-	:m_keyboard(nullptr)//, m_mouse(nullptr)
+	:m_keyboard(nullptr)
 {
 
 }
@@ -16,25 +16,51 @@ InputManager::~InputManager(void)
 void InputManager::Initialize(void)
 {
 	m_keyboard.reset(new DirectX::Keyboard);
-	//m_mouse.reset(new DirectX::Mouse);
 }
 
-DirectX::Keyboard::State& InputManager::GetKeyboardState(void) const
+bool InputManager::IsKeyDown(Keyboard::Keys key)
 {
-	return m_keyboard->GetState();
+	if (m_tracker.IsKeyPressed(key))
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
-/*
-DirectX::Mouse::State& InputManager::GetMouseState(void) const
+bool InputManager::IsKeyUp(Keyboard::Keys key)
 {
-	return m_mouse->GetState();
+	if (m_tracker.IsKeyReleased(key))
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
-*/
+
+bool InputManager::IsKeyHeld(Keyboard::Keys key)
+{
+	if (m_keyboard->GetState().IsKeyDown(key))
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
 void InputManager::Destroy(void)
 {
 	m_keyboard.release();
 	m_keyboard = nullptr;
+}
 
-	//m_mouse.release();
-	//m_mouse = nullptr;
+void InputManager::UpdateStates(void)
+{
+	m_tracker.Update(m_keyboard->GetState());
 }

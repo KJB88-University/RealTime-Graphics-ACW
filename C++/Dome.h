@@ -9,22 +9,20 @@
 // ACW Includes
 #include "GraphicsManager.h"
 #include "TimeManager.h"
+#include "GameObject.h"
 
-class Dome
+class Dome : GameObject
 {
 public:
 
 	Dome(void);
 	~Dome(void);
 
-	void Initialize(GraphicsManager* gfx);
-	void Destroy(void);
-	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx);
+	virtual void Initialize(GraphicsManager* gm) override;
+	virtual void Destroy(void) override;
+	virtual void Update(TimeManager* time) override;
+	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame) override;
 
 private:
 
-	DirectX::SimpleMath::Vector3 m_position;
-	DirectX::SimpleMath::Vector3 m_rotation;
-	DirectX::SimpleMath::Vector3 m_scale;
 };

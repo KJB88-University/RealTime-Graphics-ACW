@@ -26,6 +26,13 @@ public:
 	// Return a ptr to the Common States
 	DirectX::CommonStates* GetCommonStates(void) const;
 
+	// Set Rasterizer Cull states
+	void SetWireframe(void);
+	void SetClockwiseCull(void);
+	void SetCounterClockwiseCull(void);
+	void SetNoCull(void);
+	void GetRS(void);
+
 	// Return a ptr to the FX Factory
 	DirectX::IEffectFactory* GetFXFactory(void) const;
 

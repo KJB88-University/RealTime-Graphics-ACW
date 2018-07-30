@@ -12,18 +12,17 @@ public:
 
 	void Initialize(void);
 	void Destroy(void);
+	void UpdateStates(void);
 
-	DirectX::Keyboard::State& GetKeyboardState() const;
-	//DirectX::Mouse::State& GetMouseState() const;
+	bool IsKeyDown(DirectX::Keyboard::Keys key);
+	bool IsKeyUp(DirectX::Keyboard::Keys key);
+	bool IsKeyHeld(DirectX::Keyboard::Keys key);
 
 private:
 
 	// Input Devices
 	std::unique_ptr<DirectX::Keyboard> m_keyboard;
-	//std::unique_ptr<DirectX::Mouse> m_mouse;
-	//std::unique_ptr<DirectX::GamePad> m_gamepad;
 
 	// Input States
-	DirectX::Keyboard::State m_kbState;
-	//DirectX::Mouse::State m_mouseState;
+	DirectX::Keyboard::KeyboardStateTracker m_tracker;
 };
