@@ -20,13 +20,19 @@ void Window::Init(void)
 	int vpWidth, vpHeight;
 	vpWidth = 0;
 	vpHeight = 0;
+	
+	// Frustrum Culling
+	float nearClip, farClip;
+	nearClip = 0.01f;
+	farClip = 1000.0f;
 
 	// Initialize the Windows API
 	InitWindows(vpWidth, vpHeight);
 	BasicLogger::WriteToConsole("WINDOW: Initialized. \n");
 
+	// Create the game application
 	m_game = new Game();
-	m_game->Initialize(vpWidth, vpHeight, m_hwnd);
+	m_game->Initialize(vpWidth, vpHeight, m_hwnd, nearClip, farClip);
 }
 
 void Window::OnDestroy()
@@ -105,11 +111,12 @@ LRESULT CALLBACK Window::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam, LPA
 
 // Initialize Windows API so we can create a
 // window and utilize Windows-based services
-void Window::InitWindows(int& vpWidth, int& vpHeight)
+void Window::InitWindows(int& vpWidth, int& vpHeight, bool fullScreen)
 {
 	WNDCLASSEX wc;
 	DEVMODE dmScreenSettings;
 	int posX, posY;
+	m_fullScreen = fullScreen;
 
 	// External ptr for object
 	ApplicationHandle = this;
@@ -142,7 +149,7 @@ void Window::InitWindows(int& vpWidth, int& vpHeight)
 
 	// Setup Full screen
 	// (Not required for ACW, but for robustness)
-	if (FULL_SCREEN)
+	if (m_fullScreen)
 	{
 		memset(&dmScreenSettings, 0, sizeof(dmScreenSettings));
 		dmScreenSettings.dmSize = sizeof(dmScreenSettings);
@@ -185,7 +192,7 @@ void Window::EndWindows(void)
 	//ShowCursor(true);
 
 	// Account for possible full screen
-	if (FULL_SCREEN)
+	if (m_fullScreen)
 	{
 		ChangeDisplaySettings(NULL, 0);
 	}

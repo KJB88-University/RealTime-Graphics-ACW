@@ -21,12 +21,13 @@ public:
 private:
 
 	bool Update(void);
-	void InitWindows(int&, int&);
+	void InitWindows(int& vpWidth, int& vpHeight, bool fullScreen);
 	void EndWindows(void);
 
 	LPCWSTR m_applicationName;
 	HINSTANCE m_hinstance;
 	HWND m_hwnd;
+	bool m_fullScreen;
 
 	Game* m_game;
 };

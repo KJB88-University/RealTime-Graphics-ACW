@@ -1,5 +1,7 @@
 #include "GraphicsManager.h"
 
+using namespace DirectX::SimpleMath;
+
 GraphicsManager::GraphicsManager(void)
 	: m_gfx(nullptr)
 {
@@ -53,6 +55,16 @@ DirectX::IEffectFactory* GraphicsManager::GetFXFactory(void) const
 DirectX::BasicEffect* GraphicsManager::GetBasicEffect(void) const
 {
 	return m_gfx->GetBasicEffect();
+}
+
+Matrix* GraphicsManager::GetProjectionMatrix(void)
+{
+	return &m_projection;
+}
+
+Matrix* GraphicsManager::GetWorldMatrix(void)
+{
+	return &m_world;
 }
 
 void GraphicsManager::ClearScreen(float r, float g, float b, float a)

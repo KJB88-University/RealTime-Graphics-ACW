@@ -17,12 +17,13 @@ public:
 
 	Platform(void);
 	Platform(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 scale);
+	Platform(const Platform& other);
 	~Platform(void);
 
 	virtual void Initialize(GraphicsManager* gm) override;
 	virtual void Destroy(void) override;
-	virtual void Update(TimeManager* time) override;
-	virtual void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame) override;
+	void Update(TimeManager* time) ;
+	void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame);
 
 private:
 

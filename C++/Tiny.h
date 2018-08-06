@@ -18,10 +18,10 @@ public:
 	Tiny(void);
 	~Tiny(void);
 
-	void Initialize(GraphicsManager* gfx, const wchar_t* fileName);
+	virtual void Initialize(GraphicsManager* gfx) override;
 	virtual void Destroy(void) override;
-	virtual void Update(TimeManager* time) override;
-	virtual void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame) override;
+	void Update(TimeManager* time);
+	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame);
 
 private:
 

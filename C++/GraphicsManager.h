@@ -1,9 +1,7 @@
 #pragma once
 #include "DXTKModule.h"
-
-const bool FULL_SCREEN = false;
-const float SCREEN_DEPTH = 1000.0f;
-const float SCREEN_NEAR = 0.1f;
+#include <d3d11.h>
+#include <SimpleMath.h>
 
 class GraphicsManager
 {
@@ -26,20 +24,20 @@ public:
 	// Return a ptr to the Common States
 	DirectX::CommonStates* GetCommonStates(void) const;
 
-	// Set Rasterizer Cull states
-	void SetWireframe(void);
-	void SetClockwiseCull(void);
-	void SetCounterClockwiseCull(void);
-	void SetNoCull(void);
-	void GetRS(void);
-
 	// Return a ptr to the FX Factory
 	DirectX::IEffectFactory* GetFXFactory(void) const;
 
 	// Return a ptr to the Basic Effect
 	DirectX::BasicEffect* GetBasicEffect(void) const;
 
+	// Matrix Getters
+	DirectX::SimpleMath::Matrix* GetProjectionMatrix(void);
+	DirectX::SimpleMath::Matrix* GetWorldMatrix(void);
+
 private:
 
 	DXTKModule* m_gfx;
+
+	DirectX::SimpleMath::Matrix m_world;
+	DirectX::SimpleMath::Matrix m_projection;
 };

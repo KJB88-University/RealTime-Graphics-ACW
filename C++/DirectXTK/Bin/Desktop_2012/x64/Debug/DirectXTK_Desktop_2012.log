@@ -1,0 +1,32 @@
+﻿  pch.cpp
+  WICTextureLoader.cpp
+  VertexTypes.cpp
+  SpriteFont.cpp
+  PrimitiveBatch.cpp
+  SpriteBatch.cpp
+  SkinnedEffect.cpp
+  SimpleMath.cpp
+  ScreenGrab.cpp
+  ModelLoadVBO.cpp
+  ModelLoadSDKMESH.cpp
+  ModelLoadCMO.cpp
+  Model.cpp
+  GeometricPrimitive.cpp
+  GamePad.cpp
+  EnvironmentMapEffect.cpp
+  EffectFactory.cpp
+  EffectCommon.cpp
+  BinaryReader.cpp
+  DualTextureEffect.cpp
+  DGSLEffectFactory.cpp
+  Generating Code...
+  Compiling...
+  DGSLEffect.cpp
+  DDSTextureLoader.cpp
+  CommonStates.cpp
+  BasicEffect.cpp
+  AlphaTestEffect.cpp
+  Mouse.cpp
+  Keyboard.cpp
+  Generating Code...
+  DirectXTK_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\DirectXTK\Bin\Desktop_2012\x64\Debug\DirectXTK.lib

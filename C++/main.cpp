@@ -13,6 +13,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdline,
 	freopen("CONOUT$", "w", stdout);
 	printf("CONSOLE: Attached.\n");
 
+
 	// Create and initialize Window
 	Window* window;
 	window = new Window();

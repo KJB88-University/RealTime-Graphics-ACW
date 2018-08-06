@@ -361,11 +361,17 @@
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CameraManager.h" />
     <ClInclude Include="Dome.h" />
+    <ClInclude Include="Dragonfly.h" />
+    <ClInclude Include="DragonflyLegs.h" />
+    <ClInclude Include="DragonflyWings.h" />
     <ClInclude Include="DXTKModule.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GraphicsManager.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LeftWing.h" />
+    <ClInclude Include="RightWing.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Platform.h" />
     <CLInclude Include="resource.h" />
@@ -383,6 +389,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="Dome.cpp" />
+    <ClCompile Include="Dragonfly.cpp" />
+    <ClCompile Include="DragonflyLegs.cpp" />
+    <ClCompile Include="DragonflyWings.cpp" />
     <ClCompile Include="DXTKModule.cpp" />
     <ClCompile Include="Game.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
@@ -394,6 +404,7 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SimpleSample.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -409,6 +420,17 @@
     <ProjectReference Include="DirectXTK\DirectXTK_Desktop_2012.vcxproj">
       <Project>{e0b52ae7-e160-4d32-bf3f-910b785e5a8e}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bloom.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BloomCombine.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="BloomExtract.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+    </FxCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

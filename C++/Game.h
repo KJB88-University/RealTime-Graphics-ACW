@@ -14,6 +14,7 @@
 // Objects
 #include "Tiny.h" // DEBUG
 #include "Platform.h"
+#include "Dome.h"
 
 
 class Game
@@ -23,19 +24,22 @@ public:
 	Game(void);
 	~Game(void);
 
-	void Initialize(int vpWidth, int vpHeight, HWND hwnd);
+	void Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, float farClip);
 	void Destroy(void);
 	void Update(void);
 	void Render(void);
-
+	
+	// DEBUG
+	//void PostProcess(void);
 private:
 
 	// Modifiers
 	bool m_wireFrameMode;
 
 	// Objects
-	Tiny* m_tiny;
+	Tiny* m_tiny; // DEBUG
 	Platform* m_platform;
+	Dome* m_dome;
 
 	// Main Camera
 	Camera* m_mainCamera;

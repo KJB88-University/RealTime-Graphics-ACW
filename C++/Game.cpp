@@ -8,6 +8,7 @@ using namespace DirectX::SimpleMath;
 // ACW includes
 #include "Game.h"
 #include "BasicLogger.h"
+#include "Shader.h"
 
 Game::Game(void)
 {
@@ -19,17 +20,21 @@ Game::~Game(void)
 
 }
 
-void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd)
-{
-	float nearClip, farClip;
-	nearClip = 0.01f;
-	farClip = 1000.0f;
+//void Game::PostProcess()
+//{
 
+//}
+
+void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, float farClip)
+{
 	// MANAGERS
 	// Graphics Manager
 	m_gfx = new GraphicsManager();
 	m_gfx->Initialize(vpWidth, vpHeight, hwnd);
 	BasicLogger::WriteToConsole("GAME: Graphics Manager initialized.\n");
+
+	//Shader* shader = new Shader();
+	//shader->Initialize(m_gfx, L"BloomCombine.cso", L"BloomCombine.cso");
 
 	// Camera Manager
 	m_camMgr = new CameraManager();
@@ -53,35 +58,60 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd)
 	m_mainCamera = m_camMgr->GetMainCamera();
 	BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
 
+	
 	// DEBUG Tiny
 	m_tiny = new Tiny();
 	m_tiny->Initialize(m_gfx, L"tiny.sdkmesh");
 	BasicLogger::WriteToConsole("GAME: Tiny initialized.\n");
+	
 
 	// Platform (Ground)
 	m_platform = new Platform(Vector3(0.0f, 0.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(10.0f, 2.0f, 10.0f));
 	m_platform->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Platform initialized.\n");
+
+	// Dome (Hemisphere)
+	m_dome = new Dome(Vector3(0.0f, -1.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(10.0f, 10.0f, 10.0f));
+	m_dome->Initialize(m_gfx);
+	BasicLogger::WriteToConsole("GAME: Dome initialized.\n");
+
 }
 
 void Game::Destroy(void)
 {
+	// DESTROY GAME OBJECTS
+	// DEBUG Tiny
 	m_tiny->Destroy();
 	delete m_tiny;
 	m_tiny = nullptr;
 
+	// Main Camera
 	m_mainCamera->Destroy();
 	delete m_mainCamera;
 	m_mainCamera = nullptr;
 
+	// Platform
+	m_platform->Destroy();
+	delete m_platform;
+	m_platform = nullptr;
+
+	// Dome
+	m_dome->Destroy();
+	delete m_dome;
+	m_dome = nullptr;
+
+	// DESTROY MANAGERS
+	// Time
 	m_time->Destroy();
 	delete m_time;
 	m_time = nullptr;
 
+	// Input
 	m_input->Destroy();
 	delete m_input;
 	m_input = nullptr;
 
+	// Graphics
 	m_gfx->Destroy();
 	delete m_gfx;
 	m_gfx = nullptr;
@@ -136,8 +166,13 @@ void Game::Render(void)
 
 	// Draw objects
 	// START
-	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	//m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+
+	//m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+
+
+
+	m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
 	//END
 

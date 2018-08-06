@@ -199,8 +199,12 @@ void DXTKModule::InitializeDXTKResources(void)
 {
 	HRESULT hr;
 
+	// (Make Unique workaround)
+	// Reset the current unique_ptr and initialize it to a new ptr to the CommonStates obj
 	m_commonStates.reset(new DirectX::CommonStates(m_device));
 
+	// (Make Unique workaround)
+	// Reset the current unique_ptr and initialize it to a new ptr to the EffectFactory obj
 	m_fxFactory.reset(new DirectX::EffectFactory(m_device));
 
 	m_basicEffect.reset(new DirectX::BasicEffect(m_device));

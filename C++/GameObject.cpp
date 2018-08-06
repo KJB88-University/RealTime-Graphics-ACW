@@ -7,6 +7,11 @@ GameObject::GameObject(void)
 	m_transform = new Transform();
 }
 
+GameObject::GameObject(const GameObject& other)
+{
+
+}
+
 GameObject::GameObject(Vector3 position, Vector3 rotation, Vector3 scale)
 {
 	m_transform = new Transform();
@@ -20,21 +25,6 @@ GameObject::~GameObject(void)
 {
 	delete m_transform;
 	m_transform = nullptr;
-}
-
-void GameObject::Initialize(GraphicsManager* gfx)
-{
-	// STUB
-}
-
-void GameObject::Update(TimeManager* time)
-{
-	// STUB
-}
-
-void GameObject::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wireFrame)
-{
-	// STUB
 }
 
 Transform* GameObject::GetTransform(void)
