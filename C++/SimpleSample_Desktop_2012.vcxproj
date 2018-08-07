@@ -363,14 +363,12 @@
     <ClInclude Include="Dome.h" />
     <ClInclude Include="Dragonfly.h" />
     <ClInclude Include="DragonflyLegs.h" />
-    <ClInclude Include="DragonflyWings.h" />
+    <ClInclude Include="DragonflyWing.h" />
     <ClInclude Include="DXTKModule.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GraphicsManager.h" />
     <ClInclude Include="InputManager.h" />
-    <ClInclude Include="LeftWing.h" />
-    <ClInclude Include="RightWing.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Platform.h" />
@@ -392,7 +390,7 @@
     <ClCompile Include="Dome.cpp" />
     <ClCompile Include="Dragonfly.cpp" />
     <ClCompile Include="DragonflyLegs.cpp" />
-    <ClCompile Include="DragonflyWings.cpp" />
+    <ClCompile Include="DragonflyWing.cpp" />
     <ClCompile Include="DXTKModule.cpp" />
     <ClCompile Include="Game.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>

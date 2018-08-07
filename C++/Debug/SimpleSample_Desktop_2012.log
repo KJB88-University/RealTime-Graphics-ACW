@@ -1,34 +1,4 @@
-﻿  Dragonfly.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonflylegs.h(27): error C2061: syntax error: identifier 'Matrix'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonflywings.h(25): error C2061: syntax error: identifier 'Matrix'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.h(29): error C2061: syntax error: identifier 'Matrix'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(60): error C2511: 'void Dragonfly::Render(GraphicsManager *,DirectX::SimpleMath::Matrix *,DirectX::SimpleMath::Matrix *,DirectX::SimpleMath::Matrix *,bool)': overloaded member function not found in 'Dragonfly'
-  c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.h(15): note: see declaration of 'Dragonfly'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(62): error C2227: left of '->GetRotation' must point to class/struct/union/generic type
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(62): error C2228: left of '.x' must have class/struct/union
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(62): error C2228: left of '.y' must have class/struct/union
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(62): error C2228: left of '.z' must have class/struct/union
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(62): error C2660: 'DirectX::XMQuaternionRotationRollPitchYaw': function does not take 1 arguments
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(71): error C2227: left of '->GetScale' must point to class/struct/union/generic type
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(74): error C2227: left of '->GetPosition' must point to class/struct/union/generic type
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(75): error C2660: 'DirectX::XMMatrixTransformation': function does not take 4 arguments
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(76): error C2660: 'DirectX::XMMatrixMultiply': function does not take 1 arguments
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(81): error C2227: left of '->Draw' must point to class/struct/union/generic type
-  DragonflyLegs.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonflylegs.h(27): error C2061: syntax error: identifier 'Matrix'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonflylegs.cpp(43): error C2511: 'void DragonflyLegs::Render(GraphicsManager *,DirectX::SimpleMath::Matrix *,DirectX::SimpleMath::Matrix *,DirectX::SimpleMath::Matrix *,bool)': overloaded member function not found in 'DragonflyLegs'
-  c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonflylegs.h(12): note: see declaration of 'DragonflyLegs'
-  DragonflyWings.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonflywings.cpp : fatal error C1041: cannot open program database 'C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\vc140.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
-  Game.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\game.cpp(64): error C2660: 'Tiny::Initialize': function does not take 2 arguments
-  main.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\main.cpp(13): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\main.cpp(9): warning C4100: 'iCmdshow': unreferenced formal parameter
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\main.cpp(9): warning C4100: 'pScmdline': unreferenced formal parameter
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\main.cpp(9): warning C4100: 'hPrevInstance': unreferenced formal parameter
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\main.cpp(9): warning C4100: 'hInstance': unreferenced formal parameter
-  Window.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(30): error C2660: 'Window::InitWindows': function does not take 2 arguments
-  Generating Code...
+﻿  Tiny.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\tiny.cpp(29): warning C4100: 'time': unreferenced formal parameter
+  SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.exe
+  SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.pdb (Full PDB)

@@ -15,6 +15,7 @@
 #include "Tiny.h" // DEBUG
 #include "Platform.h"
 #include "Dome.h"
+#include "Dragonfly.h"
 
 
 class Game
@@ -40,6 +41,7 @@ private:
 	Tiny* m_tiny; // DEBUG
 	Platform* m_platform;
 	Dome* m_dome;
+	Dragonfly* m_dragonfly;
 
 	// Main Camera
 	Camera* m_mainCamera;

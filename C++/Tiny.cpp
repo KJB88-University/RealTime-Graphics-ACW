@@ -4,7 +4,7 @@ using namespace DirectX;
 using namespace DirectX::SimpleMath;
 
 Tiny::Tiny(void)
-	: GameObject(Vector3(0.0f, 0.0f, -10.0f), Vector3(-1.7f, 0.0f, 0.0f), Vector3(0.01f, 0.01f, 0.01f))
+	: GameObject(Vector3(0.0f, 0.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f))
 {
 
 }
@@ -17,7 +17,7 @@ Tiny::~Tiny(void)
 void Tiny::Initialize(GraphicsManager* gfx)
 {
 	// Assign the Model to a class member unique_ptr
-	m_tiny.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"", *gfx->GetFXFactory()).release());
+	m_tiny.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"tiny.sdkmesh", *gfx->GetFXFactory()).release());
 }
 
 void Tiny::Destroy(void)

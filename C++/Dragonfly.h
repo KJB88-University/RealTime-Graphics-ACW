@@ -10,7 +10,7 @@
 // ACW Includes
 #include "GameObject.h"
 #include "DragonflyLegs.h"
-#include "DragonflyWings.h"
+#include "DragonflyWing.h"
 
 class Dragonfly : GameObject
 {
@@ -26,11 +26,11 @@ public:
 	virtual void Destroy(void) override;
 
 	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx, Matrix* world, Matrix* proj, Matrix* view, bool wireFrame);
+	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix* world, DirectX::SimpleMath::Matrix* proj, DirectX::SimpleMath::Matrix* view, bool wireFrame);
 
 private:
 
 	std::unique_ptr<DirectX::Model> m_body;
-	DragonflyWings* m_wings;
+	DragonflyWing* m_wings;
 	DragonflyLegs* m_legs;
 };

@@ -58,13 +58,11 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	m_mainCamera = m_camMgr->GetMainCamera();
 	BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
 
-	
 	// DEBUG Tiny
 	m_tiny = new Tiny();
-	m_tiny->Initialize(m_gfx, L"tiny.sdkmesh");
+	m_tiny->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Tiny initialized.\n");
 	
-
 	// Platform (Ground)
 	m_platform = new Platform(Vector3(0.0f, 0.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(10.0f, 2.0f, 10.0f));
 	m_platform->Initialize(m_gfx);
@@ -74,6 +72,11 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	m_dome = new Dome(Vector3(0.0f, -1.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(10.0f, 10.0f, 10.0f));
 	m_dome->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Dome initialized.\n");
+
+	// Dragonfly
+	m_dragonfly = new Dragonfly(Vector3(0.0f, -1.0f, -10.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
+	m_dragonfly->Initialize(m_gfx);
+	BasicLogger::WriteToConsole("GAME: Dragonfly initialized.\n");
 
 }
 

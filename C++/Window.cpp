@@ -27,7 +27,7 @@ void Window::Init(void)
 	farClip = 1000.0f;
 
 	// Initialize the Windows API
-	InitWindows(vpWidth, vpHeight);
+	InitWindows(vpWidth, vpHeight, true);
 	BasicLogger::WriteToConsole("WINDOW: Initialized. \n");
 
 	// Create the game application
@@ -115,7 +115,9 @@ void Window::InitWindows(int& vpWidth, int& vpHeight, bool fullScreen)
 {
 	WNDCLASSEX wc;
 	DEVMODE dmScreenSettings;
-	int posX, posY;
+	int posX = 0;
+	int posY = 0;
+
 	m_fullScreen = fullScreen;
 
 	// External ptr for object
@@ -147,6 +149,7 @@ void Window::InitWindows(int& vpWidth, int& vpHeight, bool fullScreen)
 	vpWidth = GetSystemMetrics(SM_CXSCREEN);
 	vpHeight = GetSystemMetrics(SM_CYSCREEN);
 
+	/*
 	// Setup Full screen
 	// (Not required for ACW, but for robustness)
 	if (m_fullScreen)
@@ -162,13 +165,14 @@ void Window::InitWindows(int& vpWidth, int& vpHeight, bool fullScreen)
 	// Setup windowed
 	else
 	{
+	*/
 		vpWidth = 1080;
 		vpHeight = 960;
 
 		// Centre the window
 		posX = (GetSystemMetrics(SM_CXSCREEN) - vpWidth) / 2;
 		posY = (GetSystemMetrics(SM_CYSCREEN) - vpHeight) / 2;
-	}
+	//}
 
 	// Create the window and plug in settings
 	m_hwnd = CreateWindowEx(WS_EX_CLIENTEDGE, m_applicationName, m_applicationName,

@@ -28,7 +28,7 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 	// Assign the Model to a class member unique_ptr
 	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"", *gfx->GetFXFactory()).release());
 
-	m_wings = new DragonflyWings(); // TODO - set position
+	m_wings = new DragonflyWing(); // TODO - set position
 	m_wings->Initialize(gfx);
 
 	m_legs = new DragonflyLegs(); // TODO - Set position
