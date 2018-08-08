@@ -1,10 +1,15 @@
 #include "Dome.h"
 #include "BasicLogger.h"
-
+#include "CullMode.h"
 using namespace DirectX::SimpleMath;
 
 Dome::Dome(void)
 	: GameObject()
+{
+
+}
+
+Dome::Dome(const Dome& other)
 {
 
 }
@@ -51,6 +56,6 @@ void Dome::Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, D
 	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
 	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_transform->GetScale(), Vector4::Zero, rotationMatrix, m_transform->GetPosition()));
 
-	
-	m_dome->Draw(local, view, projection, Vector4(1.0f, 1.0f, 1.0f, 1.0f), nullptr, wireFrame, nullptr);
+	Vector4 color = Vector4(1.0f, 1.0f, 1.0f, 1.0f);
+	m_dome->Draw(local, view, projection, color, nullptr, wireFrame, nullptr);
 }

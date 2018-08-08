@@ -26,7 +26,7 @@ DragonflyLegs::~DragonflyLegs(void)
 
 void DragonflyLegs::Initialize(GraphicsManager* gfx)
 {
-	m_legs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"", *gfx->GetFXFactory()).release());
+	m_legs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFlegs.sdkmesh", *gfx->GetFXFactory()).release());
 }
 
 void DragonflyLegs::Destroy(void)
@@ -34,12 +34,13 @@ void DragonflyLegs::Destroy(void)
 
 }
 
-void DragonflyLegs::Update(TimeManager* time)
+void DragonflyLegs::Update(TimeManager* time, Transform* transf)
 {
-
+	m_transform->SetPosition(transf->GetPosition());
 }
 
-void DragonflyLegs::Render(GraphicsManager* gfx, Matrix* world, Matrix* proj, Matrix* view, bool wireFrame)
+void DragonflyLegs::Render(GraphicsManager* gfx, Matrix world, Matrix proj, Matrix view, bool wireFrame)
 {
 
+	m_legs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, proj, view, wireFrame, nullptr);
 }

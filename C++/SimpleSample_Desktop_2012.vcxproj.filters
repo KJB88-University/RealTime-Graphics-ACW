@@ -115,8 +115,11 @@
     <ClInclude Include="DragonflyLegs.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="DragonflyWing.h">
+    <ClInclude Include="DragonflyWings.h">
       <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CullMode.h">
+      <Filter>Header Files\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -183,7 +186,7 @@
     <ClCompile Include="DragonflyLegs.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="DragonflyWing.cpp">
+    <ClCompile Include="DragonflyWings.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
   </ItemGroup>

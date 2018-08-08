@@ -1,0 +1,7 @@
+#pragma once
+enum CULLMODE
+{
+	CULLFRONT,
+	CULLBACK,
+	CULLNONE
+};

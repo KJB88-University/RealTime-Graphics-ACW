@@ -30,11 +30,11 @@ void CameraManager::Initialize(Vector3 lookAt, int vpWidth, int vpHeight, float 
 	m_farClip = farClip;
 
 	// Set up initial camera
-	Camera* newCam = new Camera();
+	Camera* newCam = new Camera(Vector3(0.0f, -2.0f, -20.0), Vector3(0.0f, 0.0f, 0.0f));
 	newCam->Initialize(lookAt, m_vpWidth, m_vpHeight, m_nearClip, m_farClip);
 	m_cameras.push_back(newCam);
 
-	newCam = new Camera(Vector3(10.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f));
+	newCam = new Camera(Vector3(20.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f));
 	newCam->Initialize(lookAt, m_vpWidth, m_vpHeight, m_nearClip, m_farClip);
 	m_cameras.push_back(newCam);
 }

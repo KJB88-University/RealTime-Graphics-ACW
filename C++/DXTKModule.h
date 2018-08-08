@@ -10,6 +10,9 @@
 #include <CommonStates.h>
 #include <Effects.h>
 
+// ACW Includes
+#include "CullMode.h"
+
 class DXTKModule
 {
 
@@ -37,6 +40,9 @@ public:
 
 	// Return a ptr to the Basic Effect
 	DirectX::BasicEffect* GetBasicEffect(void) const;
+
+	// Change culling mode
+	void SetCullMode(CULLMODE mode);
 
 	void ClearScreen(float r, float g, float b, float a) const;
 

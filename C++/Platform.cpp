@@ -11,6 +11,11 @@ Platform::Platform(void)
 
 }
 
+Platform::Platform(const Platform& other)
+{
+
+}
+
 Platform::Platform(Vector3 position, Vector3 rotation, Vector3 scale)
 	: GameObject(position, rotation, scale)
 {

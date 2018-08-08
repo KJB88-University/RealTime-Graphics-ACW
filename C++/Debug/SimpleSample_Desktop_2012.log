@@ -1,4 +1,4 @@
-﻿  Tiny.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\tiny.cpp(29): warning C4100: 'time': unreferenced formal parameter
+﻿  Dragonfly.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(16): warning C4100: 'other': unreferenced formal parameter
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.exe
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.pdb (Full PDB)

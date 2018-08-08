@@ -1,10 +1,10 @@
-
 // DXTK Includes
 #include <VertexTypes.h>
 
 // ACW Includes
 #include "DXTKModule.h"
 #include "BasicLogger.h"
+#include "CullMode.h"
 
 DXTKModule::DXTKModule(void)
 	:m_featureLevel(D3D_FEATURE_LEVEL_11_0), m_driverType(D3D_DRIVER_TYPE_HARDWARE)
@@ -227,6 +227,42 @@ void DXTKModule::InitializeDXTKResources(void)
 	}
 }
 
+void DXTKModule::SetCullMode(CULLMODE mode)
+{
+	// Vars
+	D3D11_RASTERIZER_DESC rd;
+	ID3D11RasterizerState* rs;
+
+	// Get Rasterizer State
+	m_deviceContext->RSGetState(&rs);
+
+	// Pull out the descripto for the state
+	rs->GetDesc(&rd);
+
+	// Decide how our culling works
+	switch (mode)
+	{
+	case CULLBACK:
+		rd.CullMode = D3D11_CULL_BACK;
+		break;
+	case CULLFRONT:
+		rd.CullMode = D3D11_CULL_FRONT;
+		break;
+	case CULLNONE:
+		rd.CullMode = D3D11_CULL_NONE;
+		break;
+
+	default:
+		break;
+	}
+
+	// Create a new state from the descriptor
+	m_device->CreateRasterizerState(&rd, &rs);
+
+	// Set the state to active
+	m_deviceContext->RSSetState(rs);
+}
+
 void DXTKModule::ClearScreen(float r, float g, float b, float a) const
 {
 	float colors[4];
@@ -239,7 +275,7 @@ void DXTKModule::ClearScreen(float r, float g, float b, float a) const
 	m_deviceContext->ClearRenderTargetView(m_renderTargetView, colors);
 
 	// Clear the depth buffer to 1.0 (max depth)
-	m_deviceContext->ClearDepthStencilView(m_depthStencilView, D3D11_CLEAR_DEPTH, 1.0f, 0);
+	m_deviceContext->ClearDepthStencilView(m_depthStencilView, D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0);
 }
 
 void DXTKModule::Present(void) const

@@ -2,14 +2,14 @@
 #include "DXTKModule.h"
 #include <d3d11.h>
 #include <SimpleMath.h>
-
+#include "CullMode.h"
 class GraphicsManager
 {
 public:
 
-
 	GraphicsManager(void);
 	~GraphicsManager(void);
+
 
 	void Initialize(int vpWidth, int vpHeight, HWND hwnd);
 	void Destroy(void);
@@ -29,6 +29,9 @@ public:
 
 	// Return a ptr to the Basic Effect
 	DirectX::BasicEffect* GetBasicEffect(void) const;
+
+	// Change culling mode
+	void SetCullMode(CULLMODE mode);
 
 	// Matrix Getters
 	DirectX::SimpleMath::Matrix* GetProjectionMatrix(void);

@@ -57,6 +57,11 @@ DirectX::BasicEffect* GraphicsManager::GetBasicEffect(void) const
 	return m_gfx->GetBasicEffect();
 }
 
+void GraphicsManager::SetCullMode(CULLMODE mode)
+{
+	m_gfx->SetCullMode(mode);
+}
+
 Matrix* GraphicsManager::GetProjectionMatrix(void)
 {
 	return &m_projection;

@@ -20,11 +20,10 @@ public:
 	~DragonflyLegs(void);
 
 	virtual void Initialize(GraphicsManager* gfx) override;
-	// Inherited via GameObject
 	virtual void Destroy(void) override;
 
-	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix* world, DirectX::SimpleMath::Matrix* proj, DirectX::SimpleMath::Matrix* view, bool wireFrame);
+	void Update(TimeManager* time, Transform* transf);
+	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix world, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);
 
 private:
 

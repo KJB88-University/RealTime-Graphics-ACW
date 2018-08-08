@@ -26,9 +26,9 @@ Dragonfly::~Dragonfly(void)
 void Dragonfly::Initialize(GraphicsManager* gfx)
 {
 	// Assign the Model to a class member unique_ptr
-	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"", *gfx->GetFXFactory()).release());
+	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
 
-	m_wings = new DragonflyWing(); // TODO - set position
+	m_wings = new DragonflyWings(L"DFleftwing.sdkmesh", L"DFrightwing.sdkmesh"); // TODO - set position
 	m_wings->Initialize(gfx);
 
 	m_legs = new DragonflyLegs(); // TODO - Set position
@@ -53,17 +53,23 @@ void Dragonfly::Destroy(void)
 
 void Dragonfly::Update(TimeManager* time)
 {
-
+	m_legs->Update(time, m_transform);
+	m_wings->Update(time, m_transform);
 }
 
-void Dragonfly::Render(GraphicsManager* gfx, Matrix* world, Matrix* proj, Matrix* view, bool wireFrame)
+void Dragonfly::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wireFrame)
 {
+	m_legs->Render(gfx, Matrix::Identity, proj, view, wireFrame);
+	m_wings->Render(gfx, Matrix::Identity, proj, view, wireFrame);
+
 	Vector4 qid = DirectX::XMQuaternionIdentity();
 	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(m_transform->GetRotation().x, m_transform->GetRotation().y, m_transform->GetRotation().z);
 
+	Matrix world = Matrix::Identity;
+
 	Matrix local = DirectX::XMMatrixMultiply
 	(
-		*world,
+		world,
 		XMMatrixTransformation
 		(
 			Vector4::Zero,
@@ -75,8 +81,14 @@ void Dragonfly::Render(GraphicsManager* gfx, Matrix* world, Matrix* proj, Matrix
 		)
 	);
 
-	// END DEBUG
 
 	// Draw the model
-	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, *view, *proj, wireFrame, nullptr);
+	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, proj, wireFrame, [&]
+	{
+		gfx->GetCommonStates()->Opaque();
+		gfx->GetCommonStates()->DepthDefault();
+	}
+	);
+
+
 }
