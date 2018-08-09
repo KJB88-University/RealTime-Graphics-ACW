@@ -30,9 +30,13 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 
 	m_wings = new DragonflyWings(L"DFleftwing.sdkmesh", L"DFrightwing.sdkmesh"); // TODO - set position
 	m_wings->Initialize(gfx);
+	m_wings->GetTransform()->SetPosition(m_transform->GetPosition());
+	m_wings->GetTransform()->SetScale(Vector3(5.0f, 5.0f, 5.0f));
 
 	m_legs = new DragonflyLegs(); // TODO - Set position
 	m_legs->Initialize(gfx);
+	m_legs->GetTransform()->SetPosition(m_transform->GetPosition());
+	m_legs->GetTransform()->SetScale(Vector3(5.0f, 5.0f, 5.0f));
 
 
 }
@@ -59,8 +63,7 @@ void Dragonfly::Update(TimeManager* time)
 
 void Dragonfly::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wireFrame)
 {
-	m_legs->Render(gfx, Matrix::Identity, proj, view, wireFrame);
-	m_wings->Render(gfx, Matrix::Identity, proj, view, wireFrame);
+
 
 	Vector4 qid = DirectX::XMQuaternionIdentity();
 	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(m_transform->GetRotation().x, m_transform->GetRotation().y, m_transform->GetRotation().z);
@@ -83,12 +86,10 @@ void Dragonfly::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wire
 
 
 	// Draw the model
-	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, proj, wireFrame, [&]
-	{
-		gfx->GetCommonStates()->Opaque();
-		gfx->GetCommonStates()->DepthDefault();
-	}
-	);
+	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, proj, wireFrame, nullptr);
+
+	m_legs->Render(gfx, local, proj, view, wireFrame);
+	m_wings->Render(gfx, local, proj, view, wireFrame);
 
 
 }

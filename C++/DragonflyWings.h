@@ -20,6 +20,7 @@ public:
 
 	virtual void Initialize(GraphicsManager* gfx) override;
 	virtual void Destroy(void) override;
+	virtual Transform* GetTransform(void) override;
 
 	void Update(TimeManager* time, Transform* transform);
 	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix world, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);

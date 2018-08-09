@@ -24,6 +24,11 @@ DragonflyWings::~DragonflyWings(void)
 
 }
 
+Transform* DragonflyWings::GetTransform(void)
+{
+	return m_transform;
+}
+
 void DragonflyWings::Initialize(GraphicsManager* gfx)
 {
 	m_left.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFleftwing.sdkmesh", *gfx->GetFXFactory()).release());

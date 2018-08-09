@@ -34,6 +34,11 @@ void DragonflyLegs::Destroy(void)
 
 }
 
+Transform* DragonflyLegs::GetTransform(void)
+{
+	return m_transform;
+}
+
 void DragonflyLegs::Update(TimeManager* time, Transform* transf)
 {
 	m_transform->SetPosition(transf->GetPosition());
