@@ -45,17 +45,21 @@ void Dragonfly::Destroy(void)
 void Dragonfly::Update(TimeManager* time)
 {
 	//m_world *= Matrix::CreateRotationZ(time->GetDeltaTime() * 2.0f);
+	//m_transform->SetRotation(0.0f, 1.0f, 0.0f);
 }
 
-void Dragonfly::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wireFrame)
+void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix proj, Matrix view, bool wireFrame)
 {
-	m_world = Matrix::CreateTranslation(m_transform->GetPosition());
+	//m_world = Matrix::CreateTranslation(m_transform->GetPosition());
 
 	// Draw the model
 	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
 	m_legs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
 
-	m_world = Matrix::CreateTranslation(m_transform->GetPosition() * 1.25f);
+	float t = time->GetDeltaTime() * 100.0f;
+	m_world = Matrix::CreateRotationY(t);
 	m_leftWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
+
+
 	m_rightWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
 }
