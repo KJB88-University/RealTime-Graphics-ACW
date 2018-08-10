@@ -27,18 +27,12 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 {
 	// Assign the Model to a class member unique_ptr
 	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
+	//m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"Dragonfly.sdkmesh", *gfx->GetFXFactory()).release());
 
-	m_wings = new DragonflyWings(L"DFleftwing.sdkmesh", L"DFrightwing.sdkmesh"); // TODO - set position
-	m_wings->Initialize(gfx);
-	m_wings->GetTransform()->SetPosition(m_transform->GetPosition());
-	m_wings->GetTransform()->SetScale(Vector3(5.0f, 5.0f, 5.0f));
+	m_legs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFlegs.sdkmesh", *gfx->GetFXFactory()).release());
 
-	m_legs = new DragonflyLegs(); // TODO - Set position
-	m_legs->Initialize(gfx);
-	m_legs->GetTransform()->SetPosition(m_transform->GetPosition());
-	m_legs->GetTransform()->SetScale(Vector3(5.0f, 5.0f, 5.0f));
-
-
+	m_leftWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedLeft.sdkmesh", *gfx->GetFXFactory()).release());
+	m_rightWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedRight.sdkmesh", *gfx->GetFXFactory()).release());
 }
 
 void Dragonfly::Destroy(void)
@@ -46,50 +40,22 @@ void Dragonfly::Destroy(void)
 	m_body.release();
 	m_body = nullptr;
 
-	m_legs->Destroy();
-	delete m_legs;
-	m_legs = nullptr;
-
-	m_wings->Destroy();
-	delete m_wings;
-	m_wings = nullptr;
 }
 
 void Dragonfly::Update(TimeManager* time)
 {
-	m_legs->Update(time, m_transform);
-	m_wings->Update(time, m_transform);
+	//m_world *= Matrix::CreateRotationZ(time->GetDeltaTime() * 2.0f);
 }
 
 void Dragonfly::Render(GraphicsManager* gfx, Matrix proj, Matrix view, bool wireFrame)
 {
-
-
-	Vector4 qid = DirectX::XMQuaternionIdentity();
-	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(m_transform->GetRotation().x, m_transform->GetRotation().y, m_transform->GetRotation().z);
-
-	Matrix world = Matrix::Identity;
-
-	Matrix local = DirectX::XMMatrixMultiply
-	(
-		world,
-		XMMatrixTransformation
-		(
-			Vector4::Zero,
-			Quaternion::Identity, 
-			m_transform->GetScale(),
-			Vector4::Zero,
-			rotationMatrix,
-			m_transform->GetPosition()
-		)
-	);
-
+	m_world = Matrix::CreateTranslation(m_transform->GetPosition());
 
 	// Draw the model
-	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), local, view, proj, wireFrame, nullptr);
+	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
+	m_legs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
 
-	m_legs->Render(gfx, local, proj, view, wireFrame);
-	m_wings->Render(gfx, local, proj, view, wireFrame);
-
-
+	m_world = Matrix::CreateTranslation(m_transform->GetPosition() * 1.25f);
+	m_leftWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
+	m_rightWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
 }

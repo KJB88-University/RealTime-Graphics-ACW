@@ -122,7 +122,6 @@ void Camera::Render(GraphicsManager* gm)
 {
 	m_view = Matrix::CreateFromYawPitchRoll(m_transform.GetRotation().y, m_transform.GetRotation().x, 0.0f) * Matrix::CreateTranslation(m_transform.GetPosition());
 	gm->GetBasicEffect()->SetView(m_view);
-
 }
 
 

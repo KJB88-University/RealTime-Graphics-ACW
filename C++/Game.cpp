@@ -120,9 +120,7 @@ void Game::Destroy(void)
 }
 
 void Game::Update(void)
-
 {	
-	
 	// CAMERA SWAPPING
 	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F1))
 	{
@@ -174,7 +172,6 @@ void Game::Render(void)
 	//m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	//m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	m_dragonfly->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-
 	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
 	//END

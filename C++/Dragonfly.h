@@ -30,11 +30,10 @@ public:
 
 private:
 
+	DirectX::SimpleMath::Matrix m_world;
+
 	std::unique_ptr<DirectX::Model> m_body;
-
-	// Wings
-	DragonflyWings* m_wings;
-
-	// Legs
-	DragonflyLegs* m_legs;
+	std::unique_ptr<DirectX::Model> m_leftWing;
+	std::unique_ptr<DirectX::Model> m_rightWing;
+	std::unique_ptr<DirectX::Model> m_legs;
 };

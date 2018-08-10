@@ -56,6 +56,9 @@
     <Filter Include="Source Files\Components">
       <UniqueIdentifier>{87a9aa3d-93e9-4b89-9081-e15816337964}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{3e61384a-f6ad-4f15-892b-48d67c73c818}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -193,6 +196,9 @@
   <ItemGroup>
     <None Include="Bloom.hlsli">
       <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="DFbody.sdkmesh">
+      <Filter>Resource Files\Models</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
