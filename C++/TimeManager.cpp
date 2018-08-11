@@ -32,13 +32,16 @@ void TimeManager::Destroy(void)
 
 void TimeManager::Update(void)
 {
+	// Update StepTimer
 	m_timer.Tick([&]()
 	{
-		float delta = float(m_timer.GetElapsedSeconds());
+		m_deltaTime = StepTimer::TicksToSeconds(m_timer.GetElapsedTicks());
+		m_elapsedTime = m_timer.GetElapsedSeconds();
 	});
 
-	//static uint64_t dwTimeStart = 0;
-	//static uint64_t dwTimeLast = 0;
+
+	//uint64_t dwTimeStart = 0;
+	//uint64_t dwTimeLast = 0;
 	//uint64_t dwTimeCur = GetTickCount64();
 	//if (dwTimeStart == 0)
 	//	dwTimeStart = dwTimeCur;
@@ -49,18 +52,19 @@ void TimeManager::Update(void)
 
 float TimeManager::GetDeltaTime(void)
 {
-	return m_timer.GetElapsedSeconds();
+	return m_deltaTime;
 }
 
-float TimeManager::GetFramesPerSecond(void)
-{
-	return m_timer.GetFramesPerSecond();
-}
-
+//float TimeManager::GetFramesPerSecond(void)
+//{
+//	return m_timer.GetFramesPerSecond();
+//}
+//
 float TimeManager::GetTotalElapsedTime(void)
 {
 	return m_timer.GetTotalSeconds();
 }
+
 /*
 float TimeManager::GetTotalElapsedTime(void)
 {

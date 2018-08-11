@@ -45,20 +45,19 @@ void Camera::Update(InputManager* input, TimeManager* time)
 	m_vel = Vector3::Zero;
 	m_angle = Vector3::Zero;
 
-	
 	// Panning
 	if (input->IsKeyHeld(DirectX::Keyboard::Keys::LeftControl))
 	{
 		// Pan Forward
 		if (input->IsKeyHeld(DirectX::Keyboard::Keys::W))
 		{
-			m_vel.z += +m_moveSpeed * time->GetDeltaTime();
+			m_vel.z += m_moveSpeed * time->GetDeltaTime();
 		}
 		 
 		// Pan Backwards
 		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::S))
 		{
-			m_vel.z += -m_moveSpeed * time->GetDeltaTime();
+			m_vel.z -= m_moveSpeed * time->GetDeltaTime();
 		}
 
 		// Pan Left
@@ -70,17 +69,17 @@ void Camera::Update(InputManager* input, TimeManager* time)
 		// Pan Right
 		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::D))
 		{
-			m_vel.x += -m_moveSpeed * time->GetDeltaTime();
+			m_vel.x -= m_moveSpeed * time->GetDeltaTime();
 		}
 
 		if (input->IsKeyHeld(DirectX::Keyboard::Keys::PageUp))
 		{
-			m_vel.y += -m_moveSpeed * time->GetDeltaTime();
+			m_vel.y -= m_moveSpeed * time->GetDeltaTime();
 		}
 
 		else if (input->IsKeyHeld(DirectX::Keyboard::Keys::PageDown))
 		{
-			m_vel.y += +m_moveSpeed * time->GetDeltaTime();
+			m_vel.y += m_moveSpeed * time->GetDeltaTime();
 		}
 
 	}
@@ -91,7 +90,7 @@ void Camera::Update(InputManager* input, TimeManager* time)
 		// Rotate Down
 		if (input->IsKeyHeld(DirectX::Keyboard::Keys::W))
 		{
-			m_angle.x += -m_rotateSpeed * time->GetDeltaTime();
+			m_angle.x -= m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Up
@@ -103,7 +102,7 @@ void Camera::Update(InputManager* input, TimeManager* time)
 		// Rotate Left
 		if (input->IsKeyHeld(DirectX::Keyboard::Keys::A))
 		{
-			m_angle.y += -m_rotateSpeed * time->GetDeltaTime();
+			m_angle.y -= m_rotateSpeed * time->GetDeltaTime();
 		}
 
 		// Rotate Right

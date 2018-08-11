@@ -31,8 +31,8 @@ public:
 private:
 
 	// Movement Modifiers
-	float m_moveSpeed = 2.0f;
-	float m_rotateSpeed = 0.35f;
+	const float m_moveSpeed = 5.0f;
+	const float m_rotateSpeed = .75f;
 
 	// Delta values
 	DirectX::SimpleMath::Vector3 m_vel;

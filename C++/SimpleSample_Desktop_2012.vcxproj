@@ -377,6 +377,7 @@
     <ClInclude Include="TimeManager.h" />
     <ClInclude Include="Tiny.h" />
     <ClInclude Include="Transform.h" />
+    <ClInclude Include="Twig.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
@@ -413,6 +414,7 @@
     </ClCompile>
     <ClCompile Include="Tiny.cpp" />
     <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Twig.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>

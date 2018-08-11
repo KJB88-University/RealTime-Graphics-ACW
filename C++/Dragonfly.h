@@ -26,14 +26,14 @@ public:
 	virtual void Destroy(void) override;
 
 	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx, TimeManager* time, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);
+	void Render(GraphicsManager* gfx, TimeManager* time, DirectX::SimpleMath::Matrix world, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);
 
 private:
-
-	DirectX::SimpleMath::Matrix m_world;
 
 	std::unique_ptr<DirectX::Model> m_body;
 	std::unique_ptr<DirectX::Model> m_leftWing;
 	std::unique_ptr<DirectX::Model> m_rightWing;
-	std::unique_ptr<DirectX::Model> m_legs;
+	std::unique_ptr<DirectX::Model> m_frontLegs;
+	std::unique_ptr<DirectX::Model> m_midLegs;
+	std::unique_ptr<DirectX::Model> m_backLegs;
 };

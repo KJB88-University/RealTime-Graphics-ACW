@@ -64,17 +64,17 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	//BasicLogger::WriteToConsole("GAME: Tiny initialized.\n");
 	
 	// Platform (Ground)
-	m_platform = new Platform(Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(20.0f, 4.0f, 20.0f));
+	m_platform = new Platform(Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.0f, 4.0f, 50.0f));
 	m_platform->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Platform initialized.\n");
 
 	// Dome (Hemisphere)
-	m_dome = new Dome(Vector3(0.0f, -2.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(20.0f, 20.0f, 20.0f));
+	m_dome = new Dome(Vector3(0.0f, -5.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.75f, 50.75f, 50.75f));
 	m_dome->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Dome initialized.\n");
 
 	// Dragonfly
-	m_dragonfly = new Dragonfly(Vector3(0.0f, 5.0f, -5.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
+	m_dragonfly = new Dragonfly(Vector3(0.0f, 2.0f, -5.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
 	m_dragonfly->Initialize(m_gfx);
 	BasicLogger::WriteToConsole("GAME: Dragonfly initialized.\n");
 }
@@ -169,9 +169,9 @@ void Game::Render(void)
 	// Draw objects
 	// START
 	
-	//m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-	//m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-	m_dragonfly->Render(m_gfx, m_time, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_dragonfly->Render(m_gfx, m_time, *m_gfx->GetWorldMatrix(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
 	//END

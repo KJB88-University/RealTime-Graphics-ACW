@@ -26,9 +26,9 @@ private:
 	DirectX::StepTimer m_timer;
 
 	// Time since last frame
-	//float m_deltaTime;
+	float m_deltaTime;
 
 	// Total time Game has been running
-	//float m_elapsedTime;
+	float m_elapsedTime;
 
 };

@@ -29,7 +29,9 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
 	//m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"Dragonfly.sdkmesh", *gfx->GetFXFactory()).release());
 
-	m_legs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFlegs.sdkmesh", *gfx->GetFXFactory()).release());
+	m_frontLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFfrontlegs.sdkmesh", *gfx->GetFXFactory()).release());
+	m_midLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFmiddlelegs.sdkmesh", *gfx->GetFXFactory()).release());
+	m_backLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbacklegs.sdkmesh", *gfx->GetFXFactory()).release());
 
 	m_leftWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedLeft.sdkmesh", *gfx->GetFXFactory()).release());
 	m_rightWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedRight.sdkmesh", *gfx->GetFXFactory()).release());
@@ -48,18 +50,38 @@ void Dragonfly::Update(TimeManager* time)
 	//m_transform->SetRotation(0.0f, 1.0f, 0.0f);
 }
 
-void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix proj, Matrix view, bool wireFrame)
+void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Matrix proj, Matrix view, bool wireFrame)
 {
-	//m_world = Matrix::CreateTranslation(m_transform->GetPosition());
+	world = Matrix::CreateTranslation(m_transform->GetPosition());
 
-	// Draw the model
-	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
-	m_legs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
+	// Draw body
+	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 
-	float t = time->GetDeltaTime() * 100.0f;
-	m_world = Matrix::CreateRotationY(t);
-	m_leftWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
+	// Draw legs
+	world = Matrix::CreateTranslation
+	(
+		Vector3
+		(
+			m_transform->GetPosition().x,
+			m_transform->GetPosition().y - 0.25f,
+			m_transform->GetPosition().z + 0.75f
+		)
+	);
 
+	m_frontLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
+	m_midLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
+	m_backLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 
-	m_rightWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), m_world, view, proj, wireFrame, nullptr);
+	// Wrap in animation conditional
+	Matrix worldLeft;
+
+	// Draw left wing
+	float t = time->GetTotalElapsedTime();
+	worldLeft = Matrix::CreateRotationZ(sin(t)) * Matrix::CreateTranslation(m_transform->GetPosition());
+	m_leftWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), worldLeft, view, proj, wireFrame, nullptr);
+
+	// Draw right wing
+	Matrix worldRight;
+	worldRight = Matrix::CreateRotationZ(-sin(t)) * Matrix::CreateTranslation(m_transform->GetPosition());
+	m_rightWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), worldRight, view, proj, wireFrame, nullptr);
 }
