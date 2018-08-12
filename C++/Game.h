@@ -16,6 +16,7 @@
 #include "Platform.h"
 #include "Dome.h"
 #include "Dragonfly.h"
+#include "Twig.h"
 
 
 class Game
@@ -42,6 +43,7 @@ private:
 	Platform* m_platform;
 	Dome* m_dome;
 	Dragonfly* m_dragonfly;
+	Twig* m_twig;
 
 	// Main Camera
 	Camera* m_mainCamera;

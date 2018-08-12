@@ -56,7 +56,7 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	//m_mainCamera = new Camera(Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, -1.0f));
 	//m_mainCamera->Initialize(Vector3(0.0f, 0.0f, -10.0f), vpWidth, vpHeight, 0.01f, 1000.0f);
 	m_mainCamera = m_camMgr->GetMainCamera();
-	BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
+	//BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
 
 	// DEBUG Tiny
 	//m_tiny = new Tiny();
@@ -64,19 +64,26 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	//BasicLogger::WriteToConsole("GAME: Tiny initialized.\n");
 	
 	// Platform (Ground)
-	m_platform = new Platform(Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.0f, 4.0f, 50.0f));
+	m_platform = new Platform(Vector3(0.0f, -0.5f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.0f, 15.0f, 50.0f));
 	m_platform->Initialize(m_gfx);
-	BasicLogger::WriteToConsole("GAME: Platform initialized.\n");
+	//BasicLogger::WriteToConsole("GAME: Platform initialized.\n");
 
 	// Dome (Hemisphere)
 	m_dome = new Dome(Vector3(0.0f, -5.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.75f, 50.75f, 50.75f));
 	m_dome->Initialize(m_gfx);
-	BasicLogger::WriteToConsole("GAME: Dome initialized.\n");
+	//BasicLogger::WriteToConsole("GAME: Dome initialized.\n");
 
 	// Dragonfly
-	m_dragonfly = new Dragonfly(Vector3(0.0f, 2.0f, -5.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
+	m_dragonfly = new Dragonfly(Vector3(0.0f, 2.25f, -5.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(1.0f, 1.0f, 1.0f));
 	m_dragonfly->Initialize(m_gfx);
-	BasicLogger::WriteToConsole("GAME: Dragonfly initialized.\n");
+	//BasicLogger::WriteToConsole("GAME: Dragonfly initialized.\n");
+
+	// Twig
+	m_twig = new Twig(Vector3(0.0f, 0.25f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(3.0f, 20.0f, 3.0f));
+	m_twig->Initialize(m_gfx);
+	//BasicLogger::WriteToConsole("GAME: Twig initialized.\n");
+
+	BasicLogger::WriteToConsole("GAME: Scene objects loaded.\n");
 }
 
 void Game::Destroy(void)
@@ -101,6 +108,16 @@ void Game::Destroy(void)
 	m_dome->Destroy();
 	delete m_dome;
 	m_dome = nullptr;
+
+	// Dragonfly
+	m_dragonfly->Destroy();
+	delete m_dragonfly;
+	m_dragonfly = nullptr;
+
+	// Twig
+	m_twig->Destroy();
+	delete m_twig;
+	m_twig = nullptr;
 
 	// DESTROY MANAGERS
 	// Time
@@ -148,6 +165,11 @@ void Game::Update(void)
 		m_wireFrameMode = !m_wireFrameMode;
 	}
 	
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F6))
+	{
+		m_dragonfly->ToggleAnimation();
+	}
+
 	// Update Objects
 	m_mainCamera->Update(m_input, m_time);
 
@@ -161,7 +183,7 @@ void Game::Update(void)
 void Game::Render(void)
 {
 	// Clear Screen
-	m_gfx->ClearScreen(0.5f, 0.5f, 0.5f, 1.0f);
+	m_gfx->ClearScreen(0.0f, 0.0f, 0.0f, 1.0f);
 
 	// Render the view via the camera
 	m_mainCamera->Render(m_gfx);
@@ -171,6 +193,8 @@ void Game::Render(void)
 	
 	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_twig->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+
 	m_dragonfly->Render(m_gfx, m_time, *m_gfx->GetWorldMatrix(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	//m_tiny->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 

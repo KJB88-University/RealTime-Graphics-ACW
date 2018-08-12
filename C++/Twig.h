@@ -21,7 +21,7 @@ public:
 	virtual void Destroy(void) override;
 
 	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx, DirectX::Matrix view, DirectX::Matrix proj, bool wireFrame);
+	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view,  bool wireFrame);
 
 private:
 

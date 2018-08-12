@@ -49,13 +49,13 @@ void Dome::Update(TimeManager* time)
 
 }
 
-void Dome::Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame)
+void Dome::Render(GraphicsManager* gm, Matrix projection, Matrix view, bool wireFrame)
 {
 	Vector3 transfRotation = m_transform->GetRotation();
 
 	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
 	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_transform->GetScale(), Vector4::Zero, rotationMatrix, m_transform->GetPosition()));
 
-	Vector4 color = Vector4(1.0f, 1.0f, 1.0f, 1.0f);
+	Vector4 color = Vector4(1.0f, 1.0f, 1.0f, .5f);
 	m_dome->Draw(local, view, projection, color, nullptr, wireFrame, nullptr);
 }

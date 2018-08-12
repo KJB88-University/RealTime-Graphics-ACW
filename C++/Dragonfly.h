@@ -28,7 +28,12 @@ public:
 	void Update(TimeManager* time);
 	void Render(GraphicsManager* gfx, TimeManager* time, DirectX::SimpleMath::Matrix world, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);
 
+	void ToggleAnimation(void);
+
 private:
+
+	bool playAnimation = false;
+	bool upperLimit = false;
 
 	std::unique_ptr<DirectX::Model> m_body;
 	std::unique_ptr<DirectX::Model> m_leftWing;

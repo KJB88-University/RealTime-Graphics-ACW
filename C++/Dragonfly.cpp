@@ -14,6 +14,7 @@ Dragonfly::Dragonfly(Vector3 position, Vector3 rotation, Vector3 scale)
 }
 
 Dragonfly::Dragonfly(const Dragonfly& other)
+	: GameObject()
 {
 
 }
@@ -29,10 +30,12 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
 	//m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"Dragonfly.sdkmesh", *gfx->GetFXFactory()).release());
 
+	// Legs
 	m_frontLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFfrontlegs.sdkmesh", *gfx->GetFXFactory()).release());
 	m_midLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFmiddlelegs.sdkmesh", *gfx->GetFXFactory()).release());
 	m_backLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbacklegs.sdkmesh", *gfx->GetFXFactory()).release());
 
+	// Wings
 	m_leftWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedLeft.sdkmesh", *gfx->GetFXFactory()).release());
 	m_rightWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedRight.sdkmesh", *gfx->GetFXFactory()).release());
 }
@@ -42,12 +45,64 @@ void Dragonfly::Destroy(void)
 	m_body.release();
 	m_body = nullptr;
 
+	m_frontLegs.release();
+	m_frontLegs = nullptr;
+
+	m_midLegs.release();
+	m_midLegs = nullptr;
+
+	m_backLegs.release();
+	m_backLegs = nullptr;
+
+	m_leftWing.release();
+	m_leftWing = nullptr;
+
+	m_rightWing.release();
+	m_rightWing = nullptr;
+
 }
 
 void Dragonfly::Update(TimeManager* time)
 {
 	//m_world *= Matrix::CreateRotationZ(time->GetDeltaTime() * 2.0f);
 	//m_transform->SetRotation(0.0f, 1.0f, 0.0f);
+
+	if (playAnimation)
+	{
+		if (m_transform->GetPosition().y >= 10.0f)
+		{
+			upperLimit = true;
+		}
+		else if (m_transform->GetPosition().y < 2.25f)
+		{
+			playAnimation = false;
+			upperLimit = false;
+		}
+		// Flying up
+		if (!upperLimit)
+		{
+			Vector3 pos = m_transform->GetPosition();
+			pos += Vector3(0.0f, 1.0f * time->GetDeltaTime(), 0.0f);
+			m_transform->SetPosition(pos);
+		}
+		
+		// Flying down
+		else
+		{
+			Vector3 pos = m_transform->GetPosition();
+			pos += Vector3(0.0f, -1.0f * time->GetDeltaTime(), 0.0f);
+			m_transform->SetPosition(pos);
+		}
+
+	}
+}
+
+void Dragonfly::ToggleAnimation(void)
+{
+	if (!playAnimation)
+	{
+		playAnimation = !playAnimation;
+	}
 }
 
 void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Matrix proj, Matrix view, bool wireFrame)
@@ -73,15 +128,21 @@ void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Ma
 	m_backLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 
 	// Wrap in animation conditional
-	Matrix worldLeft;
+	Matrix worldLeft = Matrix::CreateTranslation(m_transform->GetPosition());
+	Matrix worldRight = Matrix::CreateTranslation(m_transform->GetPosition());
 
-	// Draw left wing
-	float t = time->GetTotalElapsedTime();
-	worldLeft = Matrix::CreateRotationZ(sin(t)) * Matrix::CreateTranslation(m_transform->GetPosition());
+	if (playAnimation)
+	{
+		// Draw left wing
+		float t = time->GetTotalElapsedTime();
+		worldLeft = Matrix::CreateRotationZ(sin(t * 20.0f)) * Matrix::CreateTranslation(m_transform->GetPosition());
+
+		// Draw right wing
+		worldRight = Matrix::CreateRotationZ(-sin(t * 20.0f)) * Matrix::CreateTranslation(m_transform->GetPosition());
+
+	}
+
 	m_leftWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), worldLeft, view, proj, wireFrame, nullptr);
-
-	// Draw right wing
-	Matrix worldRight;
-	worldRight = Matrix::CreateRotationZ(-sin(t)) * Matrix::CreateTranslation(m_transform->GetPosition());
 	m_rightWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), worldRight, view, proj, wireFrame, nullptr);
+
 }

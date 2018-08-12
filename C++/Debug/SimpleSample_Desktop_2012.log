@@ -1,18 +1,9 @@
 ﻿  Dragonfly.cpp
 c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(16): warning C4100: 'other': unreferenced formal parameter
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(47): warning C4100: 'time': unreferenced formal parameter
-  Platform.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\platform.cpp(14): warning C4100: 'other': unreferenced formal parameter
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\platform.cpp(49): warning C4100: 'time': unreferenced formal parameter
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\platform.cpp(54): warning C4100: 'gm': unreferenced formal parameter
-  Twig.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.h(24): error C2061: syntax error: identifier 'Matrix'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(45): error C2511: 'void Twig::Render(GraphicsManager *,DirectX::SimpleMath::Matrix,DirectX::SimpleMath::Matrix,bool)': overloaded member function not found in 'Twig'
-  c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.h(12): note: see declaration of 'Twig'
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(46): error C2227: left of '->GetRotation' must point to class/struct/union/generic type
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(49): error C2227: left of '->GetScale' must point to class/struct/union/generic type
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(49): error C2227: left of '->GetPosition' must point to class/struct/union/generic type
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(49): error C2660: 'DirectX::XMMatrixTransformation': function does not take 4 arguments
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(49): error C2660: 'DirectX::XMMatrixMultiply': function does not take 1 arguments
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(51): error C2227: left of '->Draw' must point to class/struct/union/generic type
+  Game.cpp
+  Window.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(117): warning C4101: 'dmScreenSettings': unreferenced local variable
   Generating Code...
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(249): warning C4715: 'WndProc': not all control paths return a value
+  SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.exe
+  SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.pdb (Full PDB)
