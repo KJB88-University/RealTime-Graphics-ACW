@@ -9,7 +9,7 @@
 // ACW Includes
 #include "GameObject.h"
 
-class Twig : GameObject
+class Twig : public GameObject
 {
 public:
 	Twig(void);

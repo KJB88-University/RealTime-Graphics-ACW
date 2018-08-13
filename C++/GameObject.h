@@ -18,6 +18,7 @@ public:
 
 	virtual void Initialize(GraphicsManager* gfx) = 0;
 	virtual void Destroy(void) = 0;
+	virtual void Reset(void);
 
 	virtual Transform* GetTransform(void);
 

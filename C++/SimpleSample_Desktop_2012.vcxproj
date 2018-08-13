@@ -363,8 +363,6 @@
     <ClInclude Include="CullMode.h" />
     <ClInclude Include="Dome.h" />
     <ClInclude Include="Dragonfly.h" />
-    <ClInclude Include="DragonflyLegs.h" />
-    <ClInclude Include="DragonflyWings.h" />
     <ClInclude Include="DXTKModule.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
@@ -391,8 +389,6 @@
     <ClCompile Include="CameraManager.cpp" />
     <ClCompile Include="Dome.cpp" />
     <ClCompile Include="Dragonfly.cpp" />
-    <ClCompile Include="DragonflyLegs.cpp" />
-    <ClCompile Include="DragonflyWings.cpp" />
     <ClCompile Include="DXTKModule.cpp" />
     <ClCompile Include="Game.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
@@ -424,7 +420,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Bloom.hlsli" />
+    <None Include="DFbacklegs.sdkmesh" />
     <None Include="DFbody.sdkmesh" />
+    <None Include="DFdoubleFixedLeft.sdkmesh" />
+    <None Include="DFdoubleFixedRight.sdkmesh" />
+    <None Include="DFfrontlegs.sdkmesh" />
+    <None Include="DFmiddlelegs.sdkmesh" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="BloomCombine.hlsl">

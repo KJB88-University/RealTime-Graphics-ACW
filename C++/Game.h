@@ -31,6 +31,8 @@ public:
 	void Update(void);
 	void Render(void);
 	
+	void ResetGame(void);
+
 	// DEBUG
 	//void PostProcess(void);
 private:

@@ -12,7 +12,7 @@
 #include "TimeManager.h"
 #include "GameObject.h"
 
-class Dome : GameObject
+class Dome : public GameObject
 {
 public:
 
@@ -23,6 +23,7 @@ public:
 
 	virtual void Initialize(GraphicsManager* gm) override;
 	virtual void Destroy(void) override;
+
 	void Update(TimeManager* time);
 	void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame);
 

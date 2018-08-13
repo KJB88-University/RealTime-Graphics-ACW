@@ -9,10 +9,8 @@
 
 // ACW Includes
 #include "GameObject.h"
-#include "DragonflyLegs.h"
-#include "DragonflyWings.h"
 
-class Dragonfly : GameObject
+class Dragonfly : public GameObject
 {
 
 public:

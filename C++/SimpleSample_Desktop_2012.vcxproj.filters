@@ -59,6 +59,9 @@
     <Filter Include="Resource Files\Models">
       <UniqueIdentifier>{3e61384a-f6ad-4f15-892b-48d67c73c818}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Models\Dragonfly">
+      <UniqueIdentifier>{fd6659eb-2191-4136-9cd0-c5af57141c4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -113,12 +116,6 @@
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Dragonfly.h">
-      <Filter>Header Files\GameObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="DragonflyLegs.h">
-      <Filter>Header Files\GameObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="DragonflyWings.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
     <ClInclude Include="CullMode.h">
@@ -189,12 +186,6 @@
     <ClCompile Include="Dragonfly.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="DragonflyLegs.cpp">
-      <Filter>Source Files\GameObjects</Filter>
-    </ClCompile>
-    <ClCompile Include="DragonflyWings.cpp">
-      <Filter>Source Files\GameObjects</Filter>
-    </ClCompile>
     <ClCompile Include="Twig.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
@@ -203,8 +194,23 @@
     <None Include="Bloom.hlsli">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="DFmiddlelegs.sdkmesh">
+      <Filter>Resource Files\Models\Dragonfly</Filter>
+    </None>
+    <None Include="DFbacklegs.sdkmesh">
+      <Filter>Resource Files\Models\Dragonfly</Filter>
+    </None>
     <None Include="DFbody.sdkmesh">
-      <Filter>Resource Files\Models</Filter>
+      <Filter>Resource Files\Models\Dragonfly</Filter>
+    </None>
+    <None Include="DFdoubleFixedLeft.sdkmesh">
+      <Filter>Resource Files\Models\Dragonfly</Filter>
+    </None>
+    <None Include="DFdoubleFixedRight.sdkmesh">
+      <Filter>Resource Files\Models\Dragonfly</Filter>
+    </None>
+    <None Include="DFfrontlegs.sdkmesh">
+      <Filter>Resource Files\Models\Dragonfly</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

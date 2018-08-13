@@ -1,10 +1,13 @@
 // DXTK Includes
 #include <VertexTypes.h>
+#include <SimpleMath.h>
 
 // ACW Includes
 #include "DXTKModule.h"
 #include "BasicLogger.h"
 #include "CullMode.h"
+
+using namespace DirectX::SimpleMath;
 
 DXTKModule::DXTKModule(void)
 	:m_featureLevel(D3D_FEATURE_LEVEL_11_0), m_driverType(D3D_DRIVER_TYPE_HARDWARE)
@@ -209,6 +212,13 @@ void DXTKModule::InitializeDXTKResources(void)
 
 	m_basicEffect.reset(new DirectX::BasicEffect(m_device));
 	m_basicEffect->SetVertexColorEnabled(true);
+	//m_basicEffect->SetLightEnabled(0, true);
+
+	//DirectX::SimpleMath::Vector4 light { 0.0f, 0.0f, 0.0f, 0.0f };
+	//m_basicEffect->SetLightDirection(0, light);
+
+	//light = Vector4(0.0f, 0.0f, 0.0f, 1.0f);
+	//m_basicEffect->SetAmbientLightColor(light);
 
 	{
 		void const* shaderByteCode;
@@ -216,8 +226,8 @@ void DXTKModule::InitializeDXTKResources(void)
 
 		m_basicEffect->GetVertexShaderBytecode(&shaderByteCode, &byteCodeLength);
 
-		hr = m_device->CreateInputLayout(DirectX::VertexPositionColor::InputElements,
-			DirectX::VertexPositionColor::InputElementCount,
+		hr = m_device->CreateInputLayout(DirectX::VertexPositionColorTexture::InputElements,
+			DirectX::VertexPositionColorTexture::InputElementCount,
 			shaderByteCode, byteCodeLength,
 			&m_batchLayout);
 		if (FAILED(hr))

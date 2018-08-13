@@ -27,6 +27,11 @@ GameObject::~GameObject(void)
 	m_transform = nullptr;
 }
 
+void GameObject::Reset(void)
+{
+
+}
+
 Transform* GameObject::GetTransform(void)
 {
 	return m_transform;

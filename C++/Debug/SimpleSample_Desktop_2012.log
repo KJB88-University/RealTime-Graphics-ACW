@@ -5,5 +5,7 @@ c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dx
 c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(117): warning C4101: 'dmScreenSettings': unreferenced local variable
   Generating Code...
 c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(249): warning C4715: 'WndProc': not all control paths return a value
+BasicLogger.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+LINK : warning LNK4067: ambiguous entry point; selected 'WinMainCRTStartup'
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.exe
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.pdb (Full PDB)

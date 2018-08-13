@@ -10,7 +10,7 @@
 // ACW Includes
 #include "GameObject.h"
 
-class Platform : GameObject
+class Platform : public GameObject
 {
 
 public:

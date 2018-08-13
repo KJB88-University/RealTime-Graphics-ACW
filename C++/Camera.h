@@ -24,7 +24,7 @@ public:
 	void Update(InputManager* input, TimeManager* time);
 	void Render(GraphicsManager* gm);
 
-	void ResetPosition(void);
+	void Reset(void);
 	DirectX::SimpleMath::Matrix& GetViewMatrix();
 	DirectX::SimpleMath::Matrix& GetProjMatrix();
 
