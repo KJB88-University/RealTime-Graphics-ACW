@@ -15,16 +15,17 @@ public:
 	CameraManager(void);
 	~CameraManager(void);
 
-	void Initialize(DirectX::SimpleMath::Vector3 lookAt, int vpWidth, int vpHeight, float nearClip, float farClip);
+	void Initialize(DirectX::SimpleMath::Vector3 pos, DirectX::SimpleMath::Vector3 lookAt, int vpWidth, int vpHeight, float nearClip, float farClip);
 	void Destroy(void);
 	void Update(InputManager* input);
 
 	void NextCamera(void);
 	void PrevCamera(void);
-	void JumpToCamera(int index);
+	Camera* JumpToCamera(int index);
 
-	void AddCamera(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 lookAt);
+	void AddCamera(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 lookAt, bool followCam = false, GameObject* followObject = nullptr);
 	Camera* GetMainCamera(void);
+	void Reset(void);
 
 private:
 

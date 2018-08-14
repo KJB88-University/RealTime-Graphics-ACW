@@ -10,6 +10,7 @@
 #include "TimeManager.h"
 #include "GraphicsManager.h"
 #include "Transform.h"
+#include "Dragonfly.h"
 
 class Camera
 {
@@ -23,8 +24,10 @@ public:
 	void Destroy(void);
 	void Update(InputManager* input, TimeManager* time);
 	void Render(GraphicsManager* gm);
-
 	void Reset(void);
+
+	void ToggleFollowCam(GameObject* followObj);
+
 	DirectX::SimpleMath::Matrix& GetViewMatrix();
 	DirectX::SimpleMath::Matrix& GetProjMatrix();
 
@@ -38,15 +41,15 @@ private:
 	DirectX::SimpleMath::Vector3 m_vel;
 	DirectX::SimpleMath::Vector3 m_angle;
 
-	// Default States
-	DirectX::SimpleMath::Vector3 m_defaultPos;
-	DirectX::SimpleMath::Vector3 m_defaultRot;
-
 	// Input State
 	DirectX::Keyboard::State m_kbState;
 
 	// Transform
 	Transform m_transform;
+
+	// Dragonfly
+	GameObject* m_followObj;
+	bool followCam = false;
 
 	// Camera Matrices
 	DirectX::SimpleMath::Matrix m_view;

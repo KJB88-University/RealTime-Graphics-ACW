@@ -22,6 +22,7 @@ public:
 
 	virtual void Initialize(GraphicsManager* gfx) override;
 	virtual void Destroy(void) override;
+	virtual void Reset(void) override;
 
 	void Update(TimeManager* time);
 	void Render(GraphicsManager* gfx, TimeManager* time, DirectX::SimpleMath::Matrix world, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);

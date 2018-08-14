@@ -71,7 +71,7 @@ void Window::Run(void)
 
 bool Window::Update(void)
 {
-
+	bool result;
 	// Respond to input
 	//if (m_input->CheckKey(VK_ESCAPE))
 	//{
@@ -79,12 +79,16 @@ bool Window::Update(void)
 		//return false;
 	//}
 
-	m_game->Update();
+	result = m_game->Update();
 	m_game->Render();
 
+	if (!result)
+	{
+		m_game->Destroy();
+	}
 
 	// Keep looping
-	return true;
+	return result;
 }
 
 LRESULT CALLBACK Window::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam, LPARAM lparam)

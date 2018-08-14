@@ -26,12 +26,6 @@
     <Filter Include="Resource Files\Shaders">
       <UniqueIdentifier>{fd2d2f2b-a18c-4d45-adba-138a365d72e5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\DEBUG">
-      <UniqueIdentifier>{7462448b-2054-475b-bd07-ad569467a910}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\DEBUG">
-      <UniqueIdentifier>{d5176a48-96bf-4375-a8ad-5d01bfb7b1a5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Managers">
       <UniqueIdentifier>{dcb4fbff-2f74-4572-a6cc-896401bebee2}</UniqueIdentifier>
     </Filter>
@@ -78,9 +72,6 @@
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Tiny.h">
-      <Filter>Header Files\DEBUG</Filter>
     </ClInclude>
     <ClInclude Include="Window.h">
       <Filter>Header Files\Graphics</Filter>
@@ -139,9 +130,6 @@
     </ClCompile>
     <ClCompile Include="BasicLogger.cpp">
       <Filter>Source Files\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="Tiny.cpp">
-      <Filter>Source Files\DEBUG</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
       <Filter>Source Files\Graphics</Filter>

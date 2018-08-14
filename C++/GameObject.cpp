@@ -14,11 +14,7 @@ GameObject::GameObject(const GameObject& other)
 
 GameObject::GameObject(Vector3 position, Vector3 rotation, Vector3 scale)
 {
-	m_transform = new Transform();
-
-	m_transform->SetPosition(position);
-	m_transform->SetRotation(rotation);
-	m_transform->SetScale(scale);
+	m_transform = new Transform(position, rotation, scale);
 }
 
 GameObject::~GameObject(void)

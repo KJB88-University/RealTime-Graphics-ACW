@@ -12,7 +12,6 @@
 #include "TimeManager.h"
 
 // Objects
-#include "Tiny.h" // DEBUG
 #include "Platform.h"
 #include "Dome.h"
 #include "Dragonfly.h"
@@ -28,7 +27,7 @@ public:
 
 	void Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, float farClip);
 	void Destroy(void);
-	void Update(void);
+	bool Update(void);
 	void Render(void);
 	
 	void ResetGame(void);
@@ -41,7 +40,6 @@ private:
 	bool m_wireFrameMode;
 
 	// Objects
-	Tiny* m_tiny; // DEBUG
 	Platform* m_platform;
 	Dome* m_dome;
 	Dragonfly* m_dragonfly;

@@ -11,6 +11,7 @@
 using namespace DirectX;
 
 TimeManager::TimeManager(void)
+	: m_currentModifier(3.0f)
 {
 
 }
@@ -50,9 +51,25 @@ void TimeManager::Update(void)
 	//dwTimeLast = dwTimeCur;
 }
 
+void TimeManager::IncreaseModifier(void)
+{
+	if (m_currentModifier < (m_modifierValues.size() - 1))
+	{
+		m_currentModifier++;
+	}
+}
+
+void TimeManager::DecreaseModifier(void)
+{
+	if (m_currentModifier > 0.0f)
+	{
+		m_currentModifier--;
+	}
+}
+
 float TimeManager::GetDeltaTime(void)
 {
-	return m_deltaTime;
+	return m_deltaTime * m_modifierValues[m_currentModifier];
 }
 
 //float TimeManager::GetFramesPerSecond(void)
@@ -62,7 +79,7 @@ float TimeManager::GetDeltaTime(void)
 //
 float TimeManager::GetTotalElapsedTime(void)
 {
-	return m_timer.GetTotalSeconds();
+	return m_timer.GetTotalSeconds() * m_modifierValues[m_currentModifier];
 }
 
 /*

@@ -28,7 +28,6 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 {
 	// Assign the Model to a class member unique_ptr
 	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
-	//m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"Dragonfly.sdkmesh", *gfx->GetFXFactory()).release());
 
 	// Legs
 	m_frontLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFfrontlegs.sdkmesh", *gfx->GetFXFactory()).release());
@@ -38,10 +37,14 @@ void Dragonfly::Initialize(GraphicsManager* gfx)
 	// Wings
 	m_leftWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedLeft.sdkmesh", *gfx->GetFXFactory()).release());
 	m_rightWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedRight.sdkmesh", *gfx->GetFXFactory()).release());
+
+	Vector3 pos = m_transform->GetPosition();
+	Vector3 defaultPos = m_transform->GetDefaultPosition();
 }
 
 void Dragonfly::Destroy(void)
 {
+	// Release models
 	m_body.release();
 	m_body = nullptr;
 
@@ -64,9 +67,6 @@ void Dragonfly::Destroy(void)
 
 void Dragonfly::Update(TimeManager* time)
 {
-	//m_world *= Matrix::CreateRotationZ(time->GetDeltaTime() * 2.0f);
-	//m_transform->SetRotation(0.0f, 1.0f, 0.0f);
-
 	if (playAnimation)
 	{
 		if (m_transform->GetPosition().y >= 10.0f)
@@ -145,4 +145,13 @@ void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Ma
 	m_leftWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), worldLeft, view, proj, wireFrame, nullptr);
 	m_rightWing->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), worldRight, view, proj, wireFrame, nullptr);
 
+}
+
+void Dragonfly::Reset(void)
+{
+	upperLimit = false;
+	playAnimation = false;
+	
+	m_transform->SetPosition(m_transform->GetDefaultPosition());
+	m_transform->SetRotation(m_transform->GetDefaultRotation());
 }

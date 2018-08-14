@@ -21,7 +21,7 @@ CameraManager::~CameraManager(void)
 
 }
 
-void CameraManager::Initialize(Vector3 lookAt, int vpWidth, int vpHeight, float nearClip, float farClip)
+void CameraManager::Initialize(Vector3 pos, Vector3 lookAt, int vpWidth, int vpHeight, float nearClip, float farClip)
 {
 	// Update CM info about clipping plane and viewport
 	m_vpWidth = vpWidth;
@@ -30,19 +30,19 @@ void CameraManager::Initialize(Vector3 lookAt, int vpWidth, int vpHeight, float 
 	m_farClip = farClip;
 
 	// Set up initial camera
-	Camera* newCam = new Camera(Vector3(0.0f, -2.0f, -20.0), Vector3(0.0f, 0.0f, 0.0f));
-	newCam->Initialize(lookAt, m_vpWidth, m_vpHeight, m_nearClip, m_farClip);
-	m_cameras.push_back(newCam);
-
-	newCam = new Camera(Vector3(20.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, 0.0f));
+	Camera* newCam = new Camera(pos, Vector3(0.0f, 0.0f, 0.0f));
 	newCam->Initialize(lookAt, m_vpWidth, m_vpHeight, m_nearClip, m_farClip);
 	m_cameras.push_back(newCam);
 }
 
-void CameraManager::AddCamera(Vector3 position, Vector3 rotation, Vector3 lookAt)
+void CameraManager::AddCamera(Vector3 position, Vector3 rotation, Vector3 lookAt, bool followCam, GameObject* followObject)
 {
 	Camera* newCam = new Camera(position, rotation);
 	newCam->Initialize(lookAt, m_vpWidth, m_vpHeight, m_nearClip, m_farClip);
+	if (followCam)
+	{
+		newCam->ToggleFollowCam(followObject);
+	}
 	m_cameras.push_back(newCam);
 }
 
@@ -74,17 +74,23 @@ void CameraManager::PrevCamera(void)
 	}
 }
 
-void CameraManager::JumpToCamera(int index)
+Camera* CameraManager::JumpToCamera(int index)
 {
 	if (index >= 0 && index < m_cameras.size())
 	{
 		m_currentCameraIndex = index;
+		return GetMainCamera();
 	}
 }
 
 void CameraManager::Destroy(void)
 {
 	// Cleanup
+	for (int i = 0; i < m_cameras.size(); ++i)
+	{
+		m_cameras[i]->Destroy();
+		m_cameras[i] = nullptr;
+	}
 }
 
 Camera* CameraManager::GetMainCamera(void)
@@ -95,4 +101,14 @@ Camera* CameraManager::GetMainCamera(void)
 void CameraManager::Update(InputManager* input)
 {
 
+}
+
+void CameraManager::Reset(void)
+{
+	for (int i = 0; i < m_cameras.size(); ++i)
+	{
+		m_cameras[i]->Reset();
+	}
+
+	m_currentCameraIndex = 0;
 }

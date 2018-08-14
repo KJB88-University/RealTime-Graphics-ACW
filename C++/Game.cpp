@@ -11,8 +11,9 @@ using namespace DirectX::SimpleMath;
 #include "Shader.h"
 
 Game::Game(void)
+	:m_wireFrameMode(false)
 {
-	m_wireFrameMode = false;
+
 }
 
 Game::~Game(void)
@@ -22,16 +23,10 @@ Game::~Game(void)
 
 void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, float farClip)
 {
-	// MANAGERS
 	// Graphics Manager
 	m_gfx = new GraphicsManager();
 	m_gfx->Initialize(vpWidth, vpHeight, hwnd);
 	BasicLogger::WriteToConsole("GAME: Graphics Manager initialized.\n");
-
-	// Camera Manager
-	m_camMgr = new CameraManager();
-	m_camMgr->Initialize(Vector3(0.0f, 0.0f, -1.0f), vpWidth, vpHeight, nearClip, farClip);
-	BasicLogger::WriteToConsole("GAME: Camera Manager initialized.\n");
 
 	// Time Manager
 	m_time = new TimeManager();
@@ -43,11 +38,6 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	m_input->Initialize();
 	BasicLogger::WriteToConsole("GAME: Input Manager initialized.\n");
 
-	// GAME OBJECTS
-	// Main Camera
-	m_mainCamera = m_camMgr->GetMainCamera();
-	//BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
-	
 	// Platform (Ground)
 	m_platform = new Platform(Vector3(0.0f, -0.5f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.0f, 15.0f, 50.0f));
 	m_platform->Initialize(m_gfx);
@@ -68,13 +58,25 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	m_twig->Initialize(m_gfx);
 	//BasicLogger::WriteToConsole("GAME: Twig initialized.\n");
 
+	// Camera Manager
+	// (The camera manager initializes the first camera to the position given (first argument))
+	m_camMgr = new CameraManager();
+	m_camMgr->Initialize(Vector3(0.0f, -7.5f, -60.0f), Vector3(0.0f, 0.0f, -1.0f), vpWidth, vpHeight, nearClip, farClip); // First Cam
+	m_camMgr->AddCamera(Vector3(4.0f, -2.5f, -5.5f), Vector3(0.0f, 1.0f, 0.0f), Vector3(0.0f, 2.25f, -5.0f)); // Second Cam
+	m_camMgr->AddCamera(Vector3(2.5f, -2.25f, -5.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, -1.0f), true, m_dragonfly); // Third Cam
+	m_camMgr->AddCamera(Vector3(3.5f, -2.5f, -0.0f), Vector3(0.0f, 1.0f, 0.0f), Vector3(0.0f, 0.0f, -1.0f)); // Fourth Cam
+	BasicLogger::WriteToConsole("GAME: Camera Manager initialized.\n");
+
+	// Main Camera
+	m_mainCamera = m_camMgr->GetMainCamera();
+	//BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
+
 	BasicLogger::WriteToConsole("GAME: Scene objects loaded.\n");
 }
 
 void Game::Destroy(void)
 {
 	// DESTROY GAME OBJECTS
-
 	// Main Camera
 	m_mainCamera->Destroy();
 	delete m_mainCamera;
@@ -106,6 +108,11 @@ void Game::Destroy(void)
 	delete m_time;
 	m_time = nullptr;
 
+	// Camera
+	m_camMgr->Destroy();
+	delete m_camMgr;
+	m_camMgr = nullptr;
+
 	// Input
 	m_input->Destroy();
 	delete m_input;
@@ -117,27 +124,51 @@ void Game::Destroy(void)
 	m_gfx = nullptr;
 }
 
-void Game::Update(void)
+bool Game::Update(void)
 {	
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::Escape))
+	{
+		return false;
+	}
+
+	// RESET
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::R))
+	{
+		ResetGame();
+	}
+
+	// TIME MANIPULATION
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::T))
+	{
+		if (m_input->IsKeyHeld(DirectX::Keyboard::Keys::LeftShift))
+		{
+			m_time->IncreaseModifier();
+		}
+		else
+		{
+			m_time->DecreaseModifier();
+		}
+	}
+
 	// CAMERA SWAPPING
 	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F1))
 	{
-		m_camMgr->JumpToCamera(0);
-		m_mainCamera = m_camMgr->GetMainCamera();
+		m_mainCamera = m_camMgr->JumpToCamera(0);
 	}
 	else if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F2))
 	{
 		// DEBUG CAM
-		m_camMgr->JumpToCamera(1);
-		m_mainCamera = m_camMgr->GetMainCamera();
+		m_mainCamera = m_camMgr->JumpToCamera(1);
 	}
 	else if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F3))
 	{
 		// Third cam
+		m_mainCamera = m_camMgr->JumpToCamera(2);
 	}
 	else if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F4))
 	{
 		// Fourth cam
+		m_mainCamera = m_camMgr->JumpToCamera(3);
 	}
 	
 	// WIREFRAME MODE ENABLE
@@ -147,7 +178,7 @@ void Game::Update(void)
 	}
 	
 	// ANIMATION TOGGLE
-	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F12))
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F6))
 	{
 		m_dragonfly->ToggleAnimation();
 	}
@@ -159,11 +190,12 @@ void Game::Update(void)
 	// Update Managers
 	m_time->Update();
 	m_input->UpdateStates();
+
+	return true;
 }
 
 void Game::Render(void)
 {
-	m_gfx->GetBasicEffect()->Apply(m_gfx->GetDeviceContext());
 	// Clear Screen
 	m_gfx->ClearScreen(0.0f, 0.0f, 0.0f, 1.0f);
 
@@ -171,14 +203,13 @@ void Game::Render(void)
 	m_mainCamera->Render(m_gfx);
 
 	// Draw objects
-	// START
+	// STATIC OBJECTS
 	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 	m_twig->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
+	// DYNAMIC OBJECTS
 	m_dragonfly->Render(m_gfx, m_time, *m_gfx->GetWorldMatrix(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-
-	//END
 
 	// Present buffer
 	m_gfx->Present();
@@ -187,7 +218,9 @@ void Game::Render(void)
 
 void Game::ResetGame(void)
 {
+	// Reset cameras
 	m_camMgr->Reset();
-	m_mainCamera->Reset();
+
+	// Reset only object with state
 	m_dragonfly->Reset();
 }

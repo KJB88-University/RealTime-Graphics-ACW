@@ -1,11 +1,41 @@
-﻿  Dragonfly.cpp
+﻿  Camera.cpp
+  CameraManager.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(57): warning C4389: '==': signed/unsigned mismatch
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(79): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(89): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(101): warning C4100: 'input': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(108): warning C4018: '<': signed/unsigned mismatch
+  Dome.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dome.cpp(12): warning C4100: 'other': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dome.cpp(30): warning C4101: 'hr': unreferenced local variable
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dome.cpp(47): warning C4100: 'time': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dome.cpp(52): warning C4100: 'gm': unreferenced formal parameter
+  Dragonfly.cpp
 c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\dragonfly.cpp(16): warning C4100: 'other': unreferenced formal parameter
   Game.cpp
+  GameObject.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\gameobject.cpp(10): warning C4100: 'other': unreferenced formal parameter
+  Platform.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\platform.cpp(14): warning C4100: 'other': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\platform.cpp(49): warning C4100: 'time': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\platform.cpp(54): warning C4100: 'gm': unreferenced formal parameter
+  TimeManager.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\timemanager.cpp(39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\timemanager.cpp(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\timemanager.cpp(72): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\timemanager.cpp(82): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\timemanager.cpp(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Twig.cpp
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(17): warning C4100: 'other': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(40): warning C4100: 'time': unreferenced formal parameter
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\twig.cpp(45): warning C4100: 'gfx': unreferenced formal parameter
   Window.cpp
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(117): warning C4101: 'dmScreenSettings': unreferenced local variable
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(121): warning C4101: 'dmScreenSettings': unreferenced local variable
   Generating Code...
-c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(249): warning C4715: 'WndProc': not all control paths return a value
-BasicLogger.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-LINK : warning LNK4067: ambiguous entry point; selected 'WinMainCRTStartup'
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\window.cpp(253): warning C4715: 'WndProc': not all control paths return a value
+c:\users\user\desktop\msc compsci for gamesdev\realtime graphics\dxtk example\dxtk-sample-practice\c++\cameramanager.cpp(84): warning C4715: 'CameraManager::JumpToCamera': not all control paths return a value
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.exe
   SimpleSample_Desktop_2012.vcxproj -> C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\Debug\SimpleSample.pdb (Full PDB)

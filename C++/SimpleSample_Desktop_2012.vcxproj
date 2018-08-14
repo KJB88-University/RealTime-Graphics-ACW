@@ -373,7 +373,6 @@
     <ClInclude Include="Platform.h" />
     <CLInclude Include="resource.h" />
     <ClInclude Include="TimeManager.h" />
-    <ClInclude Include="Tiny.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Twig.h" />
     <ClInclude Include="Window.h" />
@@ -408,7 +407,6 @@
     <ClCompile Include="TimeManager.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Tiny.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Twig.cpp" />
     <ClCompile Include="Window.cpp" />

@@ -30,9 +30,28 @@ public:
 	void SetScale(DirectX::SimpleMath::Vector3 scale);
 	void SetScale(float x, float y, float z);
 
+	DirectX::SimpleMath::Vector3 GetDefaultPosition(void);
+	DirectX::SimpleMath::Vector3 GetDefaultRotation(void);
+	DirectX::SimpleMath::Vector3 GetDefaultScale(void);
+
+	void SetDefaultPosition(DirectX::SimpleMath::Vector3 position);
+	void SetDefaultPosition(float x, float y, float z);
+
+	void SetDefaultRotation(DirectX::SimpleMath::Vector3 rotation);
+	void SetDefaultRotation(float x, float y, float z);
+
+	void SetDefaultScale(DirectX::SimpleMath::Vector3 scale);
+	void SetDefaultScale(float x, float y, float z);
+
 private:
 
+	// Current Values
 	DirectX::SimpleMath::Vector3 m_position;
 	DirectX::SimpleMath::Vector3 m_rotation;
 	DirectX::SimpleMath::Vector3 m_scale;
+
+	// Default Values
+	DirectX::SimpleMath::Vector3 m_defaultPosition;
+	DirectX::SimpleMath::Vector3 m_defaultRotation;
+	DirectX::SimpleMath::Vector3 m_defaultScale;
 };
