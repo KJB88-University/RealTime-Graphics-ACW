@@ -7,36 +7,83 @@ using namespace DirectX::SimpleMath;
 
 // ACW includes
 #include "Game.h"
-#include "BasicLogger.h"
+//#include "BasicLogger.h" // Debug logger - not needed for submission
 #include "Shader.h"
 
 Game::Game(void)
-	:m_wireFrameMode(false), m_statDisplay(false)
+	:m_wireFrameMode(false), m_statDisplay(false), m_platform(nullptr), m_dome(nullptr), m_dragonfly(nullptr), m_twig(nullptr), m_mainCamera(nullptr),
+	m_time(nullptr), m_gfx(nullptr), m_input(nullptr), m_camMgr(nullptr), 
+	m_antTweakBar(nullptr), m_timeModifier(0), m_currentCamera(0), m_fps(0)
 {
 
 }
 
 Game::~Game(void)
 {
+	// DESTROY GAME OBJECTS
+	// Main Camera
+	delete m_mainCamera;
+	m_mainCamera = nullptr;
 
+	// Platform
+	delete m_platform;
+	m_platform = nullptr;
+
+	// Dome
+	delete m_dome;
+	m_dome = nullptr;
+
+	// Dragonfly
+	delete m_dragonfly;
+	m_dragonfly = nullptr;
+
+	// Twig
+	delete m_twig;
+	m_twig = nullptr;
+
+	// DESTROY MANAGERS
+	// Time
+	delete m_time;
+	m_time = nullptr;
+
+	// Camera
+	delete m_camMgr;
+	m_camMgr = nullptr;
+
+	// Input
+	delete m_input;
+	m_input = nullptr;
+
+	// AntTweakBar
+	TwTerminate();
+
+	// Graphics
+	delete m_gfx;
+	m_gfx = nullptr;
 }
 
-void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, float farClip)
+void Game::Initialize(int const vpWidth, int const vpHeight, HWND const hwnd, float const nearClip, float const farClip)
 {
 	// Graphics Manager
 	m_gfx = new GraphicsManager();
-	m_gfx->Initialize(vpWidth, vpHeight, hwnd);
-	BasicLogger::WriteToConsole("GAME: Graphics Manager initialized.\n");
+	m_gfx->Initialize(hwnd);
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("GAME: Graphics Manager initialized.\n");
+//#endif
 
 	// Time Manager
 	m_time = new TimeManager();
 	m_time->Initialize();
-	BasicLogger::WriteToConsole("GAME: Time Manager initialized.\n");
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("GAME: Time Manager initialized.\n");
+//#endif
 
 	// Input Manager
 	m_input = new InputManager();
 	m_input->Initialize();
-	BasicLogger::WriteToConsole("GAME: Input Manager initialized.\n");
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("GAME: Input Manager initialized.\n");
+//#endif
 
 	// Platform (Ground)
 	m_platform = new Platform(Vector3(0.0f, -0.5f, 0.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(50.0f, 15.0f, 50.0f));
@@ -65,7 +112,9 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	m_camMgr->AddCamera(Vector3(4.0f, -2.5f, -5.5f), Vector3(0.0f, 1.0f, 0.0f), Vector3(0.0f, 2.25f, -5.0f)); // Second Cam
 	m_camMgr->AddCamera(Vector3(2.5f, -2.25f, -5.0f), Vector3(0.0f, 0.0f, 0.0f), Vector3(0.0f, 0.0f, -1.0f), true, m_dragonfly); // Third Cam
 	m_camMgr->AddCamera(Vector3(3.5f, -2.5f, -0.0f), Vector3(0.0f, 1.0f, 0.0f), Vector3(0.0f, 0.0f, -1.0f)); // Fourth Cam
-	BasicLogger::WriteToConsole("GAME: Camera Manager initialized.\n");
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("GAME: Camera Manager initialized.\n");
+//#endif
 
 	// Main Camera
 	m_mainCamera = m_camMgr->GetMainCamera();
@@ -79,60 +128,14 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	TwAddVarRW(m_antTweakBar, "Current Cam:", TW_TYPE_INT8, &m_currentCamera, "");
 	TwAddVarRW(m_antTweakBar, "FPS:", TW_TYPE_UINT32, &m_fps, "");
 
-	BasicLogger::WriteToConsole("GAME: Scene objects loaded.\n");
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("GAME: Scene objects loaded.\n");
+//#endif
 }
 
 void Game::Destroy(void)
 {
-	// DESTROY GAME OBJECTS
-	// Main Camera
-	m_mainCamera->Destroy();
-	delete m_mainCamera;
-	m_mainCamera = nullptr;
-
-	// Platform
-	m_platform->Destroy();
-	delete m_platform;
-	m_platform = nullptr;
-
-	// Dome
-	m_dome->Destroy();
-	delete m_dome;
-	m_dome = nullptr;
-
-	// Dragonfly
-	m_dragonfly->Destroy();
-	delete m_dragonfly;
-	m_dragonfly = nullptr;
-
-	// Twig
-	m_twig->Destroy();
-	delete m_twig;
-	m_twig = nullptr;
-
-	// DESTROY MANAGERS
-	// Time
-	m_time->Destroy();
-	delete m_time;
-	m_time = nullptr;
-
-	// Camera
-	m_camMgr->Destroy();
-	delete m_camMgr;
-	m_camMgr = nullptr;
-
-	// Input
-	m_input->Destroy();
-	delete m_input;
-	m_input = nullptr;
-
-	// AntTweakBar
-	TwTerminate();
-
-	// Graphics
 	m_gfx->Destroy();
-	delete m_gfx;
-	m_gfx = nullptr;
 }
 
 bool Game::Update(void)
@@ -195,7 +198,7 @@ bool Game::Update(void)
 	}
 	
 	// ANIMATION TOGGLE
-	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F6))
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::F11))
 	{
 		m_dragonfly->ToggleAnimation();
 	}
@@ -226,12 +229,12 @@ void Game::Render(void)
 
 	// Draw objects
 	// STATIC OBJECTS
-	m_platform->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-	m_dome->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
-	m_twig->Render(m_gfx, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_platform->Render( m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_dome->Render(m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_twig->Render(m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
 	// DYNAMIC OBJECTS
-	m_dragonfly->Render(m_gfx, m_time, *m_gfx->GetWorldMatrix(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
+	m_dragonfly->Render(m_gfx, m_time, m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
 	if (m_statDisplay)
 	{

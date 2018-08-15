@@ -6,13 +6,14 @@
 // ACW Include
 #include "Window.h"
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdline, int iCmdshow)
+int WINAPI WinMain(HINSTANCE const hInstance, HINSTANCE const hPrevInstance, PSTR const pScmdline, int const iCmdshow)
 {
 
-	AllocConsole();
-	freopen("CONOUT$", "w", stdout);
-	printf("CONSOLE: Attached.\n");
-
+//#if _DEBUG
+//	AllocConsole();
+//	freopen("CONOUT$", "w", stdout);
+//	printf("CONSOLE: Attached.\n");
+//#endif
 
 	// Create and initialize Window
 	Window* window;

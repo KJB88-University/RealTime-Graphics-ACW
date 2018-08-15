@@ -1,17 +1,19 @@
 #include "Window.h"
-#include "BasicLogger.h"
+//#include "BasicLogger.h" //debug logger, not needed for submission
 #include "GraphicsManager.h"
 
 #include "Keyboard.h"
 
 Window::Window(void)
+	: m_applicationName(nullptr), m_hinstance(nullptr), m_hwnd(nullptr), m_fullScreen(true), m_game(nullptr)
 {
 
 }
 
 Window::~Window(void)
 {
-
+	delete m_game;
+	m_game = nullptr;
 }
 
 void Window::Init(void)
@@ -28,7 +30,9 @@ void Window::Init(void)
 
 	// Initialize the Windows API
 	InitWindows(vpWidth, vpHeight, true);
-	BasicLogger::WriteToConsole("WINDOW: Initialized. \n");
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("WINDOW: Initialized. \n");
+//#endif
 
 	// Create the game application
 	m_game = new Game();
@@ -37,8 +41,7 @@ void Window::Init(void)
 
 void Window::OnDestroy()
 {
-	delete m_game;
-	m_game = nullptr;
+	m_game->Destroy();
 
 	EndWindows();
 }
@@ -49,8 +52,9 @@ void Window::Run(void)
 
 	// Init message structure
 	ZeroMemory(&msg, sizeof(MSG));
-
-	BasicLogger::WriteToConsole("WINDOW: Running main loop...");
+//#if _DEBUG
+//	BasicLogger::WriteToConsole("WINDOW: Running main loop...");
+//#endif
 	bool done = false;
 	while (!done)
 	{
@@ -72,37 +76,26 @@ void Window::Run(void)
 bool Window::Update(void)
 {
 	bool result;
-	// Respond to input
-	//if (m_input->CheckKey(VK_ESCAPE))
-	//{
-		// Stop looping
-		//return false;
-	//}
 
 	result = m_game->Update();
 	m_game->Render();
-
-	if (!result)
-	{
-		m_game->Destroy();
-	}
 
 	// Keep looping
 	return result;
 }
 
-LRESULT CALLBACK Window::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam, LPARAM lparam)
+LRESULT CALLBACK Window::MessageHandler(HWND const hwnd, UINT const umsg, WPARAM const wparam, LPARAM const lparam)
 {
 	switch (umsg)
 	{
 		// Plug in InputManager
 	case WM_KEYDOWN:
-		BasicLogger::WriteToConsole("INPUT: KeyDown ID: " + wparam);
+		//BasicLogger::WriteToConsole("INPUT: KeyDown ID: " + wparam);
 		//m_input->UpdateKeyOnPress((unsigned int)wparam);
 		return 0;
 
 	case WM_KEYUP:
-		BasicLogger::WriteToConsole("INPUT: KeyUp ID: " + wparam);
+		//BasicLogger::WriteToConsole("INPUT: KeyUp ID: " + wparam);
 		//m_input->UpdateKeyOnRelease((unsigned int)wparam);
 		return 0;
 
@@ -115,10 +108,10 @@ LRESULT CALLBACK Window::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam, LPA
 
 // Initialize Windows API so we can create a
 // window and utilize Windows-based services
-void Window::InitWindows(int& vpWidth, int& vpHeight, bool fullScreen)
+void Window::InitWindows(int& vpWidth, int& vpHeight, bool const fullScreen)
 {
 	WNDCLASSEX wc;
-	DEVMODE dmScreenSettings;
+	//DEVMODE dmScreenSettings;
 	int posX = 0;
 	int posY = 0;
 
@@ -142,7 +135,7 @@ void Window::InitWindows(int& vpWidth, int& vpHeight, bool fullScreen)
 	wc.hIcon = LoadIcon(NULL, IDI_WINLOGO);
 	wc.hIconSm = wc.hIcon;
 	wc.hCursor = LoadCursor(NULL, IDC_ARROW);
-	wc.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
+	wc.hbrBackground = reinterpret_cast<HBRUSH>(GetStockObject(BLACK_BRUSH));
 	wc.lpszMenuName = NULL;
 	wc.lpszClassName = m_applicationName;
 	wc.cbSize = sizeof(WNDCLASSEX);
@@ -218,7 +211,7 @@ void Window::EndWindows(void)
 
 }
 
-LRESULT CALLBACK WndProc(HWND hwnd, UINT umsg, WPARAM wparam, LPARAM lparam)
+LRESULT CALLBACK WndProc(HWND const hwnd, UINT const umsg, WPARAM const wparam, LPARAM const lparam)
 {
 	PAINTSTRUCT paintStruct;
 	HDC hDC;

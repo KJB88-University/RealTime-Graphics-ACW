@@ -1,0 +1,114 @@
+/SimpleSample/Resource Files\stdafx.cpp
+1=/SimpleSample/Resource Files\stdafx.h
+/SimpleSample/Source Files\Game.cpp
+2=/SimpleSample/Header Files\Game.h
+3=/SimpleSample/Header Files\GameObjects\GameObject.h
+4=/SimpleSample/Header Files\Managers\TimeManager.h
+5=/SimpleSample/Header Files\Graphics\DXTKModule.h
+6=/SimpleSample/Header Files\Graphics\Camera.h
+7=/SimpleSample/Header Files\GameObjects\Platform.h
+8=/SimpleSample/Header Files\Managers\InputManager.h
+9=/SimpleSample/Header Files\Managers\GraphicsManager.h
+10=/SimpleSample/Header Files\GameObjects\Dragonfly.h
+11=/SimpleSample/Header Files\Components\Transform.h
+12=/SimpleSample/Header Files\GameObjects\Dome.h
+13=/SimpleSample/Header Files\Managers\CameraManager.h
+14=/SimpleSample/Header Files\GameObjects\Twig.h
+/SimpleSample/Source Files\Graphics\Camera.cpp
+10
+3
+11
+4
+5
+6
+8
+9
+/SimpleSample/Source Files\Graphics\DXTKModule.cpp
+5
+15=/SimpleSample/Header Files\Utils\BasicLogger.h
+/SimpleSample/Source Files\Graphics\Window.cpp
+2
+3
+4
+5
+6
+16=/SimpleSample/Header Files\Graphics\Window.h
+7
+8
+9
+10
+11
+12
+13
+14
+/SimpleSample/Source Files\Utils\BasicLogger.cpp
+/SimpleSample/Source Files\Managers\CameraManager.cpp
+10
+3
+11
+4
+5
+6
+13
+8
+9
+/SimpleSample/Source Files\Managers\GraphicsManager.cpp
+5
+9
+/SimpleSample/Source Files\Managers\InputManager.cpp
+8
+/SimpleSample/Source Files\Managers\TimeManager.cpp
+4
+15
+/SimpleSample/Source Files\GameObjects\Dome.cpp
+3
+11
+4
+5
+12
+15
+9
+/SimpleSample/Source Files\GameObjects\Dragonfly.cpp
+10
+3
+11
+4
+5
+9
+/SimpleSample/Source Files\GameObjects\GameObject.cpp
+3
+11
+4
+5
+9
+/SimpleSample/Source Files\GameObjects\Platform.cpp
+3
+11
+4
+5
+7
+9
+/SimpleSample/Source Files\GameObjects\Twig.cpp
+3
+11
+4
+5
+9
+14
+/SimpleSample/Source Files\Components\Transform.cpp
+11
+/SimpleSample/main.cpp
+2
+3
+4
+5
+6
+16
+7
+8
+9
+10
+11
+12
+13
+14

@@ -1,0 +1,26 @@
+codewizard.ltm 1a737816
+cpptestcc.compilerCfgFile C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.3\engine\etc\compilers\vc_14_0\cpp.psrc
+cpptestcc.workspace .
+cpptestcc.runAnalysis on
+cpptestcc.runOriginalCommand off
+codewizard.suppressFile +*
+codewizard.suppressFile -C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Twig.cpp
+ppro.headerSequenceFile C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ipro\7\e\8\ae4d2\0\output.ipro
+codewizard.headerSequenceFile C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ipro\7\e\8\ae4d2\0\output.ipro
+cpptestcc.runIpro off
+cpptestcc.runCwc on
+codewizard.suppressFile -c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\GameObject.h
+codewizard.ignoreFilesForTextAnalysis c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\GameObject.h
+codewizard.suppressFile -c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Transform.h
+codewizard.ignoreFilesForTextAnalysis c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Transform.h
+codewizard.suppressFile -c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\TimeManager.h
+codewizard.ignoreFilesForTextAnalysis c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\TimeManager.h
+codewizard.suppressFile -c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+codewizard.ignoreFilesForTextAnalysis c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+codewizard.suppressFile -c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\GraphicsManager.h
+codewizard.ignoreFilesForTextAnalysis c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\GraphicsManager.h
+codewizard.suppressFile -c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Twig.h
+codewizard.ignoreFilesForTextAnalysis c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Twig.h
+codewizard.reportFileCustom INTERNAL-GLOBAL-*:C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.analyzer.global\7\e\8\ae4d2\0\output.cwc
+codewizard.reportFile C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.staticanalyzer\7\e\8\ae4d2\0\output.cwc
+codewizard.pproDataFile C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\.cpptest\.dtpengine\.\.cpptest\com.parasoft.xtest.cpp.ppro\7\e\8\ae4d2\0\output.ppro

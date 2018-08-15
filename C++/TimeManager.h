@@ -11,22 +11,22 @@ public:
 	~TimeManager(void);
 
 	void Initialize(void);
-	void Destroy(void);
+	//void Destroy(void);
 	void Update(void);
 
 	// Returns the time since the last frame update
-	float GetDeltaTime(void);
+	float GetDeltaTime(void) const;
 
 	// Returns the total running time in seconds
-	float GetTotalElapsedTime(void);
+	float GetTotalElapsedTime(void) const;
 
 	void IncreaseModifier(void);
 	void DecreaseModifier(void);
 
-	float GetCurrentModifier(void);
+	float GetCurrentModifier(void) const;
 
 	// Returns the frames per second
-	uint32_t GetFramesPerSecond(void);
+	uint32_t GetFramesPerSecond(void) const;
 
 	void Reset(void);
 
@@ -53,4 +53,7 @@ private:
 
 	// FPS
 	uint32_t m_fps;
+
+	TimeManager(const TimeManager& other) = delete;
+	TimeManager& TimeManager::operator=(TimeManager& other) = delete;
 };

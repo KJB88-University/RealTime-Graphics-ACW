@@ -18,7 +18,7 @@ void InputManager::Initialize(void)
 	m_keyboard.reset(new DirectX::Keyboard);
 }
 
-bool InputManager::IsKeyDown(Keyboard::Keys key)
+bool InputManager::IsKeyDown(Keyboard::Keys const key) const
 {
 	if (m_tracker.IsKeyPressed(key))
 	{
@@ -30,7 +30,7 @@ bool InputManager::IsKeyDown(Keyboard::Keys key)
 	}
 }
 
-bool InputManager::IsKeyUp(Keyboard::Keys key)
+bool InputManager::IsKeyUp(Keyboard::Keys const key) const
 {
 	if (m_tracker.IsKeyReleased(key))
 	{
@@ -42,7 +42,7 @@ bool InputManager::IsKeyUp(Keyboard::Keys key)
 	}
 }
 
-bool InputManager::IsKeyHeld(Keyboard::Keys key)
+bool InputManager::IsKeyHeld(Keyboard::Keys const key) const
 {
 	if (m_keyboard->GetState().IsKeyDown(key))
 	{

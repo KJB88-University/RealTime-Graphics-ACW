@@ -16,16 +16,15 @@ class Dragonfly : public GameObject
 public:
 
 	Dragonfly(void);
-	Dragonfly(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 scale);
-	Dragonfly(const Dragonfly& other);
+	Dragonfly(DirectX::SimpleMath::Vector3& const position, DirectX::SimpleMath::Vector3& const rotation, DirectX::SimpleMath::Vector3& const scale);
 	~Dragonfly(void);
 
 	virtual void Initialize(GraphicsManager* gfx) override;
 	virtual void Destroy(void) override;
 	virtual void Reset(void) override;
 
-	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx, TimeManager* time, DirectX::SimpleMath::Matrix world, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view, bool wireFrame);
+	void Update(const TimeManager* const time);
+	void Render(const GraphicsManager* const gfx, const TimeManager* const time, const DirectX::SimpleMath::Matrix& proj, const DirectX::SimpleMath::Matrix& view, bool wireFrame);
 
 	void ToggleAnimation(void);
 
@@ -40,4 +39,7 @@ private:
 	std::unique_ptr<DirectX::Model> m_frontLegs;
 	std::unique_ptr<DirectX::Model> m_midLegs;
 	std::unique_ptr<DirectX::Model> m_backLegs;
+
+	Dragonfly(const Dragonfly& other) = delete;
+	Dragonfly& Dragonfly::operator=(Dragonfly& other) = delete;
 };

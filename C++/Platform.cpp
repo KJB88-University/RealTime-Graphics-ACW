@@ -1,23 +1,18 @@
 #include "Platform.h"
 
 #include "DDSTextureLoader.h"
-#include "BasicLogger.h"
+//#include "BasicLogger.h" // debug, not needed for submission
 
 using namespace DirectX::SimpleMath;
 
 Platform::Platform(void)
-	: GameObject()
+	: GameObject(), m_texture(nullptr)
 {
 
 }
 
-Platform::Platform(const Platform& other)
-{
-
-}
-
-Platform::Platform(Vector3 position, Vector3 rotation, Vector3 scale)
-	: GameObject(position, rotation, scale)
+Platform::Platform(Vector3& const position, Vector3& const rotation, Vector3& const scale)
+	: GameObject(position, rotation, scale), m_texture(nullptr)
 {
 
 }
@@ -27,7 +22,7 @@ Platform::~Platform(void)
 
 }
 
-void Platform::Initialize(GraphicsManager* gm)
+void Platform::Initialize(GraphicsManager* const gm)
 {
 	HRESULT hr;
 
@@ -35,10 +30,12 @@ void Platform::Initialize(GraphicsManager* gm)
 	m_platform = DirectX::GeometricPrimitive::CreateCylinder(gm->GetDeviceContext(), 0.1f, 1.0f, 64, true);
 
 	hr = DirectX::CreateDDSTextureFromFile(gm->GetDevice(), L"seafloor.dds", nullptr, &m_texture);
-	if (FAILED(hr))
-	{
-		BasicLogger::WriteToConsole("PLATFORM: Unable to load texture file.\n");
-	}
+//#if _DEBUG
+//	if (FAILED(hr))
+//	{
+//		BasicLogger::WriteToConsole("PLATFORM: Unable to load texture file.\n");
+//	}
+//#endif
 }
 
 void Platform::Destroy(void)
@@ -46,17 +43,17 @@ void Platform::Destroy(void)
 
 }
 
-void Platform::Update(TimeManager* time)
+//void Platform::Update(TimeManager* time)
+//{
+//
+//}
+
+void Platform::Render(const Matrix& projection, const Matrix& view, bool const wireFrame)
 {
+	Vector3 const transfRotation = GetTransform()->GetRotation();
 
-}
-
-void Platform::Render(GraphicsManager* gm, Matrix projection, Matrix view, bool wireFrame)
-{
-	Vector3 transfRotation = m_transform->GetRotation();
-
-	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
-	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_transform->GetScale(), Vector4::Zero, rotationMatrix, m_transform->GetPosition()));
+	Vector4 const rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
+	Matrix const local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, GetTransform()->GetScale(), Vector4::Zero, rotationMatrix, GetTransform()->GetPosition()));
 
 	m_platform->Draw(local, view, projection, Vector4(1.0f, 1.0f, 1.0f, 1.0f), m_texture, wireFrame, nullptr);
 }

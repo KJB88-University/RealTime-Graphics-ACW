@@ -17,19 +17,19 @@ class Camera
 
 public:
 	Camera(void);
-	Camera(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation);
+	Camera(DirectX::SimpleMath::Vector3& const position, DirectX::SimpleMath::Vector3& const rotation);
 	~Camera(void);
 
-	void Initialize(DirectX::SimpleMath::Vector3 lookAt, float width, float height, float nearClip, float farClip);
-	void Destroy(void);
-	void Update(InputManager* input, TimeManager* time);
-	void Render(GraphicsManager* gm);
-	void Reset(void);
+	void Initialize(DirectX::SimpleMath::Vector3& const lookAt, float const width, float const height, float const nearClip, float const farClip);
+	//void Destroy(void);
+	void Update(const InputManager* const input, const TimeManager* const time);
+	void Render(const GraphicsManager* const gm);
+	//void Reset(void);
 
 	void ToggleFollowCam(GameObject* followObj);
 
-	DirectX::SimpleMath::Matrix& GetViewMatrix();
-	DirectX::SimpleMath::Matrix& GetProjMatrix();
+	const DirectX::SimpleMath::Matrix& GetViewMatrix() const;
+	const DirectX::SimpleMath::Matrix& GetProjMatrix() const;
 
 private:
 
@@ -54,4 +54,7 @@ private:
 	// Camera Matrices
 	DirectX::SimpleMath::Matrix m_view;
 	DirectX::SimpleMath::Matrix m_proj;
+
+	Camera(const Camera& other) = delete;
+	Camera& Camera::operator=(Camera& other) = delete;
 };

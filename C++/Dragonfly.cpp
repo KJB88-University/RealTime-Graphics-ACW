@@ -7,42 +7,13 @@ Dragonfly::Dragonfly(void)
 
 }
 
-Dragonfly::Dragonfly(Vector3 position, Vector3 rotation, Vector3 scale)
+Dragonfly::Dragonfly(Vector3& const position, Vector3& const rotation, Vector3& const scale)
 	: GameObject(position, rotation, scale)
 {
 
 }
 
-Dragonfly::Dragonfly(const Dragonfly& other)
-	: GameObject()
-{
-
-}
-
 Dragonfly::~Dragonfly(void)
-{
-
-}
-
-void Dragonfly::Initialize(GraphicsManager* gfx)
-{
-	// Assign the Model to a class member unique_ptr
-	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
-
-	// Legs
-	m_frontLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFfrontlegs.sdkmesh", *gfx->GetFXFactory()).release());
-	m_midLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFmiddlelegs.sdkmesh", *gfx->GetFXFactory()).release());
-	m_backLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbacklegs.sdkmesh", *gfx->GetFXFactory()).release());
-
-	// Wings
-	m_leftWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedLeft.sdkmesh", *gfx->GetFXFactory()).release());
-	m_rightWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedRight.sdkmesh", *gfx->GetFXFactory()).release());
-
-	Vector3 pos = m_transform->GetPosition();
-	Vector3 defaultPos = m_transform->GetDefaultPosition();
-}
-
-void Dragonfly::Destroy(void)
 {
 	// Release models
 	m_body.release();
@@ -62,18 +33,37 @@ void Dragonfly::Destroy(void)
 
 	m_rightWing.release();
 	m_rightWing = nullptr;
-
 }
 
-void Dragonfly::Update(TimeManager* time)
+void Dragonfly::Initialize(GraphicsManager* const gfx)
+{
+	// Assign the Model to a class member unique_ptr
+	m_body.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbody.sdkmesh", *gfx->GetFXFactory()).release());
+
+	// Legs
+	m_frontLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFfrontlegs.sdkmesh", *gfx->GetFXFactory()).release());
+	m_midLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFmiddlelegs.sdkmesh", *gfx->GetFXFactory()).release());
+	m_backLegs.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFbacklegs.sdkmesh", *gfx->GetFXFactory()).release());
+
+	// Wings
+	m_leftWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedLeft.sdkmesh", *gfx->GetFXFactory()).release());
+	m_rightWing.reset(DirectX::Model::CreateFromSDKMESH(gfx->GetDevice(), L"DFdoubleFixedRight.sdkmesh", *gfx->GetFXFactory()).release());
+}
+
+void Dragonfly::Destroy(void)
+{
+	// STUB
+}
+
+void Dragonfly::Update(const TimeManager* const time)
 {
 	if (playAnimation)
 	{
-		if (m_transform->GetPosition().y >= 10.0f)
+		if (GetTransform()->GetPosition().y >= 10.0f)
 		{
 			upperLimit = true;
 		}
-		else if (m_transform->GetPosition().y < 2.25f)
+		else if (GetTransform()->GetPosition().y < 2.25f)
 		{
 			playAnimation = false;
 			upperLimit = false;
@@ -81,19 +71,18 @@ void Dragonfly::Update(TimeManager* time)
 		// Flying up
 		if (!upperLimit)
 		{
-			Vector3 pos = m_transform->GetPosition();
+			Vector3 pos = GetTransform()->GetPosition();
 			pos += Vector3(0.0f, 1.0f * time->GetDeltaTime(), 0.0f);
-			m_transform->SetPosition(pos);
+			GetTransform()->SetPosition(pos);
 		}
 		
 		// Flying down
 		else
 		{
-			Vector3 pos = m_transform->GetPosition();
+			Vector3 pos = GetTransform()->GetPosition();
 			pos += Vector3(0.0f, -1.0f * time->GetDeltaTime(), 0.0f);
-			m_transform->SetPosition(pos);
+			GetTransform()->SetPosition(pos);
 		}
-
 	}
 }
 
@@ -105,9 +94,10 @@ void Dragonfly::ToggleAnimation(void)
 	}
 }
 
-void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Matrix proj, Matrix view, bool wireFrame)
+void Dragonfly::Render(const GraphicsManager* const gfx, const TimeManager* const time, const Matrix& proj, const Matrix& view, bool const wireFrame)
 {
-	world = Matrix::CreateTranslation(m_transform->GetPosition());
+	Matrix world = Matrix::Identity;
+	world = Matrix::CreateTranslation(GetTransform()->GetPosition());
 
 	// Draw body
 	m_body->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
@@ -117,9 +107,9 @@ void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Ma
 	(
 		Vector3
 		(
-			m_transform->GetPosition().x,
-			m_transform->GetPosition().y - 0.25f,
-			m_transform->GetPosition().z + 0.75f
+			GetTransform()->GetPosition().x,
+			GetTransform()->GetPosition().y - 0.25f,
+			GetTransform()->GetPosition().z + 0.75f
 		)
 	);
 
@@ -127,17 +117,16 @@ void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Ma
 	m_midLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 	m_backLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 
-	Matrix worldLeft = Matrix::CreateTranslation(m_transform->GetPosition());
-	Matrix worldRight = Matrix::CreateTranslation(m_transform->GetPosition());
+	Matrix worldLeft = Matrix::CreateTranslation(GetTransform()->GetPosition());
+	Matrix worldRight = Matrix::CreateTranslation(GetTransform()->GetPosition());
 
 	if (playAnimation)
 	{
 		// Draw left wing
-		float t = time->GetTotalElapsedTime();
-		worldLeft = Matrix::CreateRotationZ(sin(t * 20.0f)) * Matrix::CreateTranslation(m_transform->GetPosition());
+		worldLeft = Matrix::CreateRotationZ(sin(time->GetTotalElapsedTime() * 20.0f)) * Matrix::CreateTranslation(GetTransform()->GetPosition());
 
 		// Draw right wing
-		worldRight = Matrix::CreateRotationZ(-sin(t * 20.0f)) * Matrix::CreateTranslation(m_transform->GetPosition());
+		worldRight = Matrix::CreateRotationZ(-sin(time->GetTotalElapsedTime() * 20.0f)) * Matrix::CreateTranslation(GetTransform()->GetPosition());
 
 	}
 
@@ -150,7 +139,7 @@ void Dragonfly::Reset(void)
 {
 	upperLimit = false;
 	playAnimation = false;
-	
-	m_transform->SetPosition(m_transform->GetDefaultPosition());
-	m_transform->SetRotation(m_transform->GetDefaultRotation());
+
+	GetTransform()->SetPosition(GetTransform()->GetDefaultPosition().x, GetTransform()->GetDefaultPosition().y, GetTransform()->GetDefaultPosition().z);
+	GetTransform()->SetRotation(GetTransform()->GetDefaultPosition().x, GetTransform()->GetDefaultPosition().y, GetTransform()->GetDefaultPosition().z);
 }

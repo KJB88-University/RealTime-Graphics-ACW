@@ -14,9 +14,9 @@ public:
 	void Destroy(void);
 	void UpdateStates(void);
 
-	bool IsKeyDown(DirectX::Keyboard::Keys key);
-	bool IsKeyUp(DirectX::Keyboard::Keys key);
-	bool IsKeyHeld(DirectX::Keyboard::Keys key);
+	bool IsKeyDown(DirectX::Keyboard::Keys key) const;
+	bool IsKeyUp(DirectX::Keyboard::Keys key) const;
+	bool IsKeyHeld(DirectX::Keyboard::Keys key) const;
 
 private:
 

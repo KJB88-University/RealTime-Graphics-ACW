@@ -30,6 +30,9 @@ private:
 	bool m_fullScreen;
 
 	Game* m_game;
+
+	Window(const Window& other)=delete;
+	Window& Window::operator=(const Window& other)=delete;
 };
 
 static LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);

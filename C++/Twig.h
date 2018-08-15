@@ -13,17 +13,18 @@ class Twig : public GameObject
 {
 public:
 	Twig(void);
-	Twig(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 scale);
-	Twig(const Twig& other);
+	Twig(DirectX::SimpleMath::Vector3& const position, DirectX::SimpleMath::Vector3& const rotation, DirectX::SimpleMath::Vector3& const scale);
 	~Twig(void);
 
-	virtual void Initialize(GraphicsManager* gfx) override;
+	virtual void Initialize(GraphicsManager* const gfx) override;
 	virtual void Destroy(void) override;
 
-	void Update(TimeManager* time);
-	void Render(GraphicsManager* gfx, DirectX::SimpleMath::Matrix proj, DirectX::SimpleMath::Matrix view,  bool wireFrame);
+	//void Update(TimeManager* time);
+	void Render(const DirectX::SimpleMath::Matrix& proj, const DirectX::SimpleMath::Matrix& view,  bool wireFrame);
 
 private:
 
 	std::unique_ptr<DirectX::GeometricPrimitive> m_twig;
+
+	Twig(const Twig& other)=delete;
 };

@@ -1,0 +1,90 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'followCam' as const
+<l>38
+<k>109
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
+<c>OPT-24
+<b>Function 'GetMainCamera' is not inlined
+<l>101
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
+<c>INIT-14
+<b>Assignment in constructor 'CameraManager' found. Use constructor initialization list instead
+<l>16
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\CameraManager.h
+<c>OPT-13
+<b>Members 'm_cameras' of class 'CameraManager' are declared in suboptimal order for memory layout
+<l>11
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
+<c>OPT-23
+<b>Getter/setter method 'GetCurrentCameraID' is not inlined
+<l>49
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
+<c>OPT-24
+<b>Function 'GetMainCamera' is not inlined
+<l>101
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Camera.h
+<c>OPT-13
+<b>Members 'm_angle, m_kbState, m_proj, m_transform, m_vel, m_view' of class 'Camera' are declared in suboptimal order for memory layout
+<l>15
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+<c>OPT-13
+<b>Members 'm_basicEffect, m_commonStates, m_fxFactory' of class 'DXTKModule' are declared in suboptimal order for memory layout
+<l>16
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Dragonfly.h
+<c>OPT-13
+<b>Members 'm_backLegs, m_body, m_frontLegs, m_leftWing, m_midLegs, m_rightWing' of class 'Dragonfly' are declared in suboptimal order for memory layout
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0

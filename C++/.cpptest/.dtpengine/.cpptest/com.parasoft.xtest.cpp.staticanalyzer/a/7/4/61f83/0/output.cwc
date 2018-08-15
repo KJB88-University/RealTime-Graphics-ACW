@@ -1,0 +1,110 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Window.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>139
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Window.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>203
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Window.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>207
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Window.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>210
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Window.h
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>40
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Window.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'MessageHandler' should be declared as const
+<l>87
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+<c>OPT-13
+<b>Members 'm_basicEffect, m_commonStates, m_fxFactory' of class 'DXTKModule' are declared in suboptimal order for memory layout
+<l>16
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Game.h
+<c>OPT-13
+<b>Members 'm_kbState' of class 'Game' are declared in suboptimal order for memory layout
+<l>24
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\CameraManager.h
+<c>OPT-13
+<b>Members 'm_cameras' of class 'CameraManager' are declared in suboptimal order for memory layout
+<l>11
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Camera.h
+<c>OPT-13
+<b>Members 'm_angle, m_kbState, m_proj, m_transform, m_vel, m_view' of class 'Camera' are declared in suboptimal order for memory layout
+<l>15
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Dragonfly.h
+<c>OPT-13
+<b>Members 'm_backLegs, m_body, m_frontLegs, m_leftWing, m_midLegs, m_rightWing' of class 'Dragonfly' are declared in suboptimal order for memory layout
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0

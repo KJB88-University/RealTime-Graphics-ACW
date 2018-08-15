@@ -11,11 +11,11 @@ public:
 	~GraphicsManager(void);
 
 
-	void Initialize(int vpWidth, int vpHeight, HWND hwnd);
+	void Initialize(HWND hwnd);
 	void Destroy(void);
 
-	void ClearScreen(float r, float g, float b, float a);
-	void Present(void);
+	void ClearScreen(float r, float g, float b, float a) const;
+	void Present(void) const;
 
 	// Return pointers to device and context
 	ID3D11Device* GetDevice(void) const;
@@ -30,17 +30,17 @@ public:
 	// Return a ptr to the Basic Effect
 	DirectX::BasicEffect* GetBasicEffect(void) const;
 
-	// Change culling mode
-	void SetCullMode(CULLMODE mode);
-
 	// Matrix Getters
-	DirectX::SimpleMath::Matrix* GetProjectionMatrix(void);
-	DirectX::SimpleMath::Matrix* GetWorldMatrix(void);
+	//DirectX::SimpleMath::Matrix* GetProjectionMatrix(void) const;
+	DirectX::SimpleMath::Matrix* GetWorldMatrix(void) const;
 
 private:
 
 	DXTKModule* m_gfx;
 
-	DirectX::SimpleMath::Matrix m_world;
-	DirectX::SimpleMath::Matrix m_projection;
+	DirectX::SimpleMath::Matrix* m_world;
+	//DirectX::SimpleMath::Matrix* m_projection;
+
+	GraphicsManager(const GraphicsManager& other)=delete;
+	GraphicsManager& GraphicsManager::operator=(const GraphicsManager& other)=delete;
 };

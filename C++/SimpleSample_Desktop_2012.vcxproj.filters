@@ -23,9 +23,6 @@
     <Filter Include="Source Files\Utils">
       <UniqueIdentifier>{a2dce75d-83e8-469b-83e5-bdf387d05482}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Shaders">
-      <UniqueIdentifier>{fd2d2f2b-a18c-4d45-adba-138a365d72e5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Managers">
       <UniqueIdentifier>{dcb4fbff-2f74-4572-a6cc-896401bebee2}</UniqueIdentifier>
     </Filter>
@@ -37,12 +34,6 @@
     </Filter>
     <Filter Include="Header Files\GameObjects">
       <UniqueIdentifier>{720d91fe-db32-4185-afdb-0c15dc121d40}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Unused">
-      <UniqueIdentifier>{63c1f602-c750-491a-a1c2-78db30663ac0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Unused">
-      <UniqueIdentifier>{5b0829b6-d65a-4ea6-aa1d-3a17cad8b7bc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Components">
       <UniqueIdentifier>{bffe7516-d40d-4b68-8743-54500aa163e8}</UniqueIdentifier>
@@ -69,9 +60,6 @@
     </ClInclude>
     <ClInclude Include="DXTKModule.h">
       <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="BasicLogger.h">
-      <Filter>Header Files\Utils</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
@@ -106,20 +94,11 @@
     <ClInclude Include="CameraManager.h">
       <Filter>Header Files\Managers</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
     <ClInclude Include="Dragonfly.h">
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
-    <ClInclude Include="CullMode.h">
-      <Filter>Header Files\Graphics</Filter>
-    </ClInclude>
     <ClInclude Include="Twig.h">
       <Filter>Header Files\GameObjects</Filter>
-    </ClInclude>
-    <ClInclude Include="ConfigLoader.h">
-      <Filter>Header Files\Utils</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -133,9 +112,6 @@
     </ClCompile>
     <ClCompile Include="DXTKModule.cpp">
       <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="BasicLogger.cpp">
-      <Filter>Source Files\Utils</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
       <Filter>Source Files\Graphics</Filter>
@@ -162,9 +138,6 @@
     <ClCompile Include="Transform.cpp">
       <Filter>Source Files\Components</Filter>
     </ClCompile>
-    <ClCompile Include="SimpleSample.cpp">
-      <Filter>Source Files\Unused</Filter>
-    </ClCompile>
     <ClCompile Include="GameObject.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
@@ -174,9 +147,6 @@
     <ClCompile Include="Dome.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
-      <Filter>Source Files\Graphics</Filter>
-    </ClCompile>
     <ClCompile Include="Dragonfly.cpp">
       <Filter>Source Files\GameObjects</Filter>
     </ClCompile>
@@ -185,9 +155,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Bloom.hlsli">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
     <None Include="DFmiddlelegs.sdkmesh">
       <Filter>Resource Files\Models\Dragonfly</Filter>
     </None>
@@ -207,14 +174,6 @@
       <Filter>Resource Files\Models\Dragonfly</Filter>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="BloomCombine.hlsl">
-      <Filter>Resource Files\Shaders</Filter>
-    </FxCompile>
-    <FxCompile Include="BloomExtract.hlsl">
-      <Filter>Resource Files\Shaders</Filter>
-    </FxCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="camera1.txt">

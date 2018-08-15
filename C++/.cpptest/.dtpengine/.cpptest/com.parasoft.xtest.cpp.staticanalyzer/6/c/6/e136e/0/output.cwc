@@ -1,0 +1,100 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\main.cpp
+<c>OPT-03
+<b>Parameter 'hInstance' is not used
+<l>9
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\main.cpp
+<c>OPT-03
+<b>Parameter 'hPrevInstance' is not used
+<l>9
+<k>66
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\main.cpp
+<c>OPT-03
+<b>Parameter 'pScmdline' is not used
+<l>9
+<k>92
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\main.cpp
+<c>OPT-03
+<b>Parameter 'iCmdshow' is not used
+<l>9
+<k>113
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Window.h
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>40
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+<c>OPT-13
+<b>Members 'm_basicEffect, m_commonStates, m_fxFactory' of class 'DXTKModule' are declared in suboptimal order for memory layout
+<l>16
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Game.h
+<c>OPT-13
+<b>Members 'm_kbState' of class 'Game' are declared in suboptimal order for memory layout
+<l>24
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\CameraManager.h
+<c>OPT-13
+<b>Members 'm_cameras' of class 'CameraManager' are declared in suboptimal order for memory layout
+<l>11
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Camera.h
+<c>OPT-13
+<b>Members 'm_angle, m_kbState, m_proj, m_transform, m_vel, m_view' of class 'Camera' are declared in suboptimal order for memory layout
+<l>15
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Dragonfly.h
+<c>OPT-13
+<b>Members 'm_backLegs, m_body, m_frontLegs, m_leftWing, m_midLegs, m_rightWing' of class 'Dragonfly' are declared in suboptimal order for memory layout
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0

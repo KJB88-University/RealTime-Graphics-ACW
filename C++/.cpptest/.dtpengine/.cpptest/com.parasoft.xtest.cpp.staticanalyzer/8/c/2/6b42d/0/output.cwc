@@ -1,0 +1,130 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>CODSTA-CPP-43
+<b>Declare parameter 'lookAt' in 'Initialize' function as reference to const object
+<l>23
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'lookAt' as const
+<l>23
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetViewMatrix' returns handles to member data: 'm_view'
+<l>153
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetProjMatrix' returns handles to member data: 'm_proj'
+<l>158
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>INIT-14
+<b>Assignment in constructor 'Camera' found. Use constructor initialization list instead
+<l>8
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>INIT-14
+<b>Assignment in constructor 'Camera' found. Use constructor initialization list instead
+<l>14
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Camera.h
+<c>OPT-13
+<b>Members 'm_angle, m_kbState, m_proj, m_transform, m_vel, m_view' of class 'Camera' are declared in suboptimal order for memory layout
+<l>15
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>OPT-23
+<b>Getter/setter method 'GetViewMatrix' is not inlined
+<l>151
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>OPT-23
+<b>Getter/setter method 'GetProjMatrix' is not inlined
+<l>156
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetViewMatrix' returns handles to member data: 'm_view'
+<l>153
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetProjMatrix' returns handles to member data: 'm_proj'
+<l>158
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+<c>OPT-13
+<b>Members 'm_basicEffect, m_commonStates, m_fxFactory' of class 'DXTKModule' are declared in suboptimal order for memory layout
+<l>16
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\Dragonfly.h
+<c>OPT-13
+<b>Members 'm_backLegs, m_body, m_frontLegs, m_leftWing, m_midLegs, m_rightWing' of class 'Dragonfly' are declared in suboptimal order for memory layout
+<l>13
+<k>7
+<s>false
+<N>
+<f>
+<L>0

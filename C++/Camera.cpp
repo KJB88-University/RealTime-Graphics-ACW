@@ -3,13 +3,13 @@
 using namespace DirectX::SimpleMath;
 
 Camera::Camera(void)
-	: m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
+	: m_vel(0.0f, 0.0f, 0.0f), m_angle(0.0f, 0.0f, 0.0f), m_followObj(nullptr)
 {
 	m_transform = Transform();
 }
 
-Camera::Camera(Vector3 position, Vector3 rotation)
-	: m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
+Camera::Camera(Vector3& const position, Vector3& const rotation)
+	: m_vel(0.0f, 0.0f, 0.0f), m_angle(0.0f, 0.0f, 0.0f), m_followObj(nullptr)
 {
 	m_transform = Transform(position, rotation, Vector3(1.0f, 1.0f, 1.0f));
 
@@ -20,29 +20,30 @@ Camera::~Camera(void)
 
 }
 
-void Camera::Initialize(Vector3 lookAt, float width, float height, float nearClip, float farClip)
+void Camera::Initialize(Vector3& const lookAt, float const width, float const height, float const nearClip, float const farClip)
 {
 	// Initialize the view matrix
 	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), lookAt, Vector3::Up);
 	
 	// Initialize the projection matrix
-	m_proj = Matrix::CreatePerspectiveFieldOfView(DirectX::XM_PIDIV4, width / (FLOAT)height, nearClip, farClip);
+	m_proj = Matrix::CreatePerspectiveFieldOfView(DirectX::XM_PIDIV4, static_cast<float>(width / height), nearClip, farClip);
 }
 
-void Camera::Destroy(void)
-{
-	// STUB
-}
+//void Camera::Destroy(void)
+//{
+//	// STUB
+//}
 
-void Camera::Reset(void)
-{
-	m_transform.SetPosition(m_transform.GetDefaultPosition());
-	m_transform.SetRotation(-m_transform.GetDefaultRotation());
+//void Camera::Reset(void)
+//{
+//
+//	m_transform.SetPosition(m_transform.GetDefaultPosition());
+//	m_transform.SetRotation(-m_transform.GetDefaultRotation());
+//
+//	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), Vector3(0.0f, 0.0f, -1.0f), Vector3::Up);
+//}
 
-	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), Vector3(0.0f, 0.0f, -1.0f), Vector3::Up);
-}
-
-void Camera::Update(InputManager* input, TimeManager* time)
+void Camera::Update(const InputManager* const input, const TimeManager* const time)
 {
 	m_vel = Vector3::Zero;
 	m_angle = Vector3::Zero;
@@ -124,7 +125,7 @@ void Camera::Update(InputManager* input, TimeManager* time)
 	}
 } 
 
-void Camera::Render(GraphicsManager* gm)
+void Camera::Render(const GraphicsManager* const gm)
 {
 	if (!followCam)
 	{
@@ -147,17 +148,17 @@ void Camera::Render(GraphicsManager* gm)
 }
 
 
-Matrix& Camera::GetViewMatrix()
+const Matrix& Camera::GetViewMatrix() const
 {
 	return m_view;
 }
 
-Matrix& Camera::GetProjMatrix()
+const Matrix& Camera::GetProjMatrix() const
 {
 	return m_proj;
 }
 
-void Camera::ToggleFollowCam(GameObject* followObj)
+void Camera::ToggleFollowCam(GameObject* const followObj)
 {
 	m_followObj = followObj;
 	followCam = true;

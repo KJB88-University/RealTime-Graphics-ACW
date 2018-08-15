@@ -3,30 +3,30 @@
 using namespace DirectX::SimpleMath;
 
 GraphicsManager::GraphicsManager(void)
-	: m_gfx(nullptr)
+	: m_gfx(nullptr), m_world(nullptr)
 {
 
 }
 
 GraphicsManager::~GraphicsManager(void)
 {
+	delete m_gfx;
+	m_gfx = nullptr;
 
+	delete m_world;
+	m_world = nullptr;
 }
 
-void GraphicsManager::Initialize(int vpWidth, int vpHeight, HWND hwnd)
+void GraphicsManager::Initialize(HWND const hwnd)
 {
-
 	// Initialize DXTK Module
 	m_gfx = new DXTKModule();
 	m_gfx->Initialize(hwnd);
-
 }
 
 void GraphicsManager::Destroy(void)
 {
 	m_gfx->Destroy();
-	delete m_gfx;
-	m_gfx = nullptr;
 }
 
 ID3D11Device* GraphicsManager::GetDevice() const
@@ -57,27 +57,22 @@ DirectX::BasicEffect* GraphicsManager::GetBasicEffect(void) const
 	return m_gfx->GetBasicEffect();
 }
 
-void GraphicsManager::SetCullMode(CULLMODE mode)
+//Matrix* GraphicsManager::GetProjectionMatrix(void) const
+//{
+//	return m_projection;
+//}
+//
+Matrix* GraphicsManager::GetWorldMatrix(void) const
 {
-	m_gfx->SetCullMode(mode);
+	return m_world;
 }
 
-Matrix* GraphicsManager::GetProjectionMatrix(void)
-{
-	return &m_projection;
-}
-
-Matrix* GraphicsManager::GetWorldMatrix(void)
-{
-	return &m_world;
-}
-
-void GraphicsManager::ClearScreen(float r, float g, float b, float a)
+void GraphicsManager::ClearScreen(float const r, float const g, float const b, float const a) const
 {
 	m_gfx->ClearScreen(r, g, b, a);
 }
 
-void GraphicsManager::Present(void)
+void GraphicsManager::Present(void) const
 {
 	m_gfx->Present();
 }

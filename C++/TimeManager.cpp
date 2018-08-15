@@ -11,7 +11,7 @@
 using namespace DirectX;
 
 TimeManager::TimeManager(void)
-	: m_currentModifier(2)
+	: m_currentModifier(2), m_deltaTime(0), m_elapsedTime(0), m_fps(0)
 {
 
 }
@@ -24,11 +24,6 @@ TimeManager::~TimeManager(void)
 void TimeManager::Initialize(void)
 {
 	m_timer = StepTimer();
-}
-
-void TimeManager::Destroy(void)
-{
-
 }
 
 void TimeManager::Update(void)
@@ -68,22 +63,22 @@ void TimeManager::DecreaseModifier(void)
 	}
 }
 
-float TimeManager::GetCurrentModifier(void)
+float TimeManager::GetCurrentModifier(void) const
 {
 	return m_modifierValues[m_currentModifier];
 }
 
-float TimeManager::GetDeltaTime(void)
+float TimeManager::GetDeltaTime(void) const
 {
  	return m_deltaTime * m_modifierValues[m_currentModifier];
 }
 
-uint32_t TimeManager::GetFramesPerSecond(void)
+uint32_t TimeManager::GetFramesPerSecond(void) const
 {
 	return m_fps;
 }
 
-float TimeManager::GetTotalElapsedTime(void)
+float TimeManager::GetTotalElapsedTime(void) const
 {
 	return m_elapsedTime * m_modifierValues[m_currentModifier];
 }

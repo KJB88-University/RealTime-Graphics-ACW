@@ -10,32 +10,45 @@
 using namespace DirectX::SimpleMath;
 
 DXTKModule::DXTKModule(void)
-	:m_featureLevel(D3D_FEATURE_LEVEL_11_0), m_driverType(D3D_DRIVER_TYPE_HARDWARE)
+	: m_device(nullptr), m_deviceContext(nullptr), m_swapChain(nullptr), m_renderTargetView(nullptr), 
+	m_depthStencil(nullptr), m_depthStencilView(nullptr), 
+	m_driverType(D3D_DRIVER_TYPE_HARDWARE), m_featureLevel(D3D_FEATURE_LEVEL_11_0), m_batchLayout(nullptr)
 {
 
 }
 
 DXTKModule::~DXTKModule(void)
 {
+	delete m_batchLayout;
+	m_batchLayout = nullptr;
 
+	delete m_depthStencilView;
+	m_depthStencilView = nullptr;
+
+	delete m_depthStencil;
+	m_depthStencil = nullptr;
+
+	delete m_renderTargetView;
+	m_renderTargetView = nullptr;
+
+	delete m_swapChain;
+	m_swapChain = nullptr;
+
+	delete m_deviceContext;
+	m_deviceContext = nullptr;
+
+	delete m_device;
+	m_device = nullptr;
 }
 
-void DXTKModule::Initialize(HWND hwnd)
+void DXTKModule::Initialize(HWND const hwnd)
 {
 	InitializeD3DResources(hwnd);
-	BasicLogger::WriteToConsole("D3D: Resources loaded.\n");
-
 	InitializeDXTKResources();
-	BasicLogger::WriteToConsole("DXTK: Resources loaded.\n");
 }
 
 void DXTKModule::Destroy(void)
 {
-	if (m_deviceContext)
-	{
-		m_deviceContext->ClearState();
-	}
-
 	if (m_batchLayout)
 	{
 		m_batchLayout->Release();
@@ -72,12 +85,12 @@ void DXTKModule::Destroy(void)
 	}
 }
 
-ID3D11Device* DXTKModule::GetDevice(void) const
+ID3D11Device* const DXTKModule::GetDevice(void) const
 {
 	return m_device;
 }
 
-ID3D11DeviceContext* DXTKModule::GetDeviceContext(void) const
+ID3D11DeviceContext* const DXTKModule::GetDeviceContext(void) const
 {
 	return m_deviceContext;
 }
@@ -97,23 +110,16 @@ DirectX::BasicEffect* DXTKModule::GetBasicEffect(void) const
 	return m_basicEffect.get();
 }
 
-void DXTKModule::InitializeD3DResources(HWND hwnd)
+void DXTKModule::InitializeD3DResources(HWND const hwnd)
 {
-	HRESULT hr = S_OK;
+	HRESULT hr;
 
 	RECT rc;
 	GetClientRect(hwnd, &rc);
-	UINT width = rc.right - rc.left;
-	UINT height = rc.bottom - rc.top;
+	const UINT width = rc.right - rc.left;
+	const UINT height = rc.bottom - rc.top;
 
-	/*
-	UINT createDeviceFlags = 0;
-#ifdef _DEBUG
-	createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
-#endif
-*/
-
-	D3D_FEATURE_LEVEL featureLevel = D3D_FEATURE_LEVEL_11_0;
+	D3D_FEATURE_LEVEL const featureLevel = D3D_FEATURE_LEVEL_11_0;
 
 	DXGI_SWAP_CHAIN_DESC sd;
 	ZeroMemory(&sd, sizeof(sd));
@@ -132,25 +138,13 @@ void DXTKModule::InitializeD3DResources(HWND hwnd)
 	hr = D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, &featureLevel, 1,
 		D3D11_SDK_VERSION, &sd, &m_swapChain, &m_device, nullptr, &m_deviceContext);
 
-	if (FAILED(hr))
-	{
-		BasicLogger::WriteToConsole("D3D: Failed to create device and swapchain.\n");
-	}
-
 	// Ptr to back buffer
 	ID3D11Texture2D* backBuffer = nullptr;
-	hr = m_swapChain->GetBuffer(0, __uuidof(ID3D11Texture2D), (LPVOID*)&backBuffer);
-	if (FAILED(hr))
-	{
-		BasicLogger::WriteToConsole("D3D: Failed to create back buffer.\n");
-	}
+	hr = m_swapChain->GetBuffer(0, __uuidof(ID3D11Texture2D), reinterpret_cast<void**>(&backBuffer));
+
 	// Create a render target view
 	hr = m_device->CreateRenderTargetView(backBuffer, nullptr, &m_renderTargetView);
 	backBuffer->Release();
-	if (FAILED(hr))
-	{
-		BasicLogger::WriteToConsole("D3D: Failed to create render target view.\n");
-	}
 
 	// Create depth stencil texture
 	D3D11_TEXTURE2D_DESC descDepth;
@@ -167,10 +161,6 @@ void DXTKModule::InitializeD3DResources(HWND hwnd)
 	descDepth.CPUAccessFlags = 0;
 	descDepth.MiscFlags = 0;
 	hr = m_device->CreateTexture2D(&descDepth, nullptr, &m_depthStencil);
-	if (FAILED(hr))
-	{
-		BasicLogger::WriteToConsole("D3D: Failed to create depth stencil.\n");
-	}
 
 	// Create the depth stencil view
 	D3D11_DEPTH_STENCIL_VIEW_DESC descDSV;
@@ -179,18 +169,14 @@ void DXTKModule::InitializeD3DResources(HWND hwnd)
 	descDSV.ViewDimension = D3D11_DSV_DIMENSION_TEXTURE2D;
 	descDSV.Texture2D.MipSlice = 0;
 	hr = m_device->CreateDepthStencilView(m_depthStencil, &descDSV, &m_depthStencilView);
-	if (FAILED(hr))
-	{
-		BasicLogger::WriteToConsole("D3D: Failed to create depth stencil view.\n");
-	}
 
 	// Bind/make active views
 	m_deviceContext->OMSetRenderTargets(1, &m_renderTargetView, m_depthStencilView);
 
 	// Setup the viewport
 	D3D11_VIEWPORT vp;
-	vp.Width = (FLOAT)width;
-	vp.Height = (FLOAT)height;
+	vp.Width = static_cast<float>(width);
+	vp.Height = static_cast<float>(height);
 	vp.MinDepth = 0.0f;
 	vp.MaxDepth = 1.0f;
 	vp.TopLeftX = 0;
@@ -212,13 +198,6 @@ void DXTKModule::InitializeDXTKResources(void)
 
 	m_basicEffect.reset(new DirectX::BasicEffect(m_device));
 	m_basicEffect->SetVertexColorEnabled(true);
-	//m_basicEffect->SetLightEnabled(0, true);
-
-	//DirectX::SimpleMath::Vector4 light { 0.0f, 0.0f, 0.0f, 0.0f };
-	//m_basicEffect->SetLightDirection(0, light);
-
-	//light = Vector4(0.0f, 0.0f, 0.0f, 1.0f);
-	//m_basicEffect->SetAmbientLightColor(light);
 
 	{
 		void const* shaderByteCode;
@@ -230,50 +209,10 @@ void DXTKModule::InitializeDXTKResources(void)
 			DirectX::VertexPositionColorTexture::InputElementCount,
 			shaderByteCode, byteCodeLength,
 			&m_batchLayout);
-		if (FAILED(hr))
-		{
-			BasicLogger::WriteToConsole("DXTK: Failed to load shaders.\n");
-		}
 	}
 }
 
-void DXTKModule::SetCullMode(CULLMODE mode)
-{
-	// Vars
-	D3D11_RASTERIZER_DESC rd;
-	ID3D11RasterizerState* rs;
-
-	// Get Rasterizer State
-	m_deviceContext->RSGetState(&rs);
-
-	// Pull out the descripto for the state
-	rs->GetDesc(&rd);
-
-	// Decide how our culling works
-	switch (mode)
-	{
-	case CULLBACK:
-		rd.CullMode = D3D11_CULL_BACK;
-		break;
-	case CULLFRONT:
-		rd.CullMode = D3D11_CULL_FRONT;
-		break;
-	case CULLNONE:
-		rd.CullMode = D3D11_CULL_NONE;
-		break;
-
-	default:
-		break;
-	}
-
-	// Create a new state from the descriptor
-	m_device->CreateRasterizerState(&rd, &rs);
-
-	// Set the state to active
-	m_deviceContext->RSSetState(rs);
-}
-
-void DXTKModule::ClearScreen(float r, float g, float b, float a) const
+void DXTKModule::ClearScreen(float const r, float const g, float const b, float const a) const
 {
 	float colors[4];
 	colors[0] = r;

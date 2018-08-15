@@ -360,19 +360,15 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="BasicLogger.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CameraManager.h" />
-    <ClInclude Include="CullMode.h" />
     <ClInclude Include="Dome.h" />
     <ClInclude Include="Dragonfly.h" />
     <ClInclude Include="DXTKModule.h" />
-    <ClInclude Include="ConfigLoader.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GraphicsManager.h" />
     <ClInclude Include="InputManager.h" />
-    <ClInclude Include="Shader.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Platform.h" />
     <CLInclude Include="resource.h" />
@@ -385,7 +381,6 @@
     <ResourceCompile Include="SimpleSample.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasicLogger.cpp" />
     <ClCompile Include="Camera.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -403,8 +398,6 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Platform.cpp" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="SimpleSample.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
     </ClCompile>
@@ -421,7 +414,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Bloom.hlsli" />
     <None Include="DFbacklegs.sdkmesh" />
     <None Include="DFbody.sdkmesh" />
     <None Include="DFdoubleFixedLeft.sdkmesh" />
@@ -429,14 +421,6 @@
     <None Include="DFfrontlegs.sdkmesh" />
     <None Include="DFmiddlelegs.sdkmesh" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="BloomCombine.hlsl">
-      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
-    </FxCompile>
-    <FxCompile Include="BloomExtract.hlsl">
-      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
-    </FxCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="camera1.txt" />

@@ -10,19 +10,19 @@ public:
 
 	GameObject(void);
 	GameObject(
-		DirectX::SimpleMath::Vector3 position,
-		DirectX::SimpleMath::Vector3 rotation,
-		DirectX::SimpleMath::Vector3 scale);
+		DirectX::SimpleMath::Vector3& const position,
+		DirectX::SimpleMath::Vector3& const rotation,
+		DirectX::SimpleMath::Vector3& const scale);
 	GameObject(const GameObject& other);
 	virtual ~GameObject(void);
 
-	virtual void Initialize(GraphicsManager* gfx) = 0;
+	virtual void Initialize(GraphicsManager* const gfx) = 0;
 	virtual void Destroy(void) = 0;
 	virtual void Reset(void);
 
-	virtual Transform* GetTransform(void);
+	virtual Transform* GetTransform(void) const;
 
-protected:
-
+private:
 	Transform* m_transform;
+	GameObject& GameObject::operator=(const GameObject& other)=delete;
 };

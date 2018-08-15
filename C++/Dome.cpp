@@ -9,12 +9,7 @@ Dome::Dome(void)
 
 }
 
-Dome::Dome(const Dome& other)
-{
-
-}
-
-Dome::Dome(Vector3 position, Vector3 rotation, Vector3 scale)
+Dome::Dome(Vector3& const position, Vector3& const rotation, Vector3& const scale)
 	: GameObject(position, rotation, scale)
 {
 
@@ -25,18 +20,10 @@ Dome::~Dome(void)
 
 }
 
-void Dome::Initialize(GraphicsManager* gm)
+void Dome::Initialize(GraphicsManager* const gm)
 {
-	HRESULT hr;
-
 	//m_platform = DirectX::GeometricPrimitive::CreateHemisphere(gm->GetDeviceContext(), 1.0f, 16, true);
 	m_dome = DirectX::GeometricPrimitive::CreateHemisphere(gm->GetDeviceContext(), 1.0f, 16, false);
-
-	//hr = DirectX::CreateDDSTextureFromFile(gm->GetDevice(), L"seafloor.dds", nullptr, &m_texture);
-	//if (FAILED(hr))
-	//{
-	//	BasicLogger::WriteToConsole("PLATFORM: Unable to load texture file.\n");
-	//}
 }
 
 void Dome::Destroy(void)
@@ -44,18 +31,18 @@ void Dome::Destroy(void)
 
 }
 
-void Dome::Update(TimeManager* time)
+//void Dome::Update(TimeManager* time)
+//{
+//
+//}
+
+void Dome::Render(const Matrix& projection, const Matrix& view, bool const wireFrame)
 {
+	Vector3 const transfRotation = GetTransform()->GetRotation();
 
-}
+	Vector4 const rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
+	Matrix const local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, GetTransform()->GetScale(), Vector4::Zero, rotationMatrix, GetTransform()->GetPosition()));
 
-void Dome::Render(GraphicsManager* gm, Matrix projection, Matrix view, bool wireFrame)
-{
-	Vector3 transfRotation = m_transform->GetRotation();
-
-	Vector4 rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
-	Matrix local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, m_transform->GetScale(), Vector4::Zero, rotationMatrix, m_transform->GetPosition()));
-
-	Vector4 color = Vector4(1.0f, 1.0f, 1.0f, .5f);
+	Vector4 const color = Vector4(1.0f, 1.0f, 1.0f, .5f);
 	m_dome->Draw(local, view, projection, color, nullptr, wireFrame, nullptr);
 }

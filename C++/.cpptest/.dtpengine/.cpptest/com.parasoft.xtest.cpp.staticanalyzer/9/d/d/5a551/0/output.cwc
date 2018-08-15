@@ -1,0 +1,290 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>STL-37
+<b>Use vector or string instead of array: colors
+<l>217
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>STL-37
+<b>Use vector or string instead of array: colors
+<l>217
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>STL-37
+<b>Use vector or string instead of array: colors
+<l>217
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>STL-37
+<b>Use vector or string instead of array: colors
+<l>217
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>STL-37
+<b>Use vector or string instead of array: colors
+<l>217
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>STL-37
+<b>Use vector or string instead of array: colors
+<l>217
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDevice' returns handles to member data: 'm_device'
+<l>90
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-77
+<b>Const member function 'GetDevice' returns non-const handles to member data: 'm_device'
+<l>90
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OOP-36
+<b>Public member function 'GetDevice' returns non-const handles to member data: 'm_device'
+<l>90
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDeviceContext' returns handles to member data: 'm_deviceContext'
+<l>95
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-77
+<b>Const member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
+<l>95
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OOP-36
+<b>Public member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
+<l>95
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'GetCommonStates' is not inlined
+<l>98
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'GetFXFactory' is not inlined
+<l>103
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'GetBasicEffect' is not inlined
+<l>108
+<k>35
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'Present' is not inlined
+<l>230
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
+<c>OPT-13
+<b>Members 'm_basicEffect, m_commonStates, m_fxFactory' of class 'DXTKModule' are declared in suboptimal order for memory layout
+<l>16
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-23
+<b>Getter/setter method 'GetDevice' is not inlined
+<l>88
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-23
+<b>Getter/setter method 'GetDeviceContext' is not inlined
+<l>93
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDevice' returns handles to member data: 'm_device'
+<l>90
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-77
+<b>Const member function 'GetDevice' returns non-const handles to member data: 'm_device'
+<l>90
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OOP-36
+<b>Public member function 'GetDevice' returns non-const handles to member data: 'm_device'
+<l>90
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDeviceContext' returns handles to member data: 'm_deviceContext'
+<l>95
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>CODSTA-CPP-77
+<b>Const member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
+<l>95
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OOP-36
+<b>Public member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
+<l>95
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'GetCommonStates' is not inlined
+<l>98
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'GetFXFactory' is not inlined
+<l>103
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'GetBasicEffect' is not inlined
+<l>108
+<k>35
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
+<c>OPT-24
+<b>Function 'Present' is not inlined
+<l>230
+<k>18
+<s>false
+<N>
+<f>
+<L>0

@@ -8,11 +8,12 @@ GameObject::GameObject(void)
 }
 
 GameObject::GameObject(const GameObject& other)
+	: m_transform(other.m_transform)
 {
 
 }
 
-GameObject::GameObject(Vector3 position, Vector3 rotation, Vector3 scale)
+GameObject::GameObject(Vector3& const position, Vector3& const rotation, Vector3& const scale)
 {
 	m_transform = new Transform(position, rotation, scale);
 }
@@ -28,7 +29,7 @@ void GameObject::Reset(void)
 
 }
 
-Transform* GameObject::GetTransform(void)
+Transform* GameObject::GetTransform(void) const
 {
 	return m_transform;
 }

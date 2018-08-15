@@ -1,4 +1,4 @@
-//#pragma once
+#pragma once
 //#include "GraphicsManager.h"
 //#include <string>
 //#include "Effects.h"

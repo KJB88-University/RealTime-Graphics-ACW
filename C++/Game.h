@@ -66,4 +66,7 @@ private:
 
 	// Input States
 	DirectX::Keyboard::State m_kbState;
+
+	Game(const Game& other)=delete;
+	Game& Game::operator=(const Game& other)=delete;
 };

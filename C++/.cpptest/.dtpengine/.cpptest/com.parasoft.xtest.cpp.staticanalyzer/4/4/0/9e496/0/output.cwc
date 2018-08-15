@@ -1,0 +1,50 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\TimeManager.cpp
+<c>OPT-24
+<b>Function 'Update' is not inlined
+<l>29
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\TimeManager.cpp
+<c>OPT-24
+<b>Function 'GetCurrentModifier' is not inlined
+<l>66
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\TimeManager.cpp
+<c>OPT-23
+<b>Getter/setter method 'GetFramesPerSecond' is not inlined
+<l>76
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\TimeManager.cpp
+<c>OPT-24
+<b>Function 'Update' is not inlined
+<l>29
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\TimeManager.cpp
+<c>OPT-24
+<b>Function 'GetCurrentModifier' is not inlined
+<l>66
+<k>20
+<s>false
+<N>
+<f>
+<L>0

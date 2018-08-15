@@ -17,17 +17,19 @@ class Dome : public GameObject
 public:
 
 	Dome(void);
-	Dome(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 scale);
-	Dome(const Dome& other);
+	Dome(DirectX::SimpleMath::Vector3& const position, DirectX::SimpleMath::Vector3& const rotation, DirectX::SimpleMath::Vector3& const scale);
+
 	~Dome(void);
 
 	virtual void Initialize(GraphicsManager* gm) override;
 	virtual void Destroy(void) override;
 
-	void Update(TimeManager* time);
-	void Render(GraphicsManager* gm, DirectX::SimpleMath::Matrix projection, DirectX::SimpleMath::Matrix view, bool wireFrame);
+	//void Update(TimeManager* time);
+	void Render(const DirectX::SimpleMath::Matrix& projection, const DirectX::SimpleMath::Matrix& view, bool wireFrame);
 
 private:
 
 	std::unique_ptr<DirectX::GeometricPrimitive> m_dome;
+
+	Dome(const Dome& other)=delete;
 };

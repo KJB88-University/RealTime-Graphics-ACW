@@ -3,12 +3,13 @@
 using namespace DirectX::SimpleMath;
 
 Transform::Transform(void)
-	: m_position(0.0f, 0.0f, 0.0f), m_rotation(0.0f, 0.0f, 0.0f), m_scale(1.0f, 1.0f, 1.0f), m_defaultPosition(m_position), m_defaultRotation(m_rotation), m_defaultScale(m_scale)
+	: m_position(0.0f, 0.0f, 0.0f), m_rotation(0.0f, 0.0f, 0.0f), m_scale(1.0f, 1.0f, 1.0f),
+	m_defaultPosition(0.0f, 0.0f, 0.0f), m_defaultRotation(0.0f, 0.0f, 0.0f), m_defaultScale(1.0f, 1.0f, 1.0f)
 {
 
 }
 
-Transform::Transform(Vector3 position, Vector3 rotation, Vector3 scale)
+Transform::Transform(Vector3& const position, Vector3& const rotation, Vector3& const scale)
 	: m_position(position), m_rotation(rotation), m_scale(scale), m_defaultPosition(position), m_defaultRotation(rotation), m_defaultScale(scale)
 {
 
@@ -19,102 +20,102 @@ Transform::~Transform(void)
 
 }
 
-Vector3 Transform::GetPosition(void)
+const Vector3& Transform::GetPosition(void) const
 {
 	return m_position;
 }
 
-Vector3 Transform::GetRotation(void)
+const Vector3& Transform::GetRotation(void) const
 {
 	return m_rotation;
 }
 
-Vector3 Transform::GetScale(void)
+const Vector3& Transform::GetScale(void) const
 {
 	return m_scale;
 }
 
-void Transform::SetPosition(Vector3 position)
+void Transform::SetPosition(Vector3& const position)
 {
 	m_position = position;
 }
 
-void Transform::SetPosition(float x, float y, float z)
+void Transform::SetPosition(float const x, float const y, float const z)
 {
 	m_position.x = x;
 	m_position.y = y;
 	m_position.z = z;
 }
 
-void Transform::SetRotation(Vector3 rotation)
+void Transform::SetRotation(Vector3& const rotation)
 {
 	m_rotation = rotation;
 }
 
-void Transform::SetRotation(float x, float y, float z)
+void Transform::SetRotation(float const x, float const y, float const z)
 {
 	m_rotation.x = x;
 	m_rotation.y = y;
 	m_rotation.z = z;
 }
 
-void Transform::SetScale(Vector3 scale)
+void Transform::SetScale(Vector3& const scale)
 {
 	m_scale = scale;
 }
 
-void Transform::SetScale(float x, float y, float z)
+void Transform::SetScale(float const x, float const y, float const z)
 {
 	m_scale.x = x;
 	m_scale.y = y;
 	m_scale.z = z;
 }
 
-DirectX::SimpleMath::Vector3 Transform::GetDefaultPosition(void)
+const DirectX::SimpleMath::Vector3& Transform::GetDefaultPosition(void) const
 {
 	return m_defaultPosition;
 }
 
-DirectX::SimpleMath::Vector3 Transform::GetDefaultRotation(void)
+const DirectX::SimpleMath::Vector3& Transform::GetDefaultRotation(void) const
 {
 	return m_defaultPosition;
 }
 
-DirectX::SimpleMath::Vector3 Transform::GetDefaultScale(void)
+const DirectX::SimpleMath::Vector3& Transform::GetDefaultScale(void) const
 {
 	return m_defaultScale;
 }
 
-void Transform::SetDefaultPosition(DirectX::SimpleMath::Vector3 position)
+void Transform::SetDefaultPosition(DirectX::SimpleMath::Vector3& const position)
 {
 	m_defaultPosition = position;
 }
 
-void Transform::SetDefaultPosition(float x, float y, float z)
+void Transform::SetDefaultPosition(float const x, float const y, float const z)
 {
 	m_defaultPosition.x = x;
 	m_defaultPosition.y = y;
 	m_defaultPosition.z = z;
 }
 
-void Transform::SetDefaultRotation(DirectX::SimpleMath::Vector3 rotation)
+void Transform::SetDefaultRotation(DirectX::SimpleMath::Vector3& const rotation)
 {
 	m_defaultRotation = rotation;
 }
 
-void Transform::SetDefaultRotation(float x, float y, float z)
+void Transform::SetDefaultRotation(float const x, float const y, float const z)
 {
 	m_defaultRotation.x = x;
 	m_defaultRotation.y = y;
 	m_defaultRotation.z = z;
 }
 
-void Transform::SetDefaultScale(DirectX::SimpleMath::Vector3 scale)
+void Transform::SetDefaultScale(DirectX::SimpleMath::Vector3& const scale)
 {
 	m_defaultScale = scale;
 }
 
-void Transform::SetDefaultScale(float x, float y, float z)
+void Transform::SetDefaultScale(float const x, float const y, float const z)
 {
 	m_defaultScale.x = x;
 	m_defaultScale.y = y;

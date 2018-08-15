@@ -27,10 +27,10 @@ public:
 	void Destroy(void);
 
 	// Return a ptr to the D3D11 Device
-	ID3D11Device* GetDevice(void) const;
+	ID3D11Device* const GetDevice(void) const;
 
 	// Return a ptr to the D3D11 Device Context
-	ID3D11DeviceContext* GetDeviceContext(void) const;
+	ID3D11DeviceContext* const GetDeviceContext(void) const;
 
 	// Return a ptr to the Common States
 	DirectX::CommonStates* GetCommonStates(void) const;
@@ -40,9 +40,6 @@ public:
 
 	// Return a ptr to the Basic Effect
 	DirectX::BasicEffect* GetBasicEffect(void) const;
-
-	// Change culling mode
-	void SetCullMode(CULLMODE mode);
 
 	void ClearScreen(float r, float g, float b, float a) const;
 
@@ -71,4 +68,8 @@ private:
 	std::unique_ptr<DirectX::IEffectFactory> m_fxFactory;
 	std::unique_ptr<DirectX::BasicEffect> m_basicEffect;
 	ID3D11InputLayout* m_batchLayout;
+
+	DXTKModule(const DXTKModule& other)=delete;
+	DXTKModule& DXTKModule::operator=(const DXTKModule& other)=delete;
+
 };
