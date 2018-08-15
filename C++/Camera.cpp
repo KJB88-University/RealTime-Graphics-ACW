@@ -11,7 +11,7 @@ Camera::Camera(void)
 Camera::Camera(Vector3 position, Vector3 rotation)
 	: m_angle(0.0f, 0.0f, 0.0f), m_vel(0.0f, 0.0f, 0.0f)
 {
-	m_transform = Transform(position, rotation, Vector3(1.0f, 1.0f, 1.0));
+	m_transform = Transform(position, rotation, Vector3(1.0f, 1.0f, 1.0f));
 
 }
 
@@ -37,7 +37,7 @@ void Camera::Destroy(void)
 void Camera::Reset(void)
 {
 	m_transform.SetPosition(m_transform.GetDefaultPosition());
-	m_transform.SetRotation(m_transform.GetDefaultRotation());
+	m_transform.SetRotation(-m_transform.GetDefaultRotation());
 
 	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), Vector3(0.0f, 0.0f, -1.0f), Vector3::Up);
 }
@@ -53,25 +53,25 @@ void Camera::Update(InputManager* input, TimeManager* time)
 		if (input->IsKeyHeld(DirectX::Keyboard::Keys::LeftControl))
 		{
 			// Pan Forward
-			if (input->IsKeyHeld(DirectX::Keyboard::Keys::W))
+			if (input->IsKeyHeld(DirectX::Keyboard::Keys::Up))
 			{
 				m_vel.z += m_moveSpeed * time->GetDeltaTime();
 			}
 
 			// Pan Backwards
-			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::S))
+			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::Down))
 			{
 				m_vel.z -= m_moveSpeed * time->GetDeltaTime();
 			}
 
 			// Pan Left
-			if (input->IsKeyHeld(DirectX::Keyboard::Keys::A))
+			if (input->IsKeyHeld(DirectX::Keyboard::Keys::Left))
 			{
 				m_vel.x += m_moveSpeed * time->GetDeltaTime();
 			}
 
 			// Pan Right
-			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::D))
+			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::Right))
 			{
 				m_vel.x -= m_moveSpeed * time->GetDeltaTime();
 			}
@@ -92,33 +92,35 @@ void Camera::Update(InputManager* input, TimeManager* time)
 		else
 		{
 			// Rotate Down
-			if (input->IsKeyHeld(DirectX::Keyboard::Keys::W))
+			if (input->IsKeyHeld(DirectX::Keyboard::Keys::Up))
 			{
 				m_angle.x -= m_rotateSpeed * time->GetDeltaTime();
 			}
 
 			// Rotate Up
-			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::S))
+			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::Down))
 			{
 				m_angle.x += m_rotateSpeed * time->GetDeltaTime();
 			}
 
 			// Rotate Left
-			if (input->IsKeyHeld(DirectX::Keyboard::Keys::A))
+			if (input->IsKeyHeld(DirectX::Keyboard::Keys::Left))
 			{
 				m_angle.y -= m_rotateSpeed * time->GetDeltaTime();
 			}
 
 			// Rotate Right
-			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::D))
+			else if (input->IsKeyHeld(DirectX::Keyboard::Keys::Right))
 			{
 				m_angle.y += m_rotateSpeed * time->GetDeltaTime();
 			}
 		}
 
 		// Update transform with delta values
+		Vector3 pos = m_transform.GetPosition();
 		m_transform.SetPosition(m_transform.GetPosition() + m_vel);
 		m_transform.SetRotation(m_transform.GetRotation() + m_angle);
+		pos = m_transform.GetPosition();
 	}
 } 
 
@@ -126,11 +128,11 @@ void Camera::Render(GraphicsManager* gm)
 {
 	if (!followCam)
 	{
-		m_view = Matrix::CreateFromYawPitchRoll(m_transform.GetRotation().y, m_transform.GetRotation().x, m_transform.GetRotation().z) * Matrix::CreateTranslation(m_transform.GetPosition());
+		m_view = Matrix::CreateFromYawPitchRoll(m_transform.GetRotation().y, m_transform.GetRotation().x, 0.0f) * Matrix::CreateTranslation(m_transform.GetPosition());
 	}
 	else
 	{
-		m_view = Matrix::CreateFromYawPitchRoll(m_transform.GetRotation().y, m_transform.GetRotation().x, m_transform.GetRotation().z)
+		m_view = Matrix::CreateFromYawPitchRoll(m_transform.GetRotation().y, m_transform.GetRotation().x, 0.0f)
 			* Matrix::CreateTranslation(
 				Vector3
 				(
@@ -140,6 +142,7 @@ void Camera::Render(GraphicsManager* gm)
 				)
 			);
 	}
+
 	gm->GetBasicEffect()->SetView(m_view);
 }
 

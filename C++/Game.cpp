@@ -11,7 +11,7 @@ using namespace DirectX::SimpleMath;
 #include "Shader.h"
 
 Game::Game(void)
-	:m_wireFrameMode(false)
+	:m_wireFrameMode(false), m_statDisplay(false)
 {
 
 }
@@ -71,6 +71,14 @@ void Game::Initialize(int vpWidth, int vpHeight, HWND hwnd, float nearClip, floa
 	m_mainCamera = m_camMgr->GetMainCamera();
 	//BasicLogger::WriteToConsole("GAME: Main Camera initialized.\n");
 
+	// AntTweakBar
+	TwInit(TW_DIRECT3D11, m_gfx->GetDevice());
+	TwWindowSize(vpWidth, vpHeight);
+	m_antTweakBar = TwNewBar("Real-Time Graphics");
+	TwAddVarRW(m_antTweakBar, "Time Mod:", TW_TYPE_FLOAT, &m_timeModifier, "");
+	TwAddVarRW(m_antTweakBar, "Current Cam:", TW_TYPE_INT8, &m_currentCamera, "");
+	TwAddVarRW(m_antTweakBar, "FPS:", TW_TYPE_UINT32, &m_fps, "");
+
 	BasicLogger::WriteToConsole("GAME: Scene objects loaded.\n");
 }
 
@@ -118,6 +126,9 @@ void Game::Destroy(void)
 	delete m_input;
 	m_input = nullptr;
 
+	// AntTweakBar
+	TwTerminate();
+
 	// Graphics
 	m_gfx->Destroy();
 	delete m_gfx;
@@ -126,6 +137,7 @@ void Game::Destroy(void)
 
 bool Game::Update(void)
 {	
+
 	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::Escape))
 	{
 		return false;
@@ -135,6 +147,11 @@ bool Game::Update(void)
 	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::R))
 	{
 		ResetGame();
+	}
+
+	if (m_input->IsKeyDown(DirectX::Keyboard::Keys::S))
+	{
+		m_statDisplay = !m_statDisplay;
 	}
 
 	// TIME MANIPULATION
@@ -191,6 +208,11 @@ bool Game::Update(void)
 	m_time->Update();
 	m_input->UpdateStates();
 
+	// Update ATB values
+	m_timeModifier = m_time->GetCurrentModifier();
+	m_currentCamera = m_camMgr->GetCurrentCameraID();
+	m_fps = m_time->GetFramesPerSecond();
+
 	return true;
 }
 
@@ -211,6 +233,12 @@ void Game::Render(void)
 	// DYNAMIC OBJECTS
 	m_dragonfly->Render(m_gfx, m_time, *m_gfx->GetWorldMatrix(), m_mainCamera->GetProjMatrix(), m_mainCamera->GetViewMatrix(), m_wireFrameMode);
 
+	if (m_statDisplay)
+	{
+		// Draw AntTweakBar
+		TwDraw();
+	}
+
 	// Present buffer
 	m_gfx->Present();
 
@@ -219,7 +247,9 @@ void Game::Render(void)
 void Game::ResetGame(void)
 {
 	// Reset cameras
-	m_camMgr->Reset();
+	//m_camMgr->Reset();
+
+	m_time->Reset();
 
 	// Reset only object with state
 	m_dragonfly->Reset();

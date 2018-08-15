@@ -46,6 +46,11 @@ void CameraManager::AddCamera(Vector3 position, Vector3 rotation, Vector3 lookAt
 	m_cameras.push_back(newCam);
 }
 
+int CameraManager::GetCurrentCameraID(void)
+{
+	return m_currentCameraIndex;
+}
+
 void CameraManager::NextCamera(void)
 {
 	// Increment

@@ -56,6 +56,9 @@
     <Filter Include="Resource Files\Models\Dragonfly">
       <UniqueIdentifier>{fd6659eb-2191-4136-9cd0-c5af57141c4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Config">
+      <UniqueIdentifier>{d033dfd8-74a8-4fc3-a1c2-e9684dfa7dce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -114,6 +117,9 @@
     </ClInclude>
     <ClInclude Include="Twig.h">
       <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigLoader.h">
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -200,6 +206,7 @@
     <None Include="DFfrontlegs.sdkmesh">
       <Filter>Resource Files\Models\Dragonfly</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="BloomCombine.hlsl">
@@ -208,5 +215,31 @@
     <FxCompile Include="BloomExtract.hlsl">
       <Filter>Resource Files\Shaders</Filter>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="camera1.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="camera2.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="camera3.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="camera4.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="dome.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="dragonfly.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="platform.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
+    <Text Include="twig.txt">
+      <Filter>Resource Files\Config</Filter>
+    </Text>
   </ItemGroup>
 </Project>

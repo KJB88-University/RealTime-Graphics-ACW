@@ -25,6 +25,7 @@ public:
 
 	void AddCamera(DirectX::SimpleMath::Vector3 position, DirectX::SimpleMath::Vector3 rotation, DirectX::SimpleMath::Vector3 lookAt, bool followCam = false, GameObject* followObject = nullptr);
 	Camera* GetMainCamera(void);
+	int GetCurrentCameraID(void);
 	void Reset(void);
 
 private:

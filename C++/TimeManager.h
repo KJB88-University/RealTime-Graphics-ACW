@@ -23,8 +23,12 @@ public:
 	void IncreaseModifier(void);
 	void DecreaseModifier(void);
 
-	//// Returns the frames per second
-	//float GetFramesPerSecond(void);
+	float GetCurrentModifier(void);
+
+	// Returns the frames per second
+	uint32_t GetFramesPerSecond(void);
+
+	void Reset(void);
 
 private:
 
@@ -38,7 +42,8 @@ private:
 		2.0f,
 		5.0f
 	};
-	float m_currentModifier = 2;
+
+	int m_currentModifier = 2;
 
 	// Time since last frame
 	float m_deltaTime;
@@ -46,4 +51,6 @@ private:
 	// Total time Game has been running
 	float m_elapsedTime;
 
+	// FPS
+	uint32_t m_fps;
 };

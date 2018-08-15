@@ -4,6 +4,9 @@
 // DXTK Includes
 #include "Keyboard.h"
 
+// AntTweakBar
+#include "AntTweakBar.h"
+
 // ACW Includes
 // Managers
 #include "GraphicsManager.h"
@@ -38,6 +41,7 @@ private:
 
 	// Modifiers
 	bool m_wireFrameMode;
+	bool m_statDisplay;
 
 	// Objects
 	Platform* m_platform;
@@ -53,6 +57,12 @@ private:
 	GraphicsManager* m_gfx;
 	InputManager* m_input;
 	CameraManager* m_camMgr;
+
+	// ATB
+	TwBar* m_antTweakBar;
+	float m_timeModifier;
+	int m_currentCamera;
+	uint32_t m_fps;
 
 	// Input States
 	DirectX::Keyboard::State m_kbState;

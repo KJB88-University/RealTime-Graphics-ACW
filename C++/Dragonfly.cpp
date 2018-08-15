@@ -127,7 +127,6 @@ void Dragonfly::Render(GraphicsManager* gfx, TimeManager* time, Matrix world, Ma
 	m_midLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 	m_backLegs->Draw(gfx->GetDeviceContext(), *gfx->GetCommonStates(), world, view, proj, wireFrame, nullptr);
 
-	// Wrap in animation conditional
 	Matrix worldLeft = Matrix::CreateTranslation(m_transform->GetPosition());
 	Matrix worldRight = Matrix::CreateTranslation(m_transform->GetPosition());
 

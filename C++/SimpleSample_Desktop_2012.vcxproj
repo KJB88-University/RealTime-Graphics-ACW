@@ -91,6 +91,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>true</GenerateManifest>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
     <LinkIncremental>true</LinkIncremental>
@@ -143,6 +145,7 @@
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
       <EntryPointSymbol>
       </EntryPointSymbol>
+      <AdditionalLibraryDirectories>AntTweakBar\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Manifest>
       <EnableDPIAwareness>true</EnableDPIAwareness>
@@ -364,6 +367,7 @@
     <ClInclude Include="Dome.h" />
     <ClInclude Include="Dragonfly.h" />
     <ClInclude Include="DXTKModule.h" />
+    <ClInclude Include="ConfigLoader.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GraphicsManager.h" />
@@ -424,6 +428,7 @@
     <None Include="DFdoubleFixedRight.sdkmesh" />
     <None Include="DFfrontlegs.sdkmesh" />
     <None Include="DFmiddlelegs.sdkmesh" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="BloomCombine.hlsl">
@@ -433,6 +438,26 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
     </FxCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="camera1.txt" />
+    <Text Include="camera2.txt" />
+    <Text Include="camera3.txt" />
+    <Text Include="camera4.txt" />
+    <Text Include="dome.txt" />
+    <Text Include="dragonfly.txt" />
+    <Text Include="platform.txt" />
+    <Text Include="twig.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\AntTweakBar.redist.1.16.3\build\native\AntTweakBar.redist.targets" Condition="Exists('packages\AntTweakBar.redist.1.16.3\build\native\AntTweakBar.redist.targets')" />
+    <Import Project="packages\AntTweakBar.1.16.3\build\native\AntTweakBar.targets" Condition="Exists('packages\AntTweakBar.1.16.3\build\native\AntTweakBar.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\AntTweakBar.redist.1.16.3\build\native\AntTweakBar.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\AntTweakBar.redist.1.16.3\build\native\AntTweakBar.redist.targets'))" />
+    <Error Condition="!Exists('packages\AntTweakBar.1.16.3\build\native\AntTweakBar.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\AntTweakBar.1.16.3\build\native\AntTweakBar.targets'))" />
+  </Target>
 </Project>

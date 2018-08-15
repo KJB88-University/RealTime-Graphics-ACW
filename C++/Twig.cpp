@@ -1,5 +1,5 @@
 #include "Twig.h"
-
+#include <DDSTextureLoader.h>
 using namespace DirectX::SimpleMath;
 
 Twig::Twig(void)
