@@ -2,7 +2,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetTransform' returns handles to member data: 'm_transform'
-<l>34
+<l>30
 <k>2
 <s>false
 <N>
@@ -12,7 +12,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
 <c>CODSTA-CPP-77
 <b>Const member function 'GetTransform' returns non-const handles to member data: 'm_transform'
-<l>34
+<l>30
 <k>2
 <s>false
 <N>
@@ -22,27 +22,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
 <c>OOP-36
 <b>Public member function 'GetTransform' returns non-const handles to member data: 'm_transform'
-<l>34
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
-<c>INIT-14
-<b>Assignment in constructor 'GameObject' found. Use constructor initialization list instead
-<l>7
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
-<c>INIT-14
-<b>Assignment in constructor 'GameObject' found. Use constructor initialization list instead
-<l>18
+<l>30
 <k>2
 <s>false
 <N>
@@ -52,7 +32,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetTransform' returns handles to member data: 'm_transform'
-<l>34
+<l>30
 <k>2
 <s>false
 <N>
@@ -62,7 +42,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
 <c>CODSTA-CPP-77
 <b>Const member function 'GetTransform' returns non-const handles to member data: 'm_transform'
-<l>34
+<l>30
 <k>2
 <s>false
 <N>
@@ -72,7 +52,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\GameObject.cpp
 <c>OOP-36
 <b>Public member function 'GetTransform' returns non-const handles to member data: 'm_transform'
-<l>34
+<l>30
 <k>2
 <s>false
 <N>

@@ -53,7 +53,10 @@ void Platform::Render(const Matrix& projection, const Matrix& view, bool const w
 	Vector3 const transfRotation = GetTransform()->GetRotation();
 
 	Vector4 const rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
-	Matrix const local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, GetTransform()->GetScale(), Vector4::Zero, rotationMatrix, GetTransform()->GetPosition()));
+	Matrix const local = DirectX::XMMatrixMultiply
+	(
+		Matrix::Identity,
+		XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, GetTransform()->GetScale(), Vector4::Zero, rotationMatrix, GetTransform()->GetPosition()));
 
 	m_platform->Draw(local, view, projection, Vector4(1.0f, 1.0f, 1.0f, 1.0f), m_texture, wireFrame, nullptr);
 }

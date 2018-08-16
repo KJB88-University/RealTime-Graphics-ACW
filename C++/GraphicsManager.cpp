@@ -3,7 +3,7 @@
 using namespace DirectX::SimpleMath;
 
 GraphicsManager::GraphicsManager(void)
-	: m_gfx(nullptr), m_world(nullptr)
+	: m_gfx(nullptr)
 {
 
 }
@@ -13,8 +13,6 @@ GraphicsManager::~GraphicsManager(void)
 	delete m_gfx;
 	m_gfx = nullptr;
 
-	delete m_world;
-	m_world = nullptr;
 }
 
 void GraphicsManager::Initialize(HWND const hwnd)
@@ -55,16 +53,6 @@ DirectX::IEffectFactory* GraphicsManager::GetFXFactory(void) const
 DirectX::BasicEffect* GraphicsManager::GetBasicEffect(void) const
 {
 	return m_gfx->GetBasicEffect();
-}
-
-//Matrix* GraphicsManager::GetProjectionMatrix(void) const
-//{
-//	return m_projection;
-//}
-//
-Matrix* GraphicsManager::GetWorldMatrix(void) const
-{
-	return m_world;
 }
 
 void GraphicsManager::ClearScreen(float const r, float const g, float const b, float const a) const

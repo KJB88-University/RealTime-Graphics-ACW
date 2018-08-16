@@ -1,0 +1,2 @@
+/DirectXTK_Desktop_2012/Src\Mouse.cpp
+/DirectXTK_Desktop_2012/Src\Keyboard.cpp

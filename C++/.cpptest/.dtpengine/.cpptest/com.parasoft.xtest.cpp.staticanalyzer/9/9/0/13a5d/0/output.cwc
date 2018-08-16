@@ -1,0 +1,1920 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>INIT-12
+<b>In initializer of variable 'g_WICFormats' is used a variable 'GUID_WICPixelFormat8bppAlpha' that can be not initialized
+<l>56
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>INIT-12
+<b>In initializer of variable 'g_WICConvert' is used a variable 'GUID_WICPixelFormat64bppRGBAHalf' that can be not initialized
+<l>91
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-MCPP-06_a
+<b>Declare the private copy constructor 'MapGuard' with the '= delete' specifier
+<l>104
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-MCPP-06_a
+<b>Declare the private assignment operator with the '= delete' specifier
+<l>105
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>534
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>562
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>580
+<k>96
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>584
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>608
+<k>85
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>612
+<k>30
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>805
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>892
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>985
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1015
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1088
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1118
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>433
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>433
+<k>87
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>619
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>619
+<k>44
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>665
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>709
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>824
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>824
+<k>37
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>829
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>829
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>911
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>911
+<k>37
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>916
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>916
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1005
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1005
+<k>44
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1029
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1029
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1037
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1037
+<k>57
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1108
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1108
+<k>44
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1132
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1132
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1140
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>1140
+<k>57
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICFormats
+<l>56
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICConvert
+<l>91
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICFormats
+<l>56
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICFormats
+<l>56
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICFormats
+<l>56
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICConvert
+<l>91
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICConvert
+<l>91
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICConvert
+<l>91
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: g_WICConvert
+<l>91
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1007
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1007
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1007
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1007
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1110
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1110
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1110
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: strFileA
+<l>1110
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>STL-37
+<b>Use vector or string instead of array: temp
+<l>524
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>175
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>190
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>244
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'format' as const
+<l>272
+<k>44
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>304
+<k>54
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dContext' as const
+<l>305
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'frame' as const
+<l>310
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'usage' as const
+<l>312
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'bindFlags' as const
+<l>313
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'cpuAccessFlags' as const
+<l>314
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'miscFlags' as const
+<l>315
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'forceSRGB' as const
+<l>316
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>317
+<k>57
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>318
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'ar' as const
+<l>360
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'rowPitch' as const
+<l>521
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'imageSize' as const
+<l>522
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>541
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>592
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>449
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>526
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>543
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>577
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>594
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>605
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>725
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicData' as const
+<l>726
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicDataSize' as const
+<l>727
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>728
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>729
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>730
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromMemory' is not inlined
+<l>725
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>742
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dContext' as const
+<l>743
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicData' as const
+<l>745
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicDataSize' as const
+<l>746
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>747
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>748
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>749
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromMemory' is not inlined
+<l>742
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>757
+<k>62
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicData' as const
+<l>758
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicDataSize' as const
+<l>759
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>760
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'usage' as const
+<l>761
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'bindFlags' as const
+<l>762
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'cpuAccessFlags' as const
+<l>763
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'miscFlags' as const
+<l>764
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'forceSRGB' as const
+<l>765
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>766
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>767
+<k>75
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>789
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>779
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>782
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>791
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>842
+<k>62
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dContext' as const
+<l>843
+<k>69
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicData' as const
+<l>845
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'wicDataSize' as const
+<l>846
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>847
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'usage' as const
+<l>848
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'bindFlags' as const
+<l>849
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'cpuAccessFlags' as const
+<l>850
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'miscFlags' as const
+<l>851
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'forceSRGB' as const
+<l>852
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>853
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>854
+<k>75
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>876
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>866
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>869
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>878
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>926
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>927
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>928
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>929
+<k>71
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>930
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromFile' is not inlined
+<l>926
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>942
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dContext' as const
+<l>943
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>945
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>946
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>947
+<k>71
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>948
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromFile' is not inlined
+<l>942
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>956
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>957
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>958
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'usage' as const
+<l>959
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'bindFlags' as const
+<l>960
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'cpuAccessFlags' as const
+<l>961
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'miscFlags' as const
+<l>962
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'forceSRGB' as const
+<l>963
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>964
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>965
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>979
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'result' as const
+<l>1008
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>977
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>981
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dDevice' as const
+<l>1057
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd3dContext' as const
+<l>1058
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>1060
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxsize' as const
+<l>1061
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'usage' as const
+<l>1062
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'bindFlags' as const
+<l>1063
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'cpuAccessFlags' as const
+<l>1064
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'miscFlags' as const
+<l>1065
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'forceSRGB' as const
+<l>1066
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'texture' as const
+<l>1067
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'textureView' as const
+<l>1068
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>1082
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'result' as const
+<l>1111
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>1080
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>1084
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromMemory' is not inlined
+<l>725
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromFile' is not inlined
+<l>926
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromMemory' is not inlined
+<l>742
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\WICTextureLoader.cpp
+<c>OPT-24
+<b>Function 'CreateWICTextureFromFile' is not inlined
+<l>942
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>EXCEPT-01
+<b>Destructor '~MapGuard' should not call function 'Unmap' that is not in try context
+<l>78
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'context' as const
+<l>62
+<k>42
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'resource' as const
+<l>63
+<k>37
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'subresource' as const
+<l>64
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'mapType' as const
+<l>65
+<k>31
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'mapFlags' as const
+<l>66
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>CODSTA-CPP-53
+<b>Declare local variable 'hr' as const
+<l>69
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\DirectXHelpers.h
+<c>OPT-16
+<b>Inline function SetDebugObjectName contains virtual function call: SetPrivateData
+<l>111
+<k>17
+<s>false
+<N>
+<f>
+<L>0

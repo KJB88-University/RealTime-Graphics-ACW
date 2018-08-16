@@ -3,17 +3,13 @@
 using namespace DirectX::SimpleMath;
 
 GameObject::GameObject(void)
+	: m_transform(nullptr)
 {
 	m_transform = new Transform();
 }
 
-GameObject::GameObject(const GameObject& other)
-	: m_transform(other.m_transform)
-{
-
-}
-
 GameObject::GameObject(Vector3& const position, Vector3& const rotation, Vector3& const scale)
+	: m_transform(nullptr)
 {
 	m_transform = new Transform(position, rotation, scale);
 }
@@ -29,7 +25,7 @@ void GameObject::Reset(void)
 
 }
 
-Transform* GameObject::GetTransform(void) const
+Transform* const GameObject::GetTransform(void) const
 {
 	return m_transform;
 }

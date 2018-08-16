@@ -1,25 +1,5 @@
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'lookAt' in 'Initialize' function as reference to const object
-<l>23
-<k>40
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'lookAt' as const
-<l>23
-<k>40
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Camera.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetViewMatrix' returns handles to member data: 'm_view'
 <l>153

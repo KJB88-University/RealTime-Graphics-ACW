@@ -1,0 +1,3020 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-14
+<b>The parameter 'V' of function 'Vector2' is passed by value
+<l>42
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-14
+<b>The parameter 'V' of function 'Vector3' is passed by value
+<l>146
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-14
+<b>The parameter 'V' of function 'Vector4' is passed by value
+<l>257
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-14
+<b>The parameter 'V' of function 'Plane' is passed by value
+<l>502
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-14
+<b>The parameter 'V' of function 'Quaternion' is passed by value
+<l>546
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-14
+<b>The parameter 'V' of function 'Color' is passed by value
+<l>616
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-45
+<b>The parameter 'x' hides a member variable declared in class 'XMFLOAT2'
+<l>39
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>PB-18
+<b>Function 'Vector2' overloads on pointers and numerical types
+<l>39
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>47
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>48
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'x' as const
+<l>39
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_x' as const
+<l>40
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_y' as const
+<l>40
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Vector2' allowing conversion should be made explicit
+<l>42
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMVECTOR'
+<l>44
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMVECTOR' function should be made 'explicit'
+<l>44
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Vector2'
+<l>51
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>59
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>60
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Cross' is passed by value
+<l>70
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Min' is passed by value
+<l>83
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Max' is passed by value
+<l>86
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Lerp' is passed by value
+<l>89
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'SmoothStep' is passed by value
+<l>92
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Barycentric' is passed by value
+<l>95
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CatmullRom' is passed by value
+<l>98
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Hermite' is passed by value
+<l>101
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Reflect' is passed by value
+<l>104
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Refract' is passed by value
+<l>107
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>110
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>113
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'TransformNormal' is passed by value
+<l>120
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>131
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>132
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>133
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>134
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>135
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>136
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-45
+<b>The parameter 'x' hides a member variable declared in class 'XMFLOAT3'
+<l>143
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>PB-18
+<b>Function 'Vector3' overloads on pointers and numerical types
+<l>143
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>151
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>152
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'x' as const
+<l>143
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_x' as const
+<l>144
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_y' as const
+<l>144
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_z' as const
+<l>144
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Vector3' allowing conversion should be made explicit
+<l>146
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMVECTOR'
+<l>148
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMVECTOR' function should be made 'explicit'
+<l>148
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Vector3'
+<l>155
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>163
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>164
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Cross' is passed by value
+<l>174
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Min' is passed by value
+<l>187
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Max' is passed by value
+<l>190
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Lerp' is passed by value
+<l>193
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'SmoothStep' is passed by value
+<l>196
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Barycentric' is passed by value
+<l>199
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CatmullRom' is passed by value
+<l>202
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Hermite' is passed by value
+<l>205
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Reflect' is passed by value
+<l>208
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Refract' is passed by value
+<l>211
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>214
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>217
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'TransformNormal' is passed by value
+<l>224
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>242
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>243
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>244
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>245
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>246
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>247
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-45
+<b>The parameter 'x' hides a member variable declared in class 'XMFLOAT4'
+<l>254
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>PB-18
+<b>Function 'Vector4' overloads on pointers and numerical types
+<l>254
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>262
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>263
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'x' as const
+<l>254
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_x' as const
+<l>255
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_y' as const
+<l>255
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_z' as const
+<l>255
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_w' as const
+<l>255
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Vector4' allowing conversion should be made explicit
+<l>257
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMVECTOR'
+<l>259
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMVECTOR' function should be made 'explicit'
+<l>259
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Vector4'
+<l>266
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>274
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>275
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Cross' is passed by value
+<l>285
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Min' is passed by value
+<l>298
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Max' is passed by value
+<l>301
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Lerp' is passed by value
+<l>304
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'SmoothStep' is passed by value
+<l>307
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Barycentric' is passed by value
+<l>310
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CatmullRom' is passed by value
+<l>313
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Hermite' is passed by value
+<l>316
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Reflect' is passed by value
+<l>319
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Refract' is passed by value
+<l>322
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>325
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>328
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>331
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>334
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>347
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>348
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>349
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>350
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>351
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>352
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>383
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>384
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Up' should be declared as const
+<l>403
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Down' should be declared as const
+<l>406
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Right' should be declared as const
+<l>409
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Left' should be declared as const
+<l>412
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Forward' should be declared as const
+<l>415
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Backward' should be declared as const
+<l>418
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-54
+<b>Member function 'Translation' should be declared as const
+<l>421
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm00' as const
+<l>362
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm01' as const
+<l>362
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm02' as const
+<l>362
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm03' as const
+<l>362
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm10' as const
+<l>363
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm11' as const
+<l>363
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm12' as const
+<l>363
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm13' as const
+<l>363
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm20' as const
+<l>364
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm21' as const
+<l>364
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm22' as const
+<l>364
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm23' as const
+<l>364
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm30' as const
+<l>365
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm31' as const
+<l>365
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm32' as const
+<l>365
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'm33' as const
+<l>365
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Matrix' allowing conversion should be made explicit
+<l>378
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMMATRIX'
+<l>380
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMMATRIX' function should be made 'explicit'
+<l>380
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Matrix'
+<l>387
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>398
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>399
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Up' is passed by value
+<l>402
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Down' is passed by value
+<l>405
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Right' is passed by value
+<l>408
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Left' is passed by value
+<l>411
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Forward' is passed by value
+<l>414
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Backward' is passed by value
+<l>417
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Translation' is passed by value
+<l>420
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transpose' is passed by value
+<l>426
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Invert' is passed by value
+<l>429
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateBillboard' is passed by value
+<l>435
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateConstrainedBillboard' is passed by value
+<l>437
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateTranslation' is passed by value
+<l>440
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateTranslation' is passed by value
+<l>441
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateScale' is passed by value
+<l>443
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateScale' is passed by value
+<l>444
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateScale' is passed by value
+<l>445
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateRotationX' is passed by value
+<l>447
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateRotationY' is passed by value
+<l>448
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateRotationZ' is passed by value
+<l>449
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateFromAxisAngle' is passed by value
+<l>451
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreatePerspectiveFieldOfView' is passed by value
+<l>453
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreatePerspective' is passed by value
+<l>454
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreatePerspectiveOffCenter' is passed by value
+<l>455
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateOrthographic' is passed by value
+<l>456
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateOrthographicOffCenter' is passed by value
+<l>457
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateLookAt' is passed by value
+<l>459
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateWorld' is passed by value
+<l>460
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateFromQuaternion' is passed by value
+<l>462
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateFromYawPitchRoll' is passed by value
+<l>464
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateShadow' is passed by value
+<l>466
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateReflection' is passed by value
+<l>468
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Lerp' is passed by value
+<l>471
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>474
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>481
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>482
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>483
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>484
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>485
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>486
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>488
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>507
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>508
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_x' as const
+<l>496
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_y' as const
+<l>496
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_z' as const
+<l>496
+<k>37
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_w' as const
+<l>496
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd' as const
+<l>497
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Plane' allowing conversion should be made explicit
+<l>502
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMVECTOR'
+<l>504
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMVECTOR' function should be made 'explicit'
+<l>504
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Plane'
+<l>511
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Normal' is passed by value
+<l>514
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'd' as const
+<l>518
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>530
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Transform' is passed by value
+<l>533
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>551
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>552
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_x' as const
+<l>542
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_y' as const
+<l>542
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_z' as const
+<l>542
+<k>43
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_w' as const
+<l>542
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'scalar' as const
+<l>543
+<k>41
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Quaternion' allowing conversion should be made explicit
+<l>546
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMVECTOR'
+<l>548
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMVECTOR' function should be made 'explicit'
+<l>548
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Quaternion'
+<l>555
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>563
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>564
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateFromAxisAngle' is passed by value
+<l>581
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateFromYawPitchRoll' is passed by value
+<l>582
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'CreateFromRotationMatrix' is passed by value
+<l>583
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Lerp' is passed by value
+<l>586
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Slerp' is passed by value
+<l>589
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Concatenate' is passed by value
+<l>592
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>599
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>600
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>601
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>602
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>603
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>604
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator==' should be defined as global or friend function
+<l>628
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-20
+<b>The 'operator!=' should be defined as global or friend function
+<l>629
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_r' as const
+<l>611
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_g' as const
+<l>611
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_b' as const
+<l>611
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_r' as const
+<l>612
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_g' as const
+<l>612
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_b' as const
+<l>612
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter '_a' as const
+<l>612
+<k>48
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-04
+<b>Constructor 'Color' allowing conversion should be made explicit
+<l>616
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator DirectX::XMVECTOR'
+<l>624
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator DirectX::XMVECTOR' function should be made 'explicit'
+<l>624
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-05
+<b>Use conversion function instead of conversion operator: 'operator const float *'
+<l>625
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-MCPP-01
+<b>The type conversion 'operator const float *' function should be made 'explicit'
+<l>625
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'Color'
+<l>632
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>640
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>641
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'r' as const
+<l>645
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'g' as const
+<l>648
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'b' as const
+<l>651
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'a' as const
+<l>654
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'BGRA' is passed by value
+<l>657
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'RGBA' is passed by value
+<l>658
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'ToVector3' is passed by value
+<l>660
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'ToVector4' is passed by value
+<l>661
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Modulate' is passed by value
+<l>680
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function 'Lerp' is passed by value
+<l>683
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '+' is passed by value
+<l>687
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '-' is passed by value
+<l>688
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>689
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>690
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '/' is passed by value
+<l>691
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OPT-33
+<b>Returned value from function '*' is passed by value
+<l>692
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-18
+<b>Data members 'position' is declared as 'public'
+<l>699
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>OOP-18
+<b>Data members 'direction' is declared as 'public'
+<l>700
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>731
+<k>41
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>740
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>741
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>741
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>750
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>751
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>751
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>752
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>752
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>752
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>760
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>761
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>762
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>763
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>764
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>765
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>766
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>767
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>768
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>769
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>770
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>771
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>772
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>773
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>774
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>775
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>786
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>787
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>787
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>788
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>788
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>788
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>797
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>798
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>798
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>799
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>799
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>799
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>808
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>809
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>809
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>810
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>810
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>810
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>818
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>819
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>820
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>822
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>823
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\SimpleMath.h
+<c>MISRA2004-13_3
+<b>Do not use "==" or "!=" to test floating-point expression
+<l>824
+<k>17
+<s>false
+<N>
+<f>
+<L>0

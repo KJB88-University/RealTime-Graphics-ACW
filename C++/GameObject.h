@@ -13,16 +13,18 @@ public:
 		DirectX::SimpleMath::Vector3& const position,
 		DirectX::SimpleMath::Vector3& const rotation,
 		DirectX::SimpleMath::Vector3& const scale);
-	GameObject(const GameObject& other);
+
 	virtual ~GameObject(void);
 
 	virtual void Initialize(GraphicsManager* const gfx) = 0;
 	virtual void Destroy(void) = 0;
 	virtual void Reset(void);
 
-	virtual Transform* GetTransform(void) const;
+	virtual Transform* const GetTransform(void) const;
 
 private:
 	Transform* m_transform;
+
+	GameObject(const GameObject& other)=delete;
 	GameObject& GameObject::operator=(const GameObject& other)=delete;
 };

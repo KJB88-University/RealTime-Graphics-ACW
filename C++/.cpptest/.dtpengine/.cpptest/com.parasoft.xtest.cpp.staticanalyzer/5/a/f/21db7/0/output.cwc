@@ -1,0 +1,1180 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>CODSTA-MCPP-06_a
+<b>Declare the private copy constructor 'GamePad' with the '= delete' specifier
+<l>224
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>CODSTA-MCPP-06_a
+<b>Declare the private assignment operator with the '= delete' specifier
+<l>225
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>CODSTA-MCPP-03
+<b>The 'DeadZone' enumeration should be declared as the scoped enum type
+<l>50
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>CODSTA-MCPP-03
+<b>The 'Type' enumeration should be declared as the scoped enum type
+<l>142
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>CODSTA-MCPP-03
+<b>The 'ButtonState' enumeration should be declared as the scoped enum type
+<l>167
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mLastReadTime
+<l>674
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mLastReadTime
+<l>674
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mLastReadTime
+<l>674
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mLastReadTime
+<l>674
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mLastReadTime
+<l>674
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mConnected
+<l>673
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>STL-37
+<b>Use vector or string instead of array: mLastReadTime
+<l>674
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxValue' as const
+<l>23
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'deadZoneSize' as const
+<l>23
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'scaledValue' as const
+<l>42
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'x' as const
+<l>46
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'y' as const
+<l>46
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'deadZoneMode' as const
+<l>46
+<k>66
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'maxValue' as const
+<l>46
+<k>86
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'deadZoneSize' as const
+<l>46
+<k>102
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'dist' as const
+<l>58
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'wanted' as const
+<l>59
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'scale' as const
+<l>61
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OPT-18
+<b>In class 'Impl' inline function 'Impl' contains loops
+<l>505
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OPT-18
+<b>In class 'Impl' inline function 'ThrottleRetry' contains loops
+<l>678
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>MRM-49
+<b>Class 'Impl' shall declare a copy assignment operator
+<l>502
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>MRM-49
+<b>Class 'Impl' shall declare a copy constructor
+<l>502
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>MRM-40_d
+<b>Class Impl has a non-trivial destructor, but no copy constructor nor copy assignment operator
+<l>502
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'Suspend' should be declared as const
+<l>658
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'Resume' should be declared as const
+<l>665
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-54
+<b>Member function 'ThrottleRetry' should be declared as const
+<l>678
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'Impl' was found in source file
+<l>505
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function '~Impl' was found in source file
+<l>521
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>526
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'deadZoneMode' as const
+<l>526
+<k>57
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'result' as const
+<l>531
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'xbuttons' as const
+<l>544
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'GetState' was found in source file
+<l>526
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>531
+<k>44
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>563
+<k>64
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>564
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>568
+<k>64
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>568
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>569
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>569
+<k>109
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>572
+<k>37
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>572
+<k>69
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>573
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>576
+<k>37
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>576
+<k>69
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>577
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>587
+<k>31
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'result' as const
+<l>592
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'GetCapabilities' was found in source file
+<l>587
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>592
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>603
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>619
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>629
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'leftMotor' as const
+<l>629
+<k>42
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rightMotor' as const
+<l>629
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'leftTrigger' as const
+<l>629
+<k>77
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rightTrigger' as const
+<l>629
+<k>96
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'result' as const
+<l>644
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'SetVibration' was found in source file
+<l>629
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>642
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>643
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>644
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'Suspend' was found in source file
+<l>658
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'Resume' was found in source file
+<l>665
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>678
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'time' as const
+<l>690
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'delta' as const
+<l>696
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-51
+<b>Inline function 'ThrottleRetry' was found in source file
+<l>678
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>699
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OOP-34
+<b>Check for assignment to self in operator= in class 'GamePad'
+<l>731
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>744
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'deadZoneMode' as const
+<l>744
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OPT-33
+<b>Returned value from function 'GetState' is passed by value
+<l>744
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>752
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OPT-33
+<b>Returned value from function 'GetCapabilities' is passed by value
+<l>752
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'player' as const
+<l>760
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'leftMotor' as const
+<l>760
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rightMotor' as const
+<l>760
+<k>64
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'leftTrigger' as const
+<l>760
+<k>82
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rightTrigger' as const
+<l>760
+<k>101
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OPT-24
+<b>Function 'Reset' is not inlined
+<l>822
+<k>35
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OPT-13
+<b>Members 'packet' of structure 'State' are declared in suboptimal order for memory layout
+<l>93
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OPT-13
+<b>Members 'buttons, dpad, thumbSticks, triggers' of structure 'State' are declared in suboptimal order for memory layout
+<l>93
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>CODSTA-CPP-81
+<b>Capabilities: the percentage of getters and setters (100.00) is equal or higher than the threshold (100.00)
+<l>140
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OPT-13
+<b>Members 'id' of structure 'Capabilities' are declared in suboptimal order for memory layout
+<l>140
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>INIT-06
+<b>Constructor does not initialize members: 'a, b, back, dpadDown, dpadLeft, dpadRight, dpadUp, leftShoulder, leftStick, rightShoulder, rightStick, start, x, y'
+<l>194
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'a' is declared as 'public'
+<l>175
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'b' is declared as 'public'
+<l>176
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'x' is declared as 'public'
+<l>177
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'y' is declared as 'public'
+<l>178
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'leftStick' is declared as 'public'
+<l>180
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'rightStick' is declared as 'public'
+<l>181
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'leftShoulder' is declared as 'public'
+<l>183
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'rightShoulder' is declared as 'public'
+<l>184
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'back' is declared as 'public'
+<l>186
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'start' is declared as 'public'
+<l>187
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'dpadUp' is declared as 'public'
+<l>189
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'dpadDown' is declared as 'public'
+<l>190
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'dpadLeft' is declared as 'public'
+<l>191
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OOP-18
+<b>Data members 'dpadRight' is declared as 'public'
+<l>192
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>OPT-24
+<b>Function 'Reset' is not inlined
+<l>822
+<k>35
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OPT-33
+<b>Returned value from function 'GetState' is passed by value
+<l>205
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\GamePad.h
+<c>OPT-33
+<b>Returned value from function 'GetCapabilities' is passed by value
+<l>208
+<k>30
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\GamePad.cpp
+<c>MISRA2004-19_7
+<b>Do not define function-like macro: UPDATE_BUTTON_STATE
+<l>782
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

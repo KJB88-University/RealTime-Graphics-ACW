@@ -1,0 +1,1420 @@
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>25
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>36
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>47
+<k>54
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>58
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>70
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>82
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>94
+<k>66
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>108
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>130
+<k>81
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>OPT-14
+<b>The parameter 'icolor' of function 'SetColor' is passed by value
+<l>119
+<k>80
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>OPT-14
+<b>The parameter 'iweights' of function 'SetBlendWeights' is passed by value
+<l>150
+<k>95
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>54
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>79
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>104
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>132
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>160
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>188
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>219
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>277
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>STL-37
+<b>Use vector or string instead of array: InputElements
+<l>329
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionColor' is passed by value
+<l>44
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'color' of function 'VertexPositionColor' is passed by value
+<l>44
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionTexture' is passed by value
+<l>69
+<k>41
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'textureCoordinate' of function 'VertexPositionTexture' is passed by value
+<l>69
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormal' is passed by value
+<l>94
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormal' is passed by value
+<l>94
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionColorTexture' is passed by value
+<l>120
+<k>46
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'color' of function 'VertexPositionColorTexture' is passed by value
+<l>120
+<k>66
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'textureCoordinate' of function 'VertexPositionColorTexture' is passed by value
+<l>120
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalColor' is passed by value
+<l>148
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalColor' is passed by value
+<l>148
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'color' of function 'VertexPositionNormalColor' is passed by value
+<l>148
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalTexture' is passed by value
+<l>176
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalTexture' is passed by value
+<l>176
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'textureCoordinate' of function 'VertexPositionNormalTexture' is passed by value
+<l>176
+<k>85
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalColorTexture' is passed by value
+<l>205
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalColorTexture' is passed by value
+<l>205
+<k>72
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'color' of function 'VertexPositionNormalColorTexture' is passed by value
+<l>205
+<k>90
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalTangentColorTexture' is passed by value
+<l>245
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalTangentColorTexture' is passed by value
+<l>245
+<k>79
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'tangent' of function 'VertexPositionNormalTangentColorTexture' is passed by value
+<l>245
+<k>97
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalTangentColorTexture' is passed by value
+<l>263
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalTangentColorTexture' is passed by value
+<l>263
+<k>79
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'tangent' of function 'VertexPositionNormalTangentColorTexture' is passed by value
+<l>263
+<k>97
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalTangentColorTextureSkinning' is passed by value
+<l>299
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalTangentColorTextureSkinning' is passed by value
+<l>299
+<k>87
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'tangent' of function 'VertexPositionNormalTangentColorTextureSkinning' is passed by value
+<l>299
+<k>105
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'position' of function 'VertexPositionNormalTangentColorTextureSkinning' is passed by value
+<l>315
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'normal' of function 'VertexPositionNormalTangentColorTextureSkinning' is passed by value
+<l>315
+<k>87
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-14
+<b>The parameter 'tangent' of function 'VertexPositionNormalTangentColorTextureSkinning' is passed by value
+<l>315
+<k>105
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionColor'
+<l>39
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionColor'
+<l>39
+<k>71
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionColor'
+<l>44
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionColor'
+<l>44
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionTexture'
+<l>64
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionTexture'
+<l>64
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionTexture'
+<l>69
+<k>41
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionTexture'
+<l>69
+<k>61
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormal'
+<l>89
+<k>46
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormal'
+<l>89
+<k>72
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormal'
+<l>94
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormal'
+<l>94
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionColorTexture'
+<l>114
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionColorTexture'
+<l>114
+<k>78
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionColorTexture'
+<l>114
+<k>101
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionColorTexture'
+<l>120
+<k>46
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionColorTexture'
+<l>120
+<k>66
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionColorTexture'
+<l>120
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalColor'
+<l>142
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalColor'
+<l>142
+<k>77
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalColor'
+<l>142
+<k>101
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalColor'
+<l>148
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalColor'
+<l>148
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalColor'
+<l>148
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTexture'
+<l>170
+<k>53
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTexture'
+<l>170
+<k>79
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTexture'
+<l>170
+<k>103
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTexture'
+<l>176
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTexture'
+<l>176
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTexture'
+<l>176
+<k>85
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>198
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>198
+<k>84
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>198
+<k>108
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>198
+<k>131
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>205
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>205
+<k>72
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>205
+<k>90
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalColorTexture'
+<l>205
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>INIT-06
+<b>Constructor does not initialize members: 'color'
+<l>227
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>236
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>236
+<k>91
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>236
+<k>115
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>236
+<k>155
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>245
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>245
+<k>79
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>245
+<k>97
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>245
+<k>131
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>254
+<k>65
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>254
+<k>91
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>254
+<k>115
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>254
+<k>140
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>254
+<k>163
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>263
+<k>59
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>263
+<k>79
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>263
+<k>97
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>263
+<k>116
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>263
+<k>133
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>OPT-13
+<b>Members 'textureCoordinate' of structure 'VertexPositionNormalTangentColorTexture' are declared in suboptimal order for memory layout
+<l>225
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>OPT-23
+<b>Getter/setter method 'SetColor' is not inlined
+<l>119
+<k>60
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rgba' as const
+<l>236
+<k>133
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rgba' as const
+<l>245
+<k>115
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>INIT-06
+<b>Constructor does not initialize members: 'indices, weights'
+<l>285
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>291
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>291
+<k>99
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>291
+<k>123
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>292
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'indices' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>292
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'weights' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>292
+<k>132
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>299
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>299
+<k>87
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>299
+<k>105
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>299
+<k>139
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'indices' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>300
+<k>72
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'weights' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>300
+<k>91
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>307
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>307
+<k>99
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>307
+<k>123
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>307
+<k>148
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>308
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'indices' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>308
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'weights' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>308
+<k>132
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'position' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>315
+<k>67
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'normal' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>315
+<k>87
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'tangent' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>315
+<k>105
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'color' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>315
+<k>124
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'textureCoordinate' hides a member variable declared in class 'VertexPositionNormalTangentColorTexture'
+<l>315
+<k>141
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'indices' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>316
+<k>72
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-45
+<b>The parameter 'weights' hides a member variable declared in class 'VertexPositionNormalTangentColorTextureSkinning'
+<l>316
+<k>91
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>OPT-23
+<b>Getter/setter method 'SetBlendIndices' is not inlined
+<l>145
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\VertexTypes.cpp
+<c>OPT-23
+<b>Getter/setter method 'SetBlendWeights' is not inlined
+<l>150
+<k>68
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rgba' as const
+<l>291
+<k>141
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc\VertexTypes.h
+<c>CODSTA-CPP-53
+<b>Declare parameter 'rgba' as const
+<l>299
+<k>123
+<s>false
+<N>
+<f>
+<L>0

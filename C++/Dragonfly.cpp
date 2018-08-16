@@ -94,7 +94,7 @@ void Dragonfly::ToggleAnimation(void)
 	}
 }
 
-void Dragonfly::Render(const GraphicsManager* const gfx, const TimeManager* const time, const Matrix& proj, const Matrix& view, bool const wireFrame)
+void Dragonfly::Render(const GraphicsManager* const gfx, const TimeManager* const time, const Matrix& proj, const Matrix& view, bool const wireFrame) const
 {
 	Matrix world = Matrix::Identity;
 	world = Matrix::CreateTranslation(GetTransform()->GetPosition());

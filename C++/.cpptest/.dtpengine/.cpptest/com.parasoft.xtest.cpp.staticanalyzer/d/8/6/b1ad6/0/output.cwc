@@ -1,15 +1,5 @@
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'followCam' as const
-<l>38
-<k>109
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\CameraManager.cpp
 <c>OPT-24
 <b>Function 'GetMainCamera' is not inlined
 <l>101

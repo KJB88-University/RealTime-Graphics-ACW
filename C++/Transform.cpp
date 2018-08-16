@@ -9,7 +9,7 @@ Transform::Transform(void)
 
 }
 
-Transform::Transform(Vector3& const position, Vector3& const rotation, Vector3& const scale)
+Transform::Transform(const Vector3& const position, const Vector3& const rotation, const Vector3& const scale)
 	: m_position(position), m_rotation(rotation), m_scale(scale), m_defaultPosition(position), m_defaultRotation(rotation), m_defaultScale(scale)
 {
 
@@ -35,7 +35,7 @@ const Vector3& Transform::GetScale(void) const
 	return m_scale;
 }
 
-void Transform::SetPosition(Vector3& const position)
+void Transform::SetPosition(const Vector3& const position)
 {
 	m_position = position;
 }
@@ -47,7 +47,7 @@ void Transform::SetPosition(float const x, float const y, float const z)
 	m_position.z = z;
 }
 
-void Transform::SetRotation(Vector3& const rotation)
+void Transform::SetRotation(const Vector3& const rotation)
 {
 	m_rotation = rotation;
 }
@@ -59,7 +59,7 @@ void Transform::SetRotation(float const x, float const y, float const z)
 	m_rotation.z = z;
 }
 
-void Transform::SetScale(Vector3& const scale)
+void Transform::SetScale(const Vector3& const scale)
 {
 	m_scale = scale;
 }
@@ -86,7 +86,7 @@ const DirectX::SimpleMath::Vector3& Transform::GetDefaultScale(void) const
 	return m_defaultScale;
 }
 
-void Transform::SetDefaultPosition(DirectX::SimpleMath::Vector3& const position)
+void Transform::SetDefaultPosition(const Vector3& const position)
 {
 	m_defaultPosition = position;
 }
@@ -98,7 +98,7 @@ void Transform::SetDefaultPosition(float const x, float const y, float const z)
 	m_defaultPosition.z = z;
 }
 
-void Transform::SetDefaultRotation(DirectX::SimpleMath::Vector3& const rotation)
+void Transform::SetDefaultRotation(const Vector3& const rotation)
 {
 	m_defaultRotation = rotation;
 }
@@ -110,7 +110,7 @@ void Transform::SetDefaultRotation(float const x, float const y, float const z)
 	m_defaultRotation.z = z;
 }
 
-void Transform::SetDefaultScale(DirectX::SimpleMath::Vector3& const scale)
+void Transform::SetDefaultScale(const Vector3& const scale)
 {
 	m_defaultScale = scale;
 }

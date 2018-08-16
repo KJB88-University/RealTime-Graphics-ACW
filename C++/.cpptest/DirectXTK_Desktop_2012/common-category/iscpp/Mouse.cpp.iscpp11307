@@ -1,0 +1,6 @@
+fileName=C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Mouse.cpp
+isCpp=
+compilerOpts=-I"C:\Program Files (x86)\Parasoft\C++test for Visual Studio\10.3\engine\runtime\include" /ZI /W4 /Od /EHsc /RTC1 /MDd /arch:SSE2 /fp:fast /Gd /GS /Oy- /I"C:\Users\User\Desktop\MSc CompSci for GamesDev\RealTime Graphics\DXTK Example\DXTK-Sample-Practice\C++\DirectXTK\Inc" /I"C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Inc" /Gm /D_WIN32_WINNT=0x0600 /D_WIN7_PLATFORM_UPDATE /DWIN32 /D_DEBUG /D_LIB /D_UNICODE /DUNICODE /Zc:wchar_t /Zc:forScope /Zc:inline /WX- /nologo -DPARASOFT_CPPTEST -I.
+compilerId=vc_14_0
+workingDir=C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\
+advancedOptionsHash=0

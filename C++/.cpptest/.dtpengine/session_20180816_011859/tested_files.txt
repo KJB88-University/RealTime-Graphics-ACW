@@ -1,0 +1,274 @@
+/SimpleSample/Resource Files\stdafx.cpp
+1=/SimpleSample/Resource Files\stdafx.h
+/SimpleSample/Source Files\Game.cpp
+2=/SimpleSample/Header Files\Game.h
+3=/SimpleSample/Header Files\GameObjects\GameObject.h
+4=/SimpleSample/Header Files\Managers\TimeManager.h
+5=/SimpleSample/Header Files\Graphics\DXTKModule.h
+6=/SimpleSample/Header Files\Graphics\Camera.h
+7=/SimpleSample/Header Files\GameObjects\Platform.h
+8=/SimpleSample/Header Files\Managers\InputManager.h
+9=/SimpleSample/Header Files\Managers\GraphicsManager.h
+10=/SimpleSample/Header Files\GameObjects\Dragonfly.h
+11=/SimpleSample/Header Files\Components\Transform.h
+12=/SimpleSample/Header Files\GameObjects\Dome.h
+13=/SimpleSample/Header Files\Managers\CameraManager.h
+14=/SimpleSample/Header Files\GameObjects\Twig.h
+/SimpleSample/Source Files\Graphics\Camera.cpp
+10
+3
+11
+4
+5
+6
+8
+9
+/SimpleSample/Source Files\Graphics\DXTKModule.cpp
+5
+/SimpleSample/Source Files\Graphics\Window.cpp
+2
+3
+4
+5
+6
+15=/SimpleSample/Header Files\Graphics\Window.h
+7
+8
+9
+10
+11
+12
+13
+14
+/SimpleSample/Source Files\Managers\CameraManager.cpp
+10
+3
+11
+4
+5
+6
+13
+8
+9
+/SimpleSample/Source Files\Managers\GraphicsManager.cpp
+5
+9
+/SimpleSample/Source Files\Managers\InputManager.cpp
+8
+/SimpleSample/Source Files\Managers\TimeManager.cpp
+4
+/SimpleSample/Source Files\GameObjects\Dome.cpp
+3
+11
+4
+5
+12
+9
+/SimpleSample/Source Files\GameObjects\Dragonfly.cpp
+10
+3
+11
+4
+5
+9
+/SimpleSample/Source Files\GameObjects\GameObject.cpp
+3
+11
+4
+5
+9
+/SimpleSample/Source Files\GameObjects\Platform.cpp
+3
+11
+4
+5
+7
+9
+/SimpleSample/Source Files\GameObjects\Twig.cpp
+3
+11
+4
+5
+9
+14
+/SimpleSample/Source Files\Components\Transform.cpp
+11
+/SimpleSample/main.cpp
+2
+3
+4
+5
+6
+15
+7
+8
+9
+10
+11
+12
+13
+14
+/DirectXTK_Desktop_2012/Src\Keyboard.cpp
+/DirectXTK_Desktop_2012/Src\Mouse.cpp
+/DirectXTK_Desktop_2012/Src\AlphaTestEffect.cpp
+16=/DirectXTK_Desktop_2012/Src\SharedResourcePool.h
+17=/DirectXTK_Desktop_2012/Inc\DirectXHelpers.h
+18=/DirectXTK_Desktop_2012/Src\ConstantBuffer.h
+19=/DirectXTK_Desktop_2012/Inc\Effects.h
+20=/DirectXTK_Desktop_2012/Src\EffectCommon.h
+21=/DirectXTK_Desktop_2012/Src\AlignedNew.h
+22=/DirectXTK_Desktop_2012/Src\pch.h
+/DirectXTK_Desktop_2012/Src\BasicEffect.cpp
+16
+17
+18
+19
+20
+21
+22
+/DirectXTK_Desktop_2012/Src\CommonStates.cpp
+16
+17
+23=/DirectXTK_Desktop_2012/Src\DemandCreate.h
+24=/DirectXTK_Desktop_2012/Inc\CommonStates.h
+22
+/DirectXTK_Desktop_2012/Src\DDSTextureLoader.cpp
+17
+25=/DirectXTK_Desktop_2012/Src\DDS.h
+22
+26=/DirectXTK_Desktop_2012/Inc\DDSTextureLoader.h
+/DirectXTK_Desktop_2012/Src\DGSLEffect.cpp
+16
+17
+18
+19
+23
+20
+21
+22
+/DirectXTK_Desktop_2012/Src\DGSLEffectFactory.cpp
+27=/DirectXTK_Desktop_2012/Inc\WICTextureLoader.h
+16
+19
+23
+22
+28=/DirectXTK_Desktop_2012/Src\BinaryReader.h
+26
+/DirectXTK_Desktop_2012/Src\DualTextureEffect.cpp
+16
+17
+18
+19
+20
+21
+22
+/DirectXTK_Desktop_2012/Src\BinaryReader.cpp
+22
+28
+/DirectXTK_Desktop_2012/Src\EffectCommon.cpp
+16
+17
+18
+19
+23
+20
+21
+22
+/DirectXTK_Desktop_2012/Src\EffectFactory.cpp
+27
+16
+19
+23
+22
+26
+/DirectXTK_Desktop_2012/Src\EnvironmentMapEffect.cpp
+16
+17
+18
+19
+20
+21
+22
+/DirectXTK_Desktop_2012/Src\GamePad.cpp
+29=/DirectXTK_Desktop_2012/Inc\GamePad.h
+22
+/DirectXTK_Desktop_2012/Src\GeometricPrimitive.cpp
+16
+17
+19
+30=/DirectXTK_Desktop_2012/Src\Bezier.h
+24
+22
+31=/DirectXTK_Desktop_2012/Inc\GeometricPrimitive.h
+32=/DirectXTK_Desktop_2012/Inc\VertexTypes.h
+/DirectXTK_Desktop_2012/Src\Model.cpp
+33=/DirectXTK_Desktop_2012/Inc\Model.h
+17
+19
+24
+22
+/DirectXTK_Desktop_2012/Src\ModelLoadCMO.cpp
+33
+17
+19
+22
+28
+32
+26
+/DirectXTK_Desktop_2012/Src\ModelLoadSDKMESH.cpp
+33
+17
+19
+22
+28
+32
+/DirectXTK_Desktop_2012/Src\ModelLoadVBO.cpp
+33
+17
+19
+22
+28
+32
+/DirectXTK_Desktop_2012/Src\pch.cpp
+22
+/DirectXTK_Desktop_2012/Src\ScreenGrab.cpp
+25
+22
+34=/DirectXTK_Desktop_2012/Inc\ScreenGrab.h
+/DirectXTK_Desktop_2012/Src\SimpleMath.cpp
+35=/DirectXTK_Desktop_2012/Inc\SimpleMath.h
+22
+/DirectXTK_Desktop_2012/Src\SkinnedEffect.cpp
+16
+17
+18
+19
+20
+21
+22
+/DirectXTK_Desktop_2012/Src\SpriteBatch.cpp
+16
+17
+18
+21
+24
+22
+36=/DirectXTK_Desktop_2012/Inc\SpriteBatch.h
+32
+/DirectXTK_Desktop_2012/Src\PrimitiveBatch.cpp
+17
+22
+37=/DirectXTK_Desktop_2012/Inc\PrimitiveBatch.h
+/DirectXTK_Desktop_2012/Src\SpriteFont.cpp
+17
+38=/DirectXTK_Desktop_2012/Inc\SpriteFont.h
+22
+28
+36
+/DirectXTK_Desktop_2012/Src\VertexTypes.cpp
+22
+32
+/DirectXTK_Desktop_2012/Src\WICTextureLoader.cpp
+27
+17
+22

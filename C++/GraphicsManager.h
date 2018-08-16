@@ -30,16 +30,9 @@ public:
 	// Return a ptr to the Basic Effect
 	DirectX::BasicEffect* GetBasicEffect(void) const;
 
-	// Matrix Getters
-	//DirectX::SimpleMath::Matrix* GetProjectionMatrix(void) const;
-	DirectX::SimpleMath::Matrix* GetWorldMatrix(void) const;
-
 private:
 
 	DXTKModule* m_gfx;
-
-	DirectX::SimpleMath::Matrix* m_world;
-	//DirectX::SimpleMath::Matrix* m_projection;
 
 	GraphicsManager(const GraphicsManager& other)=delete;
 	GraphicsManager& GraphicsManager::operator=(const GraphicsManager& other)=delete;

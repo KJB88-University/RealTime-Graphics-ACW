@@ -24,7 +24,7 @@ public:
 	virtual void Reset(void) override;
 
 	void Update(const TimeManager* const time);
-	void Render(const GraphicsManager* const gfx, const TimeManager* const time, const DirectX::SimpleMath::Matrix& proj, const DirectX::SimpleMath::Matrix& view, bool wireFrame);
+	void Render(const GraphicsManager* const gfx, const TimeManager* const time, const DirectX::SimpleMath::Matrix& proj, const DirectX::SimpleMath::Matrix& view, bool wireFrame) const;
 
 	void ToggleAnimation(void);
 

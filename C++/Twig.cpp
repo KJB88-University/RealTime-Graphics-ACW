@@ -41,7 +41,7 @@ void Twig::Render(const Matrix& proj, const Matrix& view, bool const wireFrame)
 	Vector3 const transfRotation = GetTransform()->GetRotation();
 
 	Vector4 const rotationMatrix = DirectX::XMQuaternionRotationRollPitchYaw(transfRotation.x, transfRotation.y, transfRotation.z);
-	Matrix const local = DirectX::XMMatrixMultiply(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, GetTransform()->GetScale(), Vector4::Zero, rotationMatrix, GetTransform()->GetPosition()));
+	Matrix const local = DirectX::XMMatrixMultiply	(Matrix::Identity, XMMatrixTransformation(Vector4::Zero, Quaternion::Identity, GetTransform()->GetScale(), Vector4::Zero, rotationMatrix, GetTransform()->GetPosition()));
 	
 	m_twig->Draw(local, view, proj, Vector4(0.35f, 0.25f, 0.125f, 1.0f), nullptr, wireFrame, nullptr);
 }

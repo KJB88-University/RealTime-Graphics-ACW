@@ -21,7 +21,7 @@ CameraManager::~CameraManager(void)
 
 }
 
-void CameraManager::Initialize(Vector3& const pos, Vector3& const lookAt, int const vpWidth, int const vpHeight, float const nearClip, float const farClip)
+void CameraManager::Initialize(Vector3& const pos, const Vector3& const lookAt, int const vpWidth, int const vpHeight, float const nearClip, float const farClip)
 {
 	// Update CM info about clipping plane and viewport
 	m_vpWidth = vpWidth;
@@ -35,7 +35,7 @@ void CameraManager::Initialize(Vector3& const pos, Vector3& const lookAt, int co
 	m_cameras.push_back(newCam);
 }
 
-void CameraManager::AddCamera(Vector3& const position, Vector3& const rotation, Vector3& const lookAt, bool followCam, GameObject* const followObject)
+void CameraManager::AddCamera(Vector3& const position, Vector3& const rotation, const Vector3& const lookAt, const bool followCam, GameObject* const followObject)
 {
 	Camera* const newCam = new Camera(position, rotation);
 	newCam->Initialize(lookAt, m_vpWidth, m_vpHeight, m_nearClip, m_farClip);

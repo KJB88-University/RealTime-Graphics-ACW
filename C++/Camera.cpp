@@ -8,7 +8,7 @@ Camera::Camera(void)
 	m_transform = Transform();
 }
 
-Camera::Camera(Vector3& const position, Vector3& const rotation)
+Camera::Camera(const Vector3& position, const Vector3& rotation)
 	: m_vel(0.0f, 0.0f, 0.0f), m_angle(0.0f, 0.0f, 0.0f), m_followObj(nullptr)
 {
 	m_transform = Transform(position, rotation, Vector3(1.0f, 1.0f, 1.0f));
@@ -20,7 +20,7 @@ Camera::~Camera(void)
 
 }
 
-void Camera::Initialize(Vector3& const lookAt, float const width, float const height, float const nearClip, float const farClip)
+void Camera::Initialize(const Vector3& const lookAt, float const width, float const height, float const nearClip, float const farClip)
 {
 	// Initialize the view matrix
 	m_view = Matrix::CreateLookAt(m_transform.GetPosition(), lookAt, Vector3::Up);

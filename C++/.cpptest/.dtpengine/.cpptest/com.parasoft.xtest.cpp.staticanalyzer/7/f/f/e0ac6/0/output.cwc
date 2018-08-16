@@ -1,65 +1,5 @@
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'position' in 'Transform' function as reference to const object
-<l>12
-<k>37
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'rotation' in 'Transform' function as reference to const object
-<l>12
-<k>62
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'scale' in 'Transform' function as reference to const object
-<l>12
-<k>87
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'position' as const
-<l>12
-<k>37
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'rotation' as const
-<l>12
-<k>62
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'scale' as const
-<l>12
-<k>87
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetPosition' returns handles to member data: 'm_position'
 <l>25
@@ -90,26 +30,6 @@
 <L>0
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'position' in 'SetPosition' function as reference to const object
-<l>38
-<k>44
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'position' as const
-<l>38
-<k>44
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetPosition' is not inlined
 <l>38
@@ -120,50 +40,10 @@
 <L>0
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'rotation' in 'SetRotation' function as reference to const object
-<l>50
-<k>44
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'rotation' as const
-<l>50
-<k>44
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetRotation' is not inlined
 <l>50
 <k>17
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'scale' in 'SetScale' function as reference to const object
-<l>62
-<k>41
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'scale' as const
-<l>62
-<k>41
 <s>false
 <N>
 <f>
@@ -210,26 +90,6 @@
 <L>0
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'position' in 'SetDefaultPosition' function as reference to const object
-<l>89
-<k>72
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'position' as const
-<l>89
-<k>72
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultPosition' is not inlined
 <l>89
@@ -240,50 +100,10 @@
 <L>0
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'rotation' in 'SetDefaultRotation' function as reference to const object
-<l>101
-<k>72
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'rotation' as const
-<l>101
-<k>72
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultRotation' is not inlined
 <l>101
 <k>17
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-43
-<b>Declare parameter 'scale' in 'SetDefaultScale' function as reference to const object
-<l>113
-<k>69
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
-<c>CODSTA-CPP-53
-<b>Declare parameter 'scale' as const
-<l>113
-<k>69
 <s>false
 <N>
 <f>

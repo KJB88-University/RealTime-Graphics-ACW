@@ -17,10 +17,10 @@ class Camera
 
 public:
 	Camera(void);
-	Camera(DirectX::SimpleMath::Vector3& const position, DirectX::SimpleMath::Vector3& const rotation);
+	Camera(const DirectX::SimpleMath::Vector3& const position, const DirectX::SimpleMath::Vector3& const rotation);
 	~Camera(void);
 
-	void Initialize(DirectX::SimpleMath::Vector3& const lookAt, float const width, float const height, float const nearClip, float const farClip);
+	void Initialize(const DirectX::SimpleMath::Vector3& const lookAt, float const width, float const height, float const nearClip, float const farClip);
 	//void Destroy(void);
 	void Update(const InputManager* const input, const TimeManager* const time);
 	void Render(const GraphicsManager* const gm);

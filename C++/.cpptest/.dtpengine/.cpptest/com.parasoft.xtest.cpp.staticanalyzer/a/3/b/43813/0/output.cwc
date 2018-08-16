@@ -1,0 +1,1950 @@
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-MCPP-03
+<b>The 'DDS_RESOURCE_DIMENSION' enumeration should be declared as the scoped enum type
+<l>181
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-MCPP-03
+<b>The 'DDS_RESOURCE_MISC_FLAG' enumeration should be declared as the scoped enum type
+<l>189
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-MCPP-03
+<b>The 'DDS_MISC_FLAGS2' enumeration should be declared as the scoped enum type
+<l>194
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>453
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>483
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>504
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>559
+<k>79
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>559
+<k>88
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>679
+<k>96
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>685
+<k>98
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>782
+<k>52
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-MCPP-04
+<b>Prefer 'nullptr' to '0' as the null pointer value
+<l>978
+<k>81
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>PB-27
+<b>Wide string literal is assigned to pointer to non-const object
+<l>800
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>PB-27
+<b>String literal "DirectXTK" is assigned to pointer to non-const object
+<l>886
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: fileHeader
+<l>566
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: fileHeader
+<l>566
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: fileHeader
+<l>566
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: fileHeader
+<l>566
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: fileHeader
+<l>566
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: pixels
+<l>649
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: pixels
+<l>649
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: pixels
+<l>649
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>STL-37
+<b>Use vector or string instead of array: pixels
+<l>649
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>OPT-14
+<b>The parameter 'setCustomProps' of function 'SaveWICTextureToFile' is passed by value
+<l>708
+<k>78
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fmt' as const
+<l>50
+<k>43
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fmt' as const
+<l>213
+<k>41
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'width' as const
+<l>249
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'height' as const
+<l>250
+<k>38
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fmt' as const
+<l>251
+<k>43
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'outNumBytes' as const
+<l>252
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'outRowBytes' as const
+<l>253
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'outNumRows' as const
+<l>254
+<k>39
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'bpp' as const
+<l>368
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fmt' as const
+<l>390
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'pContext' as const
+<l>420
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'pSource' as const
+<l>421
+<k>50
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'fmt' as const
+<l>459
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'index' as const
+<l>473
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>426
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>467
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>537
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'pContext' as const
+<l>542
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'pSource' as const
+<l>543
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>544
+<k>50
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pixels' as const
+<l>649
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'msize' as const
+<l>667
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>547
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>651
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>662
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>683
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>689
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>691
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'pContext' as const
+<l>703
+<k>63
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'pSource' as const
+<l>704
+<k>58
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>706
+<k>50
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'targetFormat' as const
+<l>707
+<k>54
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'setCustomProps' as const
+<l>708
+<k>78
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-53
+<b>Declare local variable 'pWIC' as const
+<l>768
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>711
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>716
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>770
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>774
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>778
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>783
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>787
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>793
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>804
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>805
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>814
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>818
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>822
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>869
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>875
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>880
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>891
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>898
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>932
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>939
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>947
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>957
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>965
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>973
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>975
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>979
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>987
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>997
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>1004
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>1008
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\ScreenGrab.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>1011
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>STL-37
+<b>Use vector or string instead of array: reserved1
+<l>208
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>72
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>75
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>78
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>81
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>84
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>87
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>90
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>93
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>96
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>99
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>102
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>105
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>45
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>73
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>83
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>107
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>117
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>142
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>150
+<k>152
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\dds.h
+<c>OPT-13
+<b>Members 'ddspf, reserved1' of structure 'DDS_HEADER' are declared in suboptimal order for memory layout
+<l>199
+<k>8
+<s>false
+<N>
+<f>
+<L>0

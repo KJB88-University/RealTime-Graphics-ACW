@@ -9,16 +9,6 @@
 <f>
 <L>0
 <->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Dragonfly.cpp
-<c>CODSTA-CPP-54
-<b>Member function 'Render' should be declared as const
-<l>97
-<k>17
-<s>false
-<N>
-<f>
-<L>0
-<->
 <F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\DXTKModule.h
 <c>OPT-13
 <b>Members 'm_basicEffect, m_commonStates, m_fxFactory' of class 'DXTKModule' are declared in suboptimal order for memory layout

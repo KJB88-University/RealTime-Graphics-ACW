@@ -1,0 +1,130 @@
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\BinaryReader.h
+<c>CODSTA-MCPP-06_a
+<b>Declare the private copy constructor 'BinaryReader' with the '= delete' specifier
+<l>71
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\BinaryReader.h
+<c>CODSTA-MCPP-06_a
+<b>Declare the private assignment operator with the '= delete' specifier
+<l>72
+<k>31
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'fileName' as const
+<l>47
+<k>55
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>CODSTA-CPP-53
+<b>Declare parameter 'dataSize' as const
+<l>47
+<k>111
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>77
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>83
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>94
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>CODSTA-CPP-11
+<b>C-style cast is used
+<l>98
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>INIT-14
+<b>Assignment in constructor 'BinaryReader' found. Use constructor initialization list instead
+<l>33
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>INIT-14
+<b>Assignment in constructor 'BinaryReader' found. Use constructor initialization list instead
+<l>34
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>INIT-14
+<b>Assignment in constructor 'BinaryReader' found. Use constructor initialization list instead
+<l>41
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DirectXTK\Src\BinaryReader.cpp
+<c>INIT-14
+<b>Assignment in constructor 'BinaryReader' found. Use constructor initialization list instead
+<l>42
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>c:\kevin barr msc\rtg final final v2 final\dxtk-sample-practice\c++\directxtk\src\BinaryReader.h
+<c>OPT-13
+<b>Members 'mOwnedData' of class 'BinaryReader' are declared in suboptimal order for memory layout
+<l>26
+<k>11
+<s>false
+<N>
+<f>
+<L>0
