@@ -140,6 +140,12 @@ void Dragonfly::Reset(void)
 	upperLimit = false;
 	playAnimation = false;
 
-	GetTransform()->SetPosition(GetTransform()->GetDefaultPosition().x, GetTransform()->GetDefaultPosition().y, GetTransform()->GetDefaultPosition().z);
-	GetTransform()->SetRotation(GetTransform()->GetDefaultPosition().x, GetTransform()->GetDefaultPosition().y, GetTransform()->GetDefaultPosition().z);
+	GetTransform()->SetPosition
+	(
+		GetTransform()->GetDefaultPosition().x,
+		GetTransform()->GetDefaultPosition().y,
+		GetTransform()->GetDefaultPosition().z
+	);
+
+	GetTransform()->SetRotation(GetTransform()->GetDefaultRotation());
 }

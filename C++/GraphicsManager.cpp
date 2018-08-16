@@ -27,12 +27,12 @@ void GraphicsManager::Destroy(void)
 	m_gfx->Destroy();
 }
 
-ID3D11Device* GraphicsManager::GetDevice() const
+ID3D11Device* const GraphicsManager::GetDevice() const
 {
 	return m_gfx->GetDevice();
 }
 
-ID3D11DeviceContext* GraphicsManager::GetDeviceContext() const
+ID3D11DeviceContext* const GraphicsManager::GetDeviceContext() const
 {
 	return m_gfx->GetDeviceContext();
 }

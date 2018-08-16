@@ -12,7 +12,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetRotation' returns handles to member data: 'm_rotation'
-<l>30
+<l>45
 <k>2
 <s>false
 <N>
@@ -22,7 +22,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetScale' returns handles to member data: 'm_scale'
-<l>35
+<l>65
 <k>2
 <s>false
 <N>
@@ -32,7 +32,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetPosition' is not inlined
-<l>38
+<l>83
 <k>17
 <s>false
 <N>
@@ -42,7 +42,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetRotation' is not inlined
-<l>50
+<l>95
 <k>17
 <s>false
 <N>
@@ -52,7 +52,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetScale' is not inlined
-<l>62
+<l>107
 <k>17
 <s>false
 <N>
@@ -62,7 +62,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetDefaultPosition' returns handles to member data: 'm_defaultPosition'
-<l>76
+<l>121
 <k>2
 <s>false
 <N>
@@ -71,8 +71,68 @@
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
-<b>Member function 'GetDefaultRotation' returns handles to member data: 'm_defaultPosition'
-<l>81
+<b>Member function 'GetDefaultPositionX' returns handles to member data: 'x'
+<l>126
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultPositionY' returns handles to member data: 'y'
+<l>131
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultPositionZ' returns handles to member data: 'z'
+<l>136
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotation' returns handles to member data: 'm_defaultRotation'
+<l>141
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotationX' returns handles to member data: 'x'
+<l>146
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotationY' returns handles to member data: 'y'
+<l>151
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotationZ' returns handles to member data: 'z'
+<l>156
 <k>2
 <s>false
 <N>
@@ -82,7 +142,37 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetDefaultScale' returns handles to member data: 'm_defaultScale'
-<l>86
+<l>161
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultScaleX' returns handles to member data: 'x'
+<l>166
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultScaleY' returns handles to member data: 'y'
+<l>171
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultScaleZ' returns handles to member data: 'z'
+<l>177
 <k>2
 <s>false
 <N>
@@ -92,7 +182,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultPosition' is not inlined
-<l>89
+<l>181
 <k>17
 <s>false
 <N>
@@ -102,7 +192,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultRotation' is not inlined
-<l>101
+<l>193
 <k>17
 <s>false
 <N>
@@ -112,7 +202,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultScale' is not inlined
-<l>113
+<l>205
 <k>17
 <s>false
 <N>
@@ -123,7 +213,7 @@
 <c>OPT-23
 <b>Getter/setter method 'GetPosition' is not inlined
 <l>23
-<k>27
+<k>33
 <s>false
 <N>
 <f>
@@ -132,8 +222,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetRotation' is not inlined
-<l>28
-<k>27
+<l>43
+<k>33
 <s>false
 <N>
 <f>
@@ -142,8 +232,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetScale' is not inlined
-<l>33
-<k>27
+<l>63
+<k>33
 <s>false
 <N>
 <f>
@@ -152,7 +242,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'SetPosition' is not inlined
-<l>43
+<l>88
 <k>17
 <s>false
 <N>
@@ -162,7 +252,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'SetRotation' is not inlined
-<l>55
+<l>100
 <k>17
 <s>false
 <N>
@@ -172,7 +262,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'SetScale' is not inlined
-<l>67
+<l>112
 <k>17
 <s>false
 <N>
@@ -182,8 +272,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetDefaultPosition' is not inlined
-<l>74
-<k>48
+<l>119
+<k>33
 <s>false
 <N>
 <f>
@@ -192,8 +282,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetDefaultRotation' is not inlined
-<l>79
-<k>48
+<l>139
+<k>33
 <s>false
 <N>
 <f>
@@ -202,8 +292,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetDefaultScale' is not inlined
-<l>84
-<k>48
+<l>159
+<k>33
 <s>false
 <N>
 <f>
@@ -212,7 +302,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'SetDefaultPosition' is not inlined
-<l>94
+<l>186
 <k>17
 <s>false
 <N>
@@ -222,7 +312,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'SetDefaultRotation' is not inlined
-<l>106
+<l>198
 <k>17
 <s>false
 <N>
@@ -232,7 +322,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-23
 <b>Getter/setter method 'SetDefaultScale' is not inlined
-<l>118
+<l>210
 <k>17
 <s>false
 <N>
@@ -252,7 +342,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetRotation' returns handles to member data: 'm_rotation'
-<l>30
+<l>45
 <k>2
 <s>false
 <N>
@@ -262,7 +352,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetScale' returns handles to member data: 'm_scale'
-<l>35
+<l>65
 <k>2
 <s>false
 <N>
@@ -272,7 +362,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetPosition' is not inlined
-<l>38
+<l>83
 <k>17
 <s>false
 <N>
@@ -282,7 +372,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetRotation' is not inlined
-<l>50
+<l>95
 <k>17
 <s>false
 <N>
@@ -292,7 +382,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetScale' is not inlined
-<l>62
+<l>107
 <k>17
 <s>false
 <N>
@@ -302,7 +392,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetDefaultPosition' returns handles to member data: 'm_defaultPosition'
-<l>76
+<l>121
 <k>2
 <s>false
 <N>
@@ -311,8 +401,68 @@
 <->
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
-<b>Member function 'GetDefaultRotation' returns handles to member data: 'm_defaultPosition'
-<l>81
+<b>Member function 'GetDefaultPositionX' returns handles to member data: 'x'
+<l>126
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultPositionY' returns handles to member data: 'y'
+<l>131
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultPositionZ' returns handles to member data: 'z'
+<l>136
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotation' returns handles to member data: 'm_defaultRotation'
+<l>141
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotationX' returns handles to member data: 'x'
+<l>146
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotationY' returns handles to member data: 'y'
+<l>151
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultRotationZ' returns handles to member data: 'z'
+<l>156
 <k>2
 <s>false
 <N>
@@ -322,7 +472,37 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>CODSTA-CPP-06
 <b>Member function 'GetDefaultScale' returns handles to member data: 'm_defaultScale'
-<l>86
+<l>161
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultScaleX' returns handles to member data: 'x'
+<l>166
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultScaleY' returns handles to member data: 'y'
+<l>171
+<k>2
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
+<c>CODSTA-CPP-06
+<b>Member function 'GetDefaultScaleZ' returns handles to member data: 'z'
+<l>177
 <k>2
 <s>false
 <N>
@@ -332,7 +512,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultPosition' is not inlined
-<l>89
+<l>181
 <k>17
 <s>false
 <N>
@@ -342,7 +522,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultRotation' is not inlined
-<l>101
+<l>193
 <k>17
 <s>false
 <N>
@@ -352,7 +532,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\Transform.cpp
 <c>OPT-24
 <b>Function 'SetDefaultScale' is not inlined
-<l>113
+<l>205
 <k>17
 <s>false
 <N>

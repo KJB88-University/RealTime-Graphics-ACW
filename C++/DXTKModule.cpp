@@ -19,26 +19,7 @@ DXTKModule::DXTKModule(void)
 
 DXTKModule::~DXTKModule(void)
 {
-	delete m_batchLayout;
-	m_batchLayout = nullptr;
 
-	delete m_depthStencilView;
-	m_depthStencilView = nullptr;
-
-	delete m_depthStencil;
-	m_depthStencil = nullptr;
-
-	delete m_renderTargetView;
-	m_renderTargetView = nullptr;
-
-	delete m_swapChain;
-	m_swapChain = nullptr;
-
-	delete m_deviceContext;
-	m_deviceContext = nullptr;
-
-	delete m_device;
-	m_device = nullptr;
 }
 
 void DXTKModule::Initialize(HWND const hwnd)

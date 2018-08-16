@@ -22,7 +22,7 @@ Twig::~Twig(void)
 void Twig::Initialize(GraphicsManager* const gfx)
 {
 	m_twig = DirectX::GeometricPrimitive::CreateCylinder(gfx->GetDeviceContext(), 1.0f, 1.0f, 16, true);
-	GetTransform()->SetRotation(DirectX::XM_PIDIV2, 0.0f, 0.0f);
+	GetTransform()->SetRotation(DirectX::XM_PIDIV2, GetTransform()->GetDefaultRotationX(), GetTransform()->GetDefaultRotationZ());
 }
 
 void Twig::Destroy(void)

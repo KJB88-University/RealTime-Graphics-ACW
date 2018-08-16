@@ -20,19 +20,64 @@ Transform::~Transform(void)
 
 }
 
-const Vector3& Transform::GetPosition(void) const
+const Vector3& const Transform::GetPosition(void) const
 {
 	return m_position;
 }
 
-const Vector3& Transform::GetRotation(void) const
+const float const Transform::GetPositionX(void) const
+{
+	return m_position.x;
+}
+
+const float const Transform::GetPositionY(void) const
+{
+	return m_position.y;
+}
+
+const float const Transform::GetPositionZ(void) const
+{
+	return m_position.z;
+}
+
+const Vector3& const Transform::GetRotation(void) const
 {
 	return m_rotation;
 }
 
-const Vector3& Transform::GetScale(void) const
+const float const Transform::GetRotationX(void) const
+{
+	return m_rotation.x;
+}
+
+const float const Transform::GetRotationY(void) const
+{
+	return m_rotation.y;
+}
+
+const float const Transform::GetRotationZ(void) const
+{
+	return m_rotation.z;
+}
+
+const Vector3& const Transform::GetScale(void) const
 {
 	return m_scale;
+}
+
+const float const Transform::GetScaleX(void) const
+{
+	return m_scale.x;
+}
+
+const float const Transform::GetScaleY(void) const
+{
+	return m_scale.y;
+}
+
+const float const Transform::GetScaleZ(void) const
+{
+	return m_scale.z;
 }
 
 void Transform::SetPosition(const Vector3& const position)
@@ -40,7 +85,7 @@ void Transform::SetPosition(const Vector3& const position)
 	m_position = position;
 }
 
-void Transform::SetPosition(float const x, float const y, float const z)
+void Transform::SetPosition(const float x, const float y, const float z)
 {
 	m_position.x = x;
 	m_position.y = y;
@@ -52,7 +97,7 @@ void Transform::SetRotation(const Vector3& const rotation)
 	m_rotation = rotation;
 }
 
-void Transform::SetRotation(float const x, float const y, float const z)
+void Transform::SetRotation(const float x, const float y, const float z)
 {
 	m_rotation.x = x;
 	m_rotation.y = y;
@@ -64,34 +109,81 @@ void Transform::SetScale(const Vector3& const scale)
 	m_scale = scale;
 }
 
-void Transform::SetScale(float const x, float const y, float const z)
+void Transform::SetScale(const float x, const float y, const float z)
 {
 	m_scale.x = x;
 	m_scale.y = y;
 	m_scale.z = z;
 }
 
-const DirectX::SimpleMath::Vector3& Transform::GetDefaultPosition(void) const
+const Vector3& const Transform::GetDefaultPosition(void) const
 {
 	return m_defaultPosition;
 }
 
-const DirectX::SimpleMath::Vector3& Transform::GetDefaultRotation(void) const
+const float& const Transform::GetDefaultPositionX(void) const
 {
-	return m_defaultPosition;
+	return m_defaultPosition.x;
 }
 
-const DirectX::SimpleMath::Vector3& Transform::GetDefaultScale(void) const
+const float& const Transform::GetDefaultPositionY(void) const
+{
+	return m_defaultPosition.y;
+}
+
+const float& const Transform::GetDefaultPositionZ(void) const
+{
+	return m_defaultPosition.z;
+}
+
+const Vector3& const Transform::GetDefaultRotation(void) const
+{
+	return m_defaultRotation;
+}
+
+const float& const Transform::GetDefaultRotationX(void) const
+{
+	return m_defaultRotation.x;
+}
+
+const float& const Transform::GetDefaultRotationY(void) const
+{
+	return m_defaultRotation.y;
+}
+
+const float& const Transform::GetDefaultRotationZ(void) const
+{
+	return m_defaultRotation.z;
+}
+
+const Vector3& const Transform::GetDefaultScale(void) const
 {
 	return m_defaultScale;
 }
+
+const float& const Transform::GetDefaultScaleX(void) const
+{
+	return m_defaultScale.x;
+}
+
+const float& const Transform::GetDefaultScaleY(void) const
+{
+	return m_defaultScale.y;
+}
+
+
+const float& const Transform::GetDefaultScaleZ(void) const
+{
+	return m_defaultScale.z;
+}
+
 
 void Transform::SetDefaultPosition(const Vector3& const position)
 {
 	m_defaultPosition = position;
 }
 
-void Transform::SetDefaultPosition(float const x, float const y, float const z)
+void Transform::SetDefaultPosition(const float x, const float y, const float z)
 {
 	m_defaultPosition.x = x;
 	m_defaultPosition.y = y;
@@ -103,7 +195,7 @@ void Transform::SetDefaultRotation(const Vector3& const rotation)
 	m_defaultRotation = rotation;
 }
 
-void Transform::SetDefaultRotation(float const x, float const y, float const z)
+void Transform::SetDefaultRotation(const float x, const float y, const float z)
 {
 	m_defaultRotation.x = x;
 	m_defaultRotation.y = y;
@@ -115,7 +207,7 @@ void Transform::SetDefaultScale(const Vector3& const scale)
 	m_defaultScale = scale;
 }
 
-void Transform::SetDefaultScale(float const x, float const y, float const z)
+void Transform::SetDefaultScale(const float x, const float y, const float z)
 {
 	m_defaultScale.x = x;
 	m_defaultScale.y = y;

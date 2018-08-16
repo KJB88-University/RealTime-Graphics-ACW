@@ -8,7 +8,7 @@
 
 int WINAPI WinMain(HINSTANCE const hInstance, HINSTANCE const hPrevInstance, PSTR const pScmdline, int const iCmdshow)
 {
-
+	
 //#if _DEBUG
 //	AllocConsole();
 //	freopen("CONOUT$", "w", stdout);

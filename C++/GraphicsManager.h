@@ -18,8 +18,8 @@ public:
 	void Present(void) const;
 
 	// Return pointers to device and context
-	ID3D11Device* GetDevice(void) const;
-	ID3D11DeviceContext* GetDeviceContext(void) const;
+	ID3D11Device* const GetDevice(void) const;
+	ID3D11DeviceContext* const GetDeviceContext(void) const;
 
 	// Return a ptr to the Common States
 	DirectX::CommonStates* GetCommonStates(void) const;

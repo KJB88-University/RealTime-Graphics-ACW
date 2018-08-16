@@ -2,7 +2,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>STL-37
 <b>Use vector or string instead of array: colors
-<l>217
+<l>198
 <k>8
 <s>false
 <N>
@@ -12,7 +12,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>STL-37
 <b>Use vector or string instead of array: colors
-<l>217
+<l>198
 <k>8
 <s>false
 <N>
@@ -22,7 +22,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>STL-37
 <b>Use vector or string instead of array: colors
-<l>217
+<l>198
 <k>8
 <s>false
 <N>
@@ -32,7 +32,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>STL-37
 <b>Use vector or string instead of array: colors
-<l>217
+<l>198
 <k>8
 <s>false
 <N>
@@ -42,7 +42,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>STL-37
 <b>Use vector or string instead of array: colors
-<l>217
+<l>198
 <k>8
 <s>false
 <N>
@@ -52,68 +52,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>STL-37
 <b>Use vector or string instead of array: colors
-<l>217
+<l>198
 <k>8
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-06
-<b>Member function 'GetDevice' returns handles to member data: 'm_device'
-<l>90
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-77
-<b>Const member function 'GetDevice' returns non-const handles to member data: 'm_device'
-<l>90
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>OOP-36
-<b>Public member function 'GetDevice' returns non-const handles to member data: 'm_device'
-<l>90
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-06
-<b>Member function 'GetDeviceContext' returns handles to member data: 'm_deviceContext'
-<l>95
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-77
-<b>Const member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
-<l>95
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>OOP-36
-<b>Public member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
-<l>95
-<k>2
 <s>false
 <N>
 <f>
@@ -122,7 +62,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'GetCommonStates' is not inlined
-<l>98
+<l>79
 <k>36
 <s>false
 <N>
@@ -132,7 +72,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'GetFXFactory' is not inlined
-<l>103
+<l>84
 <k>38
 <s>false
 <N>
@@ -142,7 +82,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'GetBasicEffect' is not inlined
-<l>108
+<l>89
 <k>35
 <s>false
 <N>
@@ -152,7 +92,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'Present' is not inlined
-<l>230
+<l>211
 <k>18
 <s>false
 <N>
@@ -172,7 +112,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetDevice' is not inlined
-<l>88
+<l>69
 <k>33
 <s>false
 <N>
@@ -182,68 +122,8 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-23
 <b>Getter/setter method 'GetDeviceContext' is not inlined
-<l>93
+<l>74
 <k>40
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-06
-<b>Member function 'GetDevice' returns handles to member data: 'm_device'
-<l>90
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-77
-<b>Const member function 'GetDevice' returns non-const handles to member data: 'm_device'
-<l>90
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>OOP-36
-<b>Public member function 'GetDevice' returns non-const handles to member data: 'm_device'
-<l>90
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-06
-<b>Member function 'GetDeviceContext' returns handles to member data: 'm_deviceContext'
-<l>95
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>CODSTA-CPP-77
-<b>Const member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
-<l>95
-<k>2
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
-<c>OOP-36
-<b>Public member function 'GetDeviceContext' returns non-const handles to member data: 'm_deviceContext'
-<l>95
-<k>2
 <s>false
 <N>
 <f>
@@ -252,7 +132,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'GetCommonStates' is not inlined
-<l>98
+<l>79
 <k>36
 <s>false
 <N>
@@ -262,7 +142,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'GetFXFactory' is not inlined
-<l>103
+<l>84
 <k>38
 <s>false
 <N>
@@ -272,7 +152,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'GetBasicEffect' is not inlined
-<l>108
+<l>89
 <k>35
 <s>false
 <N>
@@ -282,7 +162,7 @@
 <F>C:\Kevin Barr MSc\RTG FINAL FINAL V2 FINAL\DXTK-Sample-Practice\C++\DXTKModule.cpp
 <c>OPT-24
 <b>Function 'Present' is not inlined
-<l>230
+<l>211
 <k>18
 <s>false
 <N>

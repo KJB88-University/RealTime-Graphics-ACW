@@ -18,30 +18,52 @@ public:
 	~Transform(void);
 
 	const DirectX::SimpleMath::Vector3& GetPosition(void) const;
+	const float const GetPositionX(void) const;
+	const float const GetPositionY(void) const;
+	const float const GetPositionZ(void) const;
+
 	const DirectX::SimpleMath::Vector3& GetRotation(void) const;
+	const float const GetRotationX(void) const;
+	const float const GetRotationY(void) const;
+	const float const GetRotationZ(void) const;
+
 	const DirectX::SimpleMath::Vector3& GetScale(void) const;
+	const float const GetScaleX(void) const;
+	const float const GetScaleY(void) const;
+	const float const GetScaleZ(void) const;
 
 	void SetPosition(const DirectX::SimpleMath::Vector3& const position);
-	void SetPosition(float const x, float const y, float const z);
+	void SetPosition(const float const x, const float const y, const float const z);
 
 	void SetRotation(const DirectX::SimpleMath::Vector3& const rotation);
-	void SetRotation(float const x, float const y, float const z);
+	void SetRotation(const float const x, const float const y, const float const z);
 
 	void SetScale(const DirectX::SimpleMath::Vector3& const scale);
-	void SetScale(float const x, float const y, float const z);
+	void SetScale(const float const x, const float const y, const float const z);
 
 	const DirectX::SimpleMath::Vector3& GetDefaultPosition(void) const;
+	const float& const GetDefaultPositionX(void) const;
+	const float& const GetDefaultPositionY(void) const;
+	const float& const GetDefaultPositionZ(void) const;
+
 	const DirectX::SimpleMath::Vector3& GetDefaultRotation(void) const;
+	const float& const GetDefaultRotationX(void) const;
+	const float& const GetDefaultRotationY(void) const;
+	const float& const GetDefaultRotationZ(void) const;
+
 	const DirectX::SimpleMath::Vector3& GetDefaultScale(void) const;
+	const float& const GetDefaultScaleX(void) const;
+	const float& const GetDefaultScaleY(void) const;
+	const float& const GetDefaultScaleZ(void) const;
 
 	void SetDefaultPosition(const DirectX::SimpleMath::Vector3& const position);
-	void SetDefaultPosition(float  constx, float  consty, float const z);
+	void SetDefaultPosition(const float const x, const float const y, const float const z);
 
 	void SetDefaultRotation(const DirectX::SimpleMath::Vector3& const rotation);
-	void SetDefaultRotation(float const x, float  consty, float const z);
+	void SetDefaultRotation(const float const x, const float const y, const float const z);
 
 	void SetDefaultScale(const DirectX::SimpleMath::Vector3& const scale);
-	void SetDefaultScale(float  constx, float  consty, float  constz);
+	void SetDefaultScale(const float const x, const float const y, const float const z);
 
 private:
 

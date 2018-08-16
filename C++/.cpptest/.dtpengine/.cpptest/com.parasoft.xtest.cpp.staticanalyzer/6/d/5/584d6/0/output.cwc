@@ -13,7 +13,7 @@
 <c>OPT-24
 <b>Function 'GetDevice' is not inlined
 <l>30
-<k>32
+<k>38
 <s>false
 <N>
 <f>
@@ -23,7 +23,7 @@
 <c>OPT-24
 <b>Function 'GetDeviceContext' is not inlined
 <l>35
-<k>39
+<k>45
 <s>false
 <N>
 <f>
@@ -113,7 +113,7 @@
 <c>OPT-24
 <b>Function 'GetDevice' is not inlined
 <l>30
-<k>32
+<k>38
 <s>false
 <N>
 <f>
@@ -123,7 +123,7 @@
 <c>OPT-24
 <b>Function 'GetDeviceContext' is not inlined
 <l>35
-<k>39
+<k>45
 <s>false
 <N>
 <f>
